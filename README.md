@@ -7,7 +7,7 @@ Course material for the *introduction to probabilistic programming for scientifi
 The course is structured into 4 lectures of 90 minutes presentation time each with 3 coding tutorials for self-paced consumption.
 Further reading material and references to relevant papers are provided in the respective lectures and tutorials.
 
-### Lectures
+## Lectures
 
 #### Lecture 1: Building the foundational knowledge
 
@@ -34,7 +34,7 @@ Further reading material and references to relevant papers are provided in the r
 * Areas of application: Robotics, Physics, Engineering, Machine-learning based design
 * Extensive machine-learning based design example
 
-### Tutorials
+## Tutorials
 
 #### Tutorial 1: Introduction to probabilistic programming systems
 
