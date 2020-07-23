@@ -28,7 +28,7 @@ Further reading material and references to relevant papers are provided in the r
 
 * Bayesian hierarchical approaches
 * Bayesian deep learning, including inference networks and uncertainty quantification
-* Marrying deep learning frameworks with probabilistic programming systemf for type 2 machine learning
+* Marrying deep learning frameworks with probabilistic programming systems for type 2 machine learning
 
 #### Lecture 4
 
