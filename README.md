@@ -18,19 +18,19 @@ Further reading material and references to relevant papers are provided in the r
 * Underlying theoretical ideas
 * Different types of probabilistic programming systems
 
-#### Lecture 2: 
+#### Lecture 2: Inferece Engines & Introduction to Turing.jl
 
 * Approaches to inference
 * Practical introduction to a probabilistic programming framework
 * Probabilistic programming's ability on a more complex model example
 
-#### Lecture 3
+#### Lecture 3: Hierarchical Bayesian Approaches & Bayesian Deep Learning
 
 * Bayesian hierarchical approaches
 * Bayesian deep learning, including inference networks and uncertainty quantification
 * Marrying deep learning frameworks with probabilistic programming systems for type 2 machine learning
 
-#### Lecture 4
+#### Lecture 4: The Connection to Scientific Problems
 
 * What types of simulators would I want to link to in scientific applications?
 * Areas of application: Robotics, Physics, Engineering, Machine-learning based design
