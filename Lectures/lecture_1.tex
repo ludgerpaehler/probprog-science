@@ -1,0 +1,161 @@
+% !TeX spellcheck = en_GB
+\documentclass[AERbeamer%              style
+              ,optEnglish%            language
+              %,handout%               deactivate animation
+              ,optBiber%               bibliography tool
+              ,optBibstyleAlphabetic%
+              ,optBeamerClassicFormat% 4:3 format
+              %,optBeamerWideFormat%   16:9 format
+              ]{AERlatex}%
+\setbeameroption{show notes}% Show all notes
+%
+% Set paths
+\graphicspath{{figures_lecture_1/}}%
+\addbibresource{literature.bib}%
+%
+% Package Imports
+%\usepackage{media9}
+\usepackage{graphicx}
+\usepackage{multimedia}
+\usepackage{subcaption}
+\usepackage{amsmath}
+%
+% set meta data
+\title{Probabilistic Programming for Scientific Discovery}%
+\subtitle{Lecture 1}
+\author{Ludger Paehler}% (optional)
+\date{\AERutilsDate{29}{7}{2020}}% (optional)
+\institute{Lviv Data Science Summer School}% (optional)
+%
+% Setup of header and footer
+\AERbeamerSetupHeader{\AERlayoutHeaderCDChair}%
+\AERbeamerSetupFooterCD%
+%\AERbeamerSetupFooterSlideNumberOnly%
+%
+\begin{document}%
+%
+% Start with titlepage
+\AERbeamerTitlePageDefault%
+%
+%\begin{frame}{Title of Slide}{Subtitle of Slide}%
+%    \blindtext%
+%\end{frame}%
+%
+
+% Slide 0: Table of Contents
+\begin{frame}{Table of Contents}{}%
+    % Contents
+    \tableofcontents
+\end{frame}%
+
+
+% Course outline
+\section{Course Outline}
+
+\begin{frame}[c]{Course Outline}
+    \centering
+    \begin{itemize}
+        \item 4 Lectures
+        \begin{enumerate}
+            \item Foundational Knowledge
+            \item Inference Engines \& Introduction to Turing.jl
+            \item Hierarchical Bayesian Approaches \& Bayesian Deep Learning
+            \item The Connection to Scientific Problems
+        \end{enumerate}
+        \item 3 Tutorials for Self-Paced Consumption
+        \begin{enumerate}
+            \item In-Depth Introduction to Probabilistic Programming Systems with Turing.jl
+            \item Bayesian Approaches in Probabilistic Programming
+            \begin{itemize}
+                \item Bayesian Deep Learning
+                \item Hierarchical Bayesian Modelling
+            \end{itemize}
+            \item Machine-Learning Based Design with Probabilistic Programming
+        \end{enumerate}
+    \end{itemize}
+\end{frame}
+
+
+% Etalumis and DreamCoder references to be inserted here! -- as footnotes quite probably.
+\begin{frame}[c]{Lecture 1}
+    \centering
+    \begin{itemize}
+        \item Example Applications of Probabilistic Programming
+        \begin{enumerate}
+            \item \textit{ETALUMIS: Bringing Probabilistic Programming to Scientific Simulators at Scale}
+            \item \textit{DreamCoder: Growing Generalizable, Interpretable Knowledge with Wake-Sleep Bayesian Program Learning}
+        \end{enumerate}
+        \item Why do we even need Probabilistic Programming?
+        \item Underlying Theoretical Ideas
+        \item Different Types of Probabilistic Programming Systems
+    \end{itemize}
+\end{frame}
+
+
+% Turing reference to be inserted here!
+\begin{frame}[c]{Lecture 2}
+    \centering
+    \begin{itemize}
+        \item Approaches to Inference - the Inference Engine
+        \item Practical Introduction to a Probabilistic Programming Framework
+        \item Extending our learned ideas to a more complex example
+    \end{itemize}
+\end{frame}
+
+
+% References need to be inserted here!
+\begin{frame}[c]{Lecture 3}
+    \centering
+    \begin{itemize}
+        \item Bayesian Hierarchical Approaches
+        \item Bayesian Deep Learning, including but not limited to
+        \begin{itemize}
+            \item Inference Networks
+            \item Uncertainty Quantification
+        \end{itemize}
+        \item Marrying Deep Learning Frameworks with Probabilistic Programming for Type 2 Machine Learning
+    \end{itemize}
+\end{frame}
+
+
+\begin{frame}[c]{Lecture 4}
+    \centering
+    \begin{itemize}
+        \item Interaction with Scientific Simulators
+        \begin{itemize}
+            \item What types of simulators would I want to link to?
+            \item What are the hidden pitfalls?
+        \end{itemize}
+        \item Areas of application
+        \begin{itemize}
+            \item Robotics
+            \item Physics
+            \item Engineering
+            \item Machine-Learning Based Design
+        \end{itemize}
+        \item Extensive Machine-Learning Based Design Example
+    \end{itemize}
+\end{frame}
+
+% Examples, examples, examples
+\section{Example Applications of Probabilistic Programming}
+
+\begin{frame}
+    \begin{itemize}
+        \item Blub
+    \end{itemize}
+\end{frame}
+
+%
+%\AERbeamerSetFooterText{References}%
+%\begin{frame}[allowframebreaks]{References}%
+%    \printbibliography[heading=none]%
+%\end{frame}%
+%
+% End with titlepage
+%\AERbeamerTitlePageDefault%
+%
+%
+\end{document}%
+%
+%
