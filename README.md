@@ -7,6 +7,8 @@ Course material for the *introduction to probabilistic programming for scientifi
 The course is structured into 4 lectures of 90 minutes presentation time each with 3 coding tutorials for self-paced consumption.
 Further reading material and references to relevant papers are provided in the respective lectures and tutorials.
 
+*This course is based on the [Julia](https://julialang.org/) programming language. If you have not yet worked with Julia, I'd highly encourage you to take a quick look at a tutorial, such as [this one](https://github.com/oschulz/julia-course) or the ones offered by the [JuliaAcademy](https://juliaacademy.com/courses).*
+
 ## Lectures
 
 #### Lecture 1: Building the foundational knowledge
@@ -26,7 +28,7 @@ Further reading material and references to relevant papers are provided in the r
 
 * Bayesian hierarchical approaches
 * Bayesian deep learning, including inference networks and uncertainty quantification
-* Marrying deep learning frameworks with probabilistic programming systemf for type 2 machine learning
+* Marrying deep learning frameworks with probabilistic programming systems for type 2 machine learning
 
 #### Lecture 4
 
