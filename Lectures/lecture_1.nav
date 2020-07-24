@@ -30,23 +30,31 @@
 \headcommand {\beamer@subsectionentry {0}{2}{2}{11}{DreamCoder: Growing Generalizable, Interpretable Knowledge with Wake-Sleep Bayesian Program Learning}}
 \headcommand {\slideentry {2}{2}{1}{11/11}{DreamCoder: Growing Generalizable, Interpretable Knowledge with Wake-Sleep Bayesian Program Learning}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\beamer@sectionpages {9}{11}}
-\headcommand {\beamer@subsectionpages {11}{11}}
-\headcommand {\sectionentry {3}{Why Do We even Need Probabilistic Programming?}{12}{Why Do We even Need Probabilistic Programming?}{0}}
-\headcommand {\slideentry {3}{0}{1}{12/12}{}{0}}
+\headcommand {\slideentry {2}{2}{2}{12/12}{DreamCoder: Growing Generalizable, Interpretable Knowledge with Wake-Sleep Bayesian Program Learning}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\beamer@sectionpages {12}{12}}
-\headcommand {\beamer@subsectionpages {12}{12}}
-\headcommand {\sectionentry {4}{Underlying Theoretical Ideas}{13}{Underlying Theoretical Ideas}{0}}
-\headcommand {\slideentry {4}{0}{1}{13/13}{}{0}}
+\headcommand {\slideentry {2}{2}{3}{13/13}{DreamCoder: Growing Generalizable, Interpretable Knowledge with Wake-Sleep Bayesian Program Learning}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\beamer@sectionpages {13}{13}}
-\headcommand {\beamer@subsectionpages {13}{13}}
-\headcommand {\sectionentry {5}{Different Types of Probabilistic Programming Systems}{14}{Different Types of Probabilistic Programming Systems}{0}}
-\headcommand {\slideentry {5}{0}{1}{14/14}{}{0}}
+\headcommand {\slideentry {2}{2}{4}{14/14}{DreamCoder: Growing Generalizable, Interpretable Knowledge with Wake-Sleep Bayesian Program Learning}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\beamer@partpages {1}{14}}
-\headcommand {\beamer@subsectionpages {14}{14}}
-\headcommand {\beamer@sectionpages {14}{14}}
-\headcommand {\beamer@documentpages {14}}
-\headcommand {\gdef \inserttotalframenumber {14}}
+\headcommand {\slideentry {2}{2}{5}{15/15}{DreamCoder: Growing Generalizable, Interpretable Knowledge with Wake-Sleep Bayesian Program Learning}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\beamer@sectionpages {9}{15}}
+\headcommand {\beamer@subsectionpages {11}{15}}
+\headcommand {\sectionentry {3}{Why Do We even Need Probabilistic Programming?}{16}{Why Do We even Need Probabilistic Programming?}{0}}
+\headcommand {\slideentry {3}{0}{1}{16/16}{}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\beamer@sectionpages {16}{16}}
+\headcommand {\beamer@subsectionpages {16}{16}}
+\headcommand {\sectionentry {4}{Underlying Theoretical Ideas}{17}{Underlying Theoretical Ideas}{0}}
+\headcommand {\slideentry {4}{0}{1}{17/17}{}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\beamer@sectionpages {17}{17}}
+\headcommand {\beamer@subsectionpages {17}{17}}
+\headcommand {\sectionentry {5}{Different Types of Probabilistic Programming Systems}{18}{Different Types of Probabilistic Programming Systems}{0}}
+\headcommand {\slideentry {5}{0}{1}{18/18}{}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\beamer@partpages {1}{18}}
+\headcommand {\beamer@subsectionpages {18}{18}}
+\headcommand {\beamer@sectionpages {18}{18}}
+\headcommand {\beamer@documentpages {18}}
+\headcommand {\gdef \inserttotalframenumber {18}}

@@ -158,10 +158,88 @@
 % Example 2 (~10 slides?)
 \subsection{DreamCoder: Growing Generalizable, Interpretable Knowledge with Wake-Sleep Bayesian Program Learning}
 
+% DreamCoder Slide 1: Rough summary
 \begin{frame}[c]{DreamCoder}{Growing Generalizable, Interpretable Knowledge with Wake-Sleep Bayesian Program Learning}
     \centering
     \begin{itemize}
-        \item Blub
+        \item Constructs domain-specific languages (DSLs) for scientific problems combined with a neural network,
+              which embodies a learned domain-specific search strategy
+        \begin{itemize}
+            \item Learns both the system prior and the needed inference algorithm
+        \end{itemize}
+        \item Practically constructs a library of symbolic abstractions in a wake-sleep manner and applies said library
+              to the solving of the chosen problem at hand
+        \item Utilizes wake-sleep learning % reference needed here
+        \begin{itemize}
+            \item During \textit{sleep} the system consolidates its abstractions from the programs found during \textit{wake}
+                  and improves upon the neural network recognition model by imagining new samples
+            \item During \textit{wake} the generative model is exploited on the problem domain to find the programs with the
+                  highest posterior probability
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+
+% Slide 2: Knowledge-Hierarchy and Probabilistic Inference
+\begin{frame}[c]{DreamCoder}
+    \centering
+    \begin{itemize}
+        \item Knowledge is accumulated in a multilayered hierarchy with knowledge and skills being
+              successively learned over time, i.e. the knowledge is bootstrapped from very simple
+              examples to ever more complex cases
+        \item Can be broken down to a probabilistic inference procedure, i.e. observing task $X$ and
+              inferring program $\rho_{x}$ to solve task $x \in X$ combined with a prior distribution
+              over program, which migh solve tasks in the domain
+        \begin{align*}
+            \rho_{x} &= \underset{\substack{\rho: \\ Q(\rho|x) \text{ is large}}}{\arg \max} P[\rho | x, L] \propto P[x | \rho ] P[\rho | L], \text{ for each task } x \in X &Wake \\
+            L &= \underset{L}{\arg \max} P[L] \prod_{x \in X} \underset{\rho \text{ a refactoring of } \rho_{x}}{\max} P[x | \rho] P[\rho | L] &Sleep: Abstraction \\
+            \text{Train } &Q(\rho | x) \approx P[\rho | x, L], \text{ where } x \sim X \text{ ('replay') or } x \sim L \text{ ('fantasy')} & Sleep: Dreaming
+        \end{align*}
+    \end{itemize}
+\end{frame}
+
+
+% Dreamcoder Slide 3: Overall algorithm
+\begin{frame}[c]{DreamCoder}
+    \centering
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.5\textwidth]{DreamCoderAlgorithmCycle.png}
+        \caption{Algorithm Cycle of DreamCoder}
+    \end{figure}
+\end{frame}
+
+
+% Structure beyond this point not settled yet
+
+
+% DreamCoder Slide 4: Compositional Nature
+\begin{frame}[c]{DreamCoder}
+    \centering
+    \begin{itemize}
+        \item Due to its compositional nature, representations of problems can be bootstrapped from earlier, simpler version of
+              the scientific task to more and more complex settings
+    \end{itemize}
+    \vspace{1cm}
+    \begin{figure}
+        \centering
+        \includegraphics[width=\textwidth]{DreamCoderCompositionality.png}
+    \end{figure}
+\end{frame} 
+
+
+
+
+
+
+% Two slides as innuendo to explain the Helmholtz machine to people
+
+
+% DreamCoder Slide XX: Applications of the Algorithm
+\begin{frame}[c]{DreamCoder}
+    \centering
+    \begin{itemize}
+        \item Applications from page 2
     \end{itemize}
 \end{frame}
 
