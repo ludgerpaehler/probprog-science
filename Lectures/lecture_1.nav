@@ -22,10 +22,31 @@
 \headcommand {\sectionentry {2}{Example Applications of Probabilistic Programming}{9}{Example Applications of Probabilistic Programming}{0}}
 \headcommand {\slideentry {2}{0}{1}{9/9}{}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\slideentry {2}{0}{2}{10/10}{}{0}}
+\headcommand {\beamer@subsectionpages {9}{9}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{10}{ETALUMIS: Bringing Probabilistic Programming to Scientific Simulators at Scale}}
+\headcommand {\slideentry {2}{1}{1}{10/10}{ETALUMIS: Bringing Probabilistic Programming to Scientific Simulators at Scale}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\beamer@partpages {1}{10}}
-\headcommand {\beamer@subsectionpages {9}{10}}
-\headcommand {\beamer@sectionpages {9}{10}}
-\headcommand {\beamer@documentpages {10}}
-\headcommand {\gdef \inserttotalframenumber {10}}
+\headcommand {\beamer@subsectionpages {10}{10}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{11}{DreamCoder: Growing Generalizable, Interpretable Knowledge with Wake-Sleep Bayesian Program Learning}}
+\headcommand {\slideentry {2}{2}{1}{11/11}{DreamCoder: Growing Generalizable, Interpretable Knowledge with Wake-Sleep Bayesian Program Learning}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\beamer@sectionpages {9}{11}}
+\headcommand {\beamer@subsectionpages {11}{11}}
+\headcommand {\sectionentry {3}{Why Do We even Need Probabilistic Programming?}{12}{Why Do We even Need Probabilistic Programming?}{0}}
+\headcommand {\slideentry {3}{0}{1}{12/12}{}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\beamer@sectionpages {12}{12}}
+\headcommand {\beamer@subsectionpages {12}{12}}
+\headcommand {\sectionentry {4}{Underlying Theoretical Ideas}{13}{Underlying Theoretical Ideas}{0}}
+\headcommand {\slideentry {4}{0}{1}{13/13}{}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\beamer@sectionpages {13}{13}}
+\headcommand {\beamer@subsectionpages {13}{13}}
+\headcommand {\sectionentry {5}{Different Types of Probabilistic Programming Systems}{14}{Different Types of Probabilistic Programming Systems}{0}}
+\headcommand {\slideentry {5}{0}{1}{14/14}{}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\beamer@partpages {1}{14}}
+\headcommand {\beamer@subsectionpages {14}{14}}
+\headcommand {\beamer@sectionpages {14}{14}}
+\headcommand {\beamer@documentpages {14}}
+\headcommand {\gdef \inserttotalframenumber {14}}

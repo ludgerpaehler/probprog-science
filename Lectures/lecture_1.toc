@@ -2,3 +2,8 @@
 \babel@toc {english}{}
 \beamer@sectionintoc {1}{Course Outline}{3}{0}{1}
 \beamer@sectionintoc {2}{Example Applications of Probabilistic Programming}{9}{0}{2}
+\beamer@subsectionintoc {2}{1}{ETALUMIS: Bringing Probabilistic Programming to Scientific Simulators at Scale}{10}{0}{2}
+\beamer@subsectionintoc {2}{2}{DreamCoder: Growing Generalizable, Interpretable Knowledge with Wake-Sleep Bayesian Program Learning}{11}{0}{2}
+\beamer@sectionintoc {3}{Why Do We even Need Probabilistic Programming?}{12}{0}{3}
+\beamer@sectionintoc {4}{Underlying Theoretical Ideas}{13}{0}{4}
+\beamer@sectionintoc {5}{Different Types of Probabilistic Programming Systems}{14}{0}{5}

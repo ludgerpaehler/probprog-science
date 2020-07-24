@@ -760,6 +760,14 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chr7y.t
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chr8y.tfm
 INPUT /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.toc
 INPUT /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.toc
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/helvetic/phvr8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
+INPUT /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.toc
+INPUT /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.toc
+INPUT /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.toc
+INPUT /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.toc
+INPUT /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.toc
+INPUT /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.toc
 OUTPUT /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.nav
 OUTPUT /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.toc
 OUTPUT /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.snm
