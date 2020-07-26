@@ -6,4 +6,3 @@
 \beamer@subsectionintoc {2}{2}{DreamCoder: Growing Generalizable, Interpretable Knowledge with Wake-Sleep Bayesian Program Learning}{25}{0}{2}
 \beamer@sectionintoc {3}{Why Do We even Need Probabilistic Programming?}{42}{0}{3}
 \beamer@sectionintoc {4}{Underlying Theoretical Ideas}{51}{0}{4}
-\beamer@sectionintoc {5}{Different Types of Probabilistic Programming Systems}{52}{0}{5}
