@@ -1,0 +1,16 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\beamer@sectionintoc {1}{Approaches to Inference - the Inference Engines}{3}{0}{1}
+\beamer@sectionintoc {2}{Probabilistic Programming Frameworks}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{Stan}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Venture}{8}{0}{2}
+\beamer@subsectionintoc {2}{3}{Anglican}{11}{0}{2}
+\beamer@subsectionintoc {2}{4}{PyMC3}{14}{0}{2}
+\beamer@subsectionintoc {2}{5}{TensorFlow Probability}{17}{0}{2}
+\beamer@subsectionintoc {2}{6}{Pyro \& NumPyro}{20}{0}{2}
+\beamer@subsectionintoc {2}{7}{Edward2}{23}{0}{2}
+\beamer@subsectionintoc {2}{8}{Gen}{26}{0}{2}
+\beamer@subsectionintoc {2}{9}{PyProb}{29}{0}{2}
+\beamer@subsectionintoc {2}{10}{Turing}{32}{0}{2}
+\beamer@sectionintoc {3}{Practical Introduction to a Probabilistic Programming Framework}{36}{0}{3}
+\beamer@sectionintoc {4}{Extending the ideas to a more complex examples}{37}{0}{4}

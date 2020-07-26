@@ -1,0 +1,399 @@
+% !TeX spellcheck = en_GB
+\documentclass[AERbeamer%              style
+              ,optEnglish%            language
+              %,handout%               deactivate animation
+              ,optBiber%               bibliography tool
+              ,optBibstyleAlphabetic%
+              ,optBeamerClassicFormat% 4:3 format
+              %,optBeamerWideFormat%   16:9 format
+              ]{AERlatex}%
+\setbeameroption{show notes}% Show all notes
+%
+% Set paths
+\graphicspath{{figures_lecture_1/}}%
+\addbibresource{literature.bib}%
+%
+% Package Imports
+%\usepackage{media9}
+\usepackage{graphicx}
+\usepackage{multimedia}
+\usepackage{subcaption}
+\usepackage{amsmath}
+%
+% set meta data
+\title{Probabilistic Programming for Scientific Discovery}%
+\subtitle{Lecture 2}
+\author{Ludger Paehler}% (optional)
+\date{\AERutilsDate{29}{7}{2020}}% (optional)
+\institute{Lviv Data Science Summer School}% (optional)
+%
+% Setup of header and footer
+\AERbeamerSetupHeader{\AERlayoutHeaderCDChair}%
+\AERbeamerSetupFooterCD%
+%\AERbeamerSetupFooterSlideNumberOnly%
+%
+\begin{document}%
+%
+% Start with titlepage
+\AERbeamerTitlePageDefault%
+%
+%\begin{frame}{Title of Slide}{Subtitle of Slide}%
+%    \blindtext%
+%\end{frame}%
+%
+
+% Slide 0: Table of Contents
+\begin{frame}{Table of Contents}{}%
+    % Contents
+    \tableofcontents
+\end{frame}%
+
+
+% Approaches to Inference, the Core of every respectable Probabilistic Programming Framework
+\section{Approaches to Inference - the Inference Engines}
+
+
+
+% Probabilistic Programming Frameworks
+\section{Probabilistic Programming Frameworks}
+
+
+\subsection{Stan}
+% Stan Slide 1: general introduction
+\begin{frame}[c]{Stan \footnote{Carpenter, B., Gelman, A., Hoffman, M.D., Lee, D.,
+                                Goodrich, B., Betancourt, M., Brubaker, M., Guo, J., Li, P.
+                                and Riddell, A., 2017. Stan: A probabilistic programming
+                                language. Journal of statistical software, 76(1).}}{Overview}
+    \centering
+    \begin{itemize}
+        \item General overview of the purpose behind Stan
+    \end{itemize}
+\end{frame}
+
+
+% Stan Slide 2: Example Code
+\begin{frame}[c]{Stan}{Syntax}
+    \centering
+    \begin{itemize}
+        \item Example code to get a grasp for the syntax
+    \end{itemize}
+\end{frame}
+
+
+% Stan Slide 3: Application Performance
+\begin{frame}[c]{Stan}{Application Performance}
+    \centering
+    \begin{itemize}
+        \item Example applications
+    \end{itemize}
+\end{frame}
+
+
+\subsection{Venture}
+% Venture (2014) Slide 1: General Introduction
+\begin{frame}[c]{Venture \footnote{Mansinghka, V., Selsam, D. and Perov, Y., 2014.
+                                   Venture: a higher-order probabilistic programming platform
+                                   with programmable inference. arXiv preprint arXiv:1404.0099.}}{Overview}
+    \centering
+    \begin{itemize}
+        \item General overview of the purpose behind venture
+    \end{itemize}
+\end{frame}
+
+
+% Venture Slide 2: Example Code
+\begin{frame}[c]{Venture}{Syntax}
+    \centering
+    \begin{itemize}
+        \item Example code to get a gauge for the syntax
+    \end{itemize}
+\end{frame}
+
+
+% Venture Slide 3: Application Performance
+\begin{frame}[c]{Venture}{Application Performance}
+    \centering
+    \begin{itemize}
+        \item Application performance
+    \end{itemize}
+\end{frame}
+
+
+\subsection{Anglican}
+% Anglican (2014): General Introduction
+\begin{frame}[c]{Anglican \footnote{Tolpin, D., van de Meent, J.W., Yang, H. and Wood, F., 2016, August. Design
+                                    and implementation of probabilistic programming language anglican. In Proceedings
+                                    of the 28th Symposium on the Implementation and Application of Functional
+                                    programming Languages (pp. 1-12).}}{Overview}
+    \centering
+    \begin{itemize}
+        \item General overview of the purpose behind Anglican
+    \end{itemize}
+\end{frame}
+
+
+% Anglican Slide 2: Example Code
+\begin{frame}[c]{Anglican}{Syntax}
+    \centering
+    \begin{itemize}
+        \item Example code
+    \end{itemize}
+\end{frame}
+
+
+% Anglican Slide 3: Application Performance
+\begin{frame}[c]{Anglican}{Application Performance}
+    \centering
+    \begin{itemize}
+        \item Application performance
+    \end{itemize}
+\end{frame}
+
+
+\subsection{PyMC3}
+% PyMC3 (2015) Slide 1: General Introdction
+\begin{frame}[c]{PyMC3 \footnote{Salvatier, J., Wiecki, T.V. and Fonnesbeck, C., 2016. Probabilistic programming
+                                 in Python using PyMC3. PeerJ Computer Science, 2, p.e55.}}{Overview}
+    \centering
+    \begin{itemize}
+        \item General overview of the purpose behind PcMC3
+    \end{itemize}
+\end{frame}
+
+
+% PyMC3 Slide 2: Example Code
+\begin{frame}[c]{PyMC3}{Syntax}
+    \centering
+    \begin{itemize}
+        \item Example code
+    \end{itemize}
+\end{frame}
+
+
+% PyMC3 Slide 3: Application Performance
+\begin{frame}[c]{PyMC3}{Application Performance}
+    \centering
+    \begin{itemize}
+        \item Application performance
+    \end{itemize}
+\end{frame}
+
+
+\subsection{TensorFlow Probability}
+% TensorFlow Probability (2017) Slide 1: General Introduction
+\begin{frame}[c]{TensorFlow Probability \footnote{Dillon, J.V., Langmore, I., Tran, D., Brevdo, E., Vasudevan, S.,
+                                                  Moore, D., Patton, B., Alemi, A., Hoffman, M. and Saurous, R.A., 2017.
+                                                  Tensorflow distributions. arXiv preprint arXiv:1711.10604.}}{Overview}
+    \centering
+    \begin{itemize}
+        \item General overview of the purpose behind Tensorflow Probability
+    \end{itemize}
+\end{frame}
+
+
+% Tensorflow Probability Slide 2: Example Code
+\begin{frame}[c]{TensorFlow Probability}{Syntax}
+    \centering
+    \begin{itemize}
+        \item Example code
+    \end{itemize}
+\end{frame}
+
+
+% Tensorflow Probability Slide 3: Application Performance
+\begin{frame}[c]{TensorFlow Probability}{Application Performance}
+    \centering
+    \begin{itemize}
+        \item Application performance
+    \end{itemize}
+\end{frame}
+
+
+\subsection{Pyro \& NumPyro}
+% Pyro (2018) Slide 1: General introduction
+\begin{frame}[c]{Pyro \footnote{Bingham, E., Chen, J.P., Jankowiak, M., Obermeyer, F., Pradhan, N., Karaletsos, T.,
+                                Singh, R., Szerlip, P., Horsfall, P. and Goodman, N.D., 2019. Pyro: Deep universal
+                                probabilistic programming. The Journal of Machine Learning Research, 20(1), pp.973-978.}
+                \& NumPyro \footnote{Phan, D., Pradhan, N. and Jankowiak, M., 2019. Composable effects for flexible and
+                                     accelerated probabilistic programming in NumPyro. arXiv preprint arXiv:1912.11554.}}{Overview}
+    \centering
+    \begin{itemize}
+        \item General overview of the purpose behind Pyro \& NumPyro
+    \end{itemize}
+\end{frame}
+
+
+% Pyro & NumPyro Slide 2: Example Code
+\begin{frame}[c]{Pyro \& NumPyro}{Syntax}
+    \centering
+    \begin{itemize}
+        \item Example code of Pyro \& NumPyro
+    \end{itemize}
+\end{frame}
+
+
+% Pyro & NumPyro Slide 3: Application Performance  -> Might want to add a second slide here for the performance of NumPyro
+\begin{frame}[c]{Pyro \& NumPyro}{Application Performance}
+    \centering
+    \begin{itemize}
+        \item Application performance
+    \end{itemize}
+\end{frame}
+
+
+\subsection{Edward2}
+% Edward2 (2018/2019) Slide 1: General introduction
+\begin{frame}[c]{Edward2 \footnote{Tran, D., Hoffman, M.W., Moore, D., Suter, C., Vasudevan, S. and Radul, A., 2018. Simple, distributed,
+                                   and accelerated probabilistic programming. In Advances in Neural Information Processing Systems (pp. 7598-7609).}}{Overview}
+    \centering
+    \begin{itemize}
+        \item General overview of the purpose behind Edward2
+    \end{itemize}
+\end{frame}
+
+
+% Edward2 Slide 2: Example Code
+\begin{frame}[c]{Edward2}{Syntax}
+    \centering
+    \begin{itemize}
+        \item Example code of Edward2
+    \end{itemize}
+\end{frame}
+
+
+% Edward2 Slide 3: Application Performance
+\begin{frame}[c]{Edward2}{Application Performance}
+    \centering
+    \begin{itemize}
+        \item Application performance
+    \end{itemize}
+\end{frame}
+
+
+\subsection{Gen}
+% Gen (2019) Slide 1: General introduction
+\begin{frame}[c]{Gen \footnote{Cusumano-Towner, M.F., Saad, F.A., Lew, A.K. and Mansinghka, V.K., 2019, June. Gen: a general-purpose
+                               probabilistic programming system with programmable inference. In Proceedings of the 40th ACM SIGPLAN
+                               Conference on Programming Language Design and Implementation (pp. 221-236).}}{Overview}
+    \centering
+    \begin{itemize} % Mention the programmable inference to push the boundaries of prob prog here
+        \item General overview of the purpose behind Gen
+    \end{itemize}
+\end{frame}
+
+
+% Gen Slide 2: Example Code
+\begin{frame}[c]{Gen}{Syntax}
+    \centering
+    \begin{itemize}
+        \item Example code of Gen
+    \end{itemize}
+\end{frame}
+
+
+% Gen Slide 3: Application perforance
+\begin{frame}[c]{Gen}{Application Performance}
+    \centering
+    \begin{itemize}
+        \item Application performance
+    \end{itemize}
+\end{frame}
+
+
+\subsection{PyProb}
+% PyProb (2019) Slide 1: General introduction
+\begin{frame}[c]{PyProb \footnote{Baydin, A.G., Shao, L., Bhimji, W., Heinrich, L., Naderiparizi, S., Munk, A., Liu, J., Gram-Hansen, B.,
+                                  Louppe, G., Meadows, L. and Torr, P., 2019. Efficient probabilistic inference in the quest for physics
+                                  beyond the standard model. In Advances in neural information processing systems (pp. 5459-5472).}}{Overview}
+    \centering
+    \begin{itemize}
+        \item General overview of the purpose behind PyProb
+    \end{itemize}
+\end{frame}
+
+
+% PyProb Slide 2: Example Code
+\begin{frame}[c]{PyProb}{Syntax}
+    \centering
+    \begin{itemize}
+        \item Example code of PyProb
+    \end{itemize}
+\end{frame}
+
+
+% PyProb Slide 3: Application performance
+\begin{frame}[c]{PyProb}{Application Performance}
+    \centering
+    \begin{itemize}
+        \item Application performance
+    \end{itemize}
+\end{frame}
+
+
+\subsection{Turing}
+% Turing (2018) Side 1: General introduction
+\begin{frame}[c]{Turing \footnote{Ge, H., Xu, K. and Ghahramani, Z., 2018, March. Turing: A Language for Flexible
+                                  Probabilistic Inference. In International Conference on Artificial Intelligence
+                                  and Statistics (pp. 1682-1690).}}{Overview}
+    \centering
+    \begin{itemize}
+        \item General overview of the purpose behind Turing
+    \end{itemize}
+\end{frame}
+
+
+% Turing Slide 2: Example code
+\begin{frame}[c]{Turing}{Syntax}
+    \centering
+    \begin{itemize}
+        \item Example code of Turing
+    \end{itemize}
+\end{frame}
+
+
+% Turing Slide 3: Application performance
+\begin{frame}[c]{Application performance}
+    \centering
+    \begin{itemize}
+        \item Application performance
+    \end{itemize}
+\end{frame}
+
+
+% Summary in matrix form
+\begin{frame}[c]{Probabilistic Programming Frameworks}{Summary}
+    \centering
+    \begin{itemize}
+        \item Summary of all probabilistic programming frameworks in a single table
+    \end{itemize}
+\end{frame}
+
+
+
+% Practical Introduction to Turing
+\section{Practical Introduction to a Probabilistic Programming Framework}
+
+
+
+% Extension to a more complex example
+\section{Extending the ideas to a more complex examples}
+
+
+
+
+
+
+
+%
+%\AERbeamerSetFooterText{References}%
+%\begin{frame}[allowframebreaks]{References}%
+%    \printbibliography[heading=none]%
+%\end{frame}%
+%
+% End with titlepage
+%\AERbeamerTitlePageDefault%
+%
+%
+\end{document}%
+%
+%
