@@ -76,7 +76,7 @@
 \end{frame}
 
 
-% Etalumis and DreamCoder references to be inserted here! -- as footnotes quite probably.
+% Lecture 1 breakdown
 \begin{frame}[c]{Lecture 1}
     \centering
     \begin{itemize}
@@ -92,7 +92,7 @@
 \end{frame}
 
 
-% Turing reference to be inserted here!
+% Lecture 2 breakdown
 \begin{frame}[c]{Lecture 2}
     \centering
     \begin{itemize}
@@ -103,7 +103,7 @@
 \end{frame}
 
 
-% References need to be inserted here!
+% Lecture 3 breakdown
 \begin{frame}[c]{Lecture 3}
     \centering
     \begin{itemize}
@@ -118,6 +118,7 @@
 \end{frame}
 
 
+% Lecture 4 breakdown
 \begin{frame}[c]{Lecture 4}
     \centering
     \begin{itemize}
@@ -143,13 +144,232 @@
 \section{Example Applications of Probabilistic Programming}
 
 
-% Example 1 (~10 slides?)
+% Example 1 (~16 slides?)
 \subsection{ETALUMIS: Bringing Probabilistic Programming to Scientific Simulators at Scale}
 
-\begin{frame}[c]{ETALUMIS}{Bringing Probabilistic Programming to Scientific Simulators at Scale}
+
+% Etalumis Slide 1: Rough summary
+\begin{frame}[c]{Etalumis}{Bringing Probabilistic Programming to Scientific Simulators at Scale \footnote{Baydin, A.G., Shao, L., Bhimji, W., Heinrich, L., Meadows, L., Liu, J., Munk, A., Naderiparizi, S.,
+                                                                                                          Gram-Hansen, B., Louppe, G. and Ma, M., 2019, November. Etalumis: Bringing probabilistic programming
+                                                                                                          to scientific simulators at scale. In Proceedings of the International Conference for High Performance
+                                                                                                          Computing, Networking, Storage and Analysis (pp. 1-24).}}
     \centering
     \begin{itemize}
-        \item Blub
+        \item Large scale inverse problem, where a particle simulator is inverted by probabilistically inferring
+              all choices in the simulator given the desired outputs
+        \begin{itemize}
+            \item Developed in the context of particle simulations at CERN
+        \end{itemize}
+        \item First large-scale application of probabilistic programming to physical simulators in the quest
+              to potentially unearth new physics \footnote{Cranmer, K., Brehmer, J. and Louppe, G., 2020. The frontier of simulation-based inference. Proceedings of the National Academy of Sciences.}
+        \item Largest-scale posterior inference with 25000 latent variables at the time
+        \item Amount of compute required highly dependent on the specific approach to inference and the nature of the
+              simulator, i.e. latent dimensionality and intensity of the compute routine
+        \begin{itemize}
+            \item Only set to improve with the impeding exascale-era
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+
+% Etalumis Slide 2: Delving into the used techniques  -> 3 page innuendo for inference compilation and a 3 page innuendo for amortized inference
+\begin{frame}[c]{Etalumis}
+    \centering
+    \begin{itemize}
+        \item Proposes a direct linking of particle physics simulators with probabilistic programming systems to trace the
+              internal structure of the simulator
+        \begin{itemize}
+            \item Probabilistic programming system controls the random number draws of the simulator akin to samples from
+                  prior distributions in Bayesian statistics
+        \end{itemize}
+        \item Utilizing inference compilation with three-dimensional convolutional LSTMs to guide the inference procedure
+              and amortize the high computational costs of training
+        \begin{itemize}
+            \item Dynamic compilation, in which a core gets expanded with further neural network components as inference compilation
+                  proceeds
+        \end{itemize}
+        \item Utilizes importance sampling in conjunction with inference compilation as approach to inference
+    \end{itemize}
+\end{frame}
+
+
+% Etalumis Slide 3: Simulation-specific setting
+\begin{frame}[c]{Etalumis}{Simulators as Probabilistic Programs}
+    \centering
+    \begin{itemize}
+        \item A simulator execution is viewed as an execution trace, a single sample to the probabilistic programming system
+        \begin{itemize}
+            \item I.e. sampling is taking place in the space of execution traces
+        \end{itemize}
+        \item Abstracting the simulator in this way enables the following analysis
+        \begin{itemize}
+            \item Compute likelihoods
+            \item Learn/construct surrogate models
+            \item Generate training data for inference compilation
+            \item Introduce other generative approaches into the loop
+        \end{itemize}
+        \item Enables us to guide the simulation in an intelligent fashion, using the inference network, which acts as a kind of oracle
+    \end{itemize}
+\end{frame}
+
+
+% Etalumis Slide 4: PPX, i.e. high-level view
+\begin{frame}[c]{Etalumis}
+    \centering
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.8\textwidth]{PPXTrace.png}
+        \caption{High-level view from the perspective of the probabilistic programming execution protocol (PPX).}
+    \end{figure}
+\end{frame}
+
+
+% Etalumis Slide 5: Simulation and inference connection
+\begin{frame}[c]{Etalumis}
+    \centering
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.549\textwidth]{ETALUMISSimulationandInference.png}
+        \caption{Detailed connection between simulation and inference in the probabilistic programming-based approach.}
+    \end{figure}
+\end{frame}
+
+
+
+% Amortized Inference Innuendo Slide 1
+\begin{frame}[c]{Etalumis}{Recap: Amortized Inference \footnote{Gershman, S. and Goodman, N., 2014. Amortized inference in
+                                                                probabilistic reasoning. In Proceedings of the annual meeting
+                                                                of the cognitive science society (Vol. 36, No. 36).}
+                                                      \footnote{Ritchie, D., Horsfall, P. and Goodman, N.D., 2016. Deep amortized
+                                                                inference for probabilistic programs. arXiv preprint arXiv:1610.05735.}}
+    \centering
+    \begin{itemize}
+        \item Blub 1
+    \end{itemize}
+\end{frame}
+
+
+% Amortized Inference Innuendo Slide 2
+\begin{frame}[c]{Etalumis}{Recap: Amortized Inference}
+    \centering
+    \begin{itemize}
+        \item Blub 2
+    \end{itemize}
+\end{frame}
+
+
+% Amortized Inference Innuendo Slide 3
+\begin{frame}[c]{Etalumis}{Recap: Amortized Inference}
+    \centering
+    \begin{itemize}
+        \item Blub 3
+    \end{itemize}
+\end{frame}
+
+
+% Inference Compilation Innuendo Slide 1
+\begin{frame}[c]{Etalumis}{Outlook: Inference Compilation \footnote{Le, T.A., Baydin, A.G. and Wood, F., 2017, April. Inference
+                                                                    compilation and universal probabilistic programming. In Artificial
+                                                                    Intelligence and Statistics (pp. 1338-1348).}    }
+    \centering
+    \begin{itemize}
+        \item Uses neural networks to construct a surrogate model for the probabilistic generative model, which is subsequently
+              used at inference time as a custom proposal distribution to avoid sampling from the actual generative model
+        \item Intuition is that the cost of constructing the surrogate can be amortized at inference time and be lower
+              inference from the underlying generative model
+        \begin{itemize}
+            \item Need to watch out for sample diversity and out-of-distribution samples 
+        \end{itemize}
+        \item Proposes adaptive neural network architecture with a recurrent core and embedding and proposal layers specified
+              by the probabilistic program
+        \item Approach is model-agnostic
+    \end{itemize}
+\end{frame}
+
+
+% Inference Compilation Innuendo Slide 2
+\begin{frame}[c]{Etalumis}{Outlook: Inference Compilation}
+    \centering
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.7\textwidth]{InferenceCompilationSketch.png}
+        \caption{Automatic construction of a neural network surrogate, which is then trained with data generated by the probabilistic
+                 program to eventually act as the proposal distribution at inference time.}
+    \end{figure}
+\end{frame}
+
+
+% Inference Compilation Innuendo Slide 3
+\begin{frame}[c]{Etalumis}{Outlook: Inference Compilation}
+    \centering
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.4\textwidth]{InferenceCompilationPractice.png}
+        \caption{Example application for captcha solving based on probabilistic generative models for the captchas.
+                 With the LSTM at its core, required embeddings for the respective are attached adaptively.}
+    \end{figure}
+\end{frame}
+
+
+% Etalumis Slide 6: Distributed training algorithm
+\begin{frame}[c]{Etalumis}
+    \centering
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.6\textwidth]{EtalumisTrainingAlgorithm.png}
+    \end{figure}
+\end{frame}
+
+
+% Etalumis Slide 7: Posteriors of the targeted particle distributions
+\begin{frame}[c]{Etalumis}
+    \centering
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.5\textwidth]{EtalumisParticlePosteriors.png}
+        \caption{Posteriors obtained with random-walk Metropolis Hasting (filled histograms) and inference compilation (outline histograms) and
+                 ground truth values (dashed vertical lines).}
+    \end{figure}
+\end{frame}
+
+
+% Etalumis Slide 8: Scaling on Edison and Cori
+\begin{frame}[c]{Etalumis}
+    \centering
+    % Two columns for two scaling plots
+    \begin{columns}[T]
+        % Scaling on Cori
+        \begin{column}{0.48\textwidth}
+            \centering
+            \includegraphics[width=0.9\textwidth]{EtalumisScalingCori.png}
+        \end{column}
+        % Scaling on Edison
+        \begin{column}{0.48\textwidth}
+            \centering
+            \includegraphics[width=0.9\textwidth]{EtalumisScalingEdison.png}
+        \end{column}
+    \end{columns}
+    \vspace{1cm}
+    \begin{itemize}
+        \item Moving to supercomputer scale for massive-scale inference to be able to generate the necessary
+              number of simulations for the inference compilation to be successful.
+    \end{itemize}
+\end{frame}
+
+
+% Etalumis Slide 9: Summary
+\begin{frame}[c]{Etalumis}
+    \centering
+    \begin{itemize}
+        \item First probabilistic programming system to link to scientific simulators at scale to enable large-scale
+              posterior inference on a supercomputing-scale
+        \begin{itemize}
+            \item Can only ever capture the processes encapsulated in the simulator
+        \end{itemize}
+        \item Introduces a probabilistic programming execution protocol to link to scientific simulators
+        \item To make inference tractable it needs to rely on techniques, such as amortization through inference
+              compilation, which essentially constructs an oracle
+        \item Pushes the frameworks to the extreme with communication requirements and data exchange between computing instances
     \end{itemize}
 \end{frame}
 
@@ -169,7 +389,7 @@
         \end{itemize}
         \item Practically constructs a library of symbolic abstractions in a wake-sleep manner and applies said library
               to the solving of the chosen problem at hand
-        \item Utilizes wake-sleep learning % reference needed here
+        \item Wake-sleep learning % reference needed here
         \begin{itemize}
             \item During \textit{sleep} the system consolidates its abstractions from the programs found during \textit{wake}
                   and improves upon the neural network recognition model by imagining new samples
@@ -247,9 +467,33 @@
 \begin{frame}[c]{Recap: Helmholtz Machine \footnote{Graves, A., Wayne, G. and Danihelka, I., 2014. Neural turing machines. arXiv preprint arXiv:1410.5401.}
                                           \footnote{YouTube: DeepMind x UCL | Deep Learning Lectures | 8/12 | Attention and Memory in Deep Learning}}
     \centering
-    \begin{itemize}
-        \item Blub
-    \end{itemize}
+    % Two columns, text on the left, images on the right
+    \begin{columns}[T]
+        % Column for text explanation
+        \begin{column}{0.48\textwidth}
+            \begin{itemize}
+                \item Couples neural networks with external memory, which is accessed through an
+                      internal attention mechanism
+                \begin{itemize}
+                    \item Iteratively modify the state of the network through its memory mechanism
+                \end{itemize}
+                \item Can infer simple algorithms from data
+                \item Structure
+                \begin{itemize}
+                    \item Controller is a neural network
+                    \item Heads select the part of the memory to access
+                    \item Memory is essentially a large matrix
+                \end{itemize}
+            \end{itemize}
+        \end{column}
+        % Column for contextual images
+        \begin{column}{0.48\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.9\textwidth]{NeuralTuringMachineArchitecture.png}
+            \end{figure}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 
@@ -257,17 +501,52 @@
 \begin{frame}[c]{Recap: Helmholtz Machine}
     \centering
     \begin{itemize}
-        \item Blub 2
+        \item Heavily relies on selection attention, whee the controller emits a distribution over the memory matrix,
+              which then defines content- and location-based attention mechanisms \footnote{Lilian Weng's review of attention: https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html}
+        \item Content-based:
+        \begin{itemize}
+            \item A key vector is compared to each memory location
+        \end{itemize}
+        \item Location-based:
+        \begin{itemize}
+            \item Use a shift kernel in conjunction with the weighting to shift to a new location in memory
+        \end{itemize}
+        \item Results in three different interaction modes:
+        \begin{enumerate}
+            \item Content key only
+            \item Content and location
+            \item Location only
+        \end{enumerate}
     \end{itemize}
 \end{frame}
 
 
 % DreamCoder Slide 9: Helmholtz Machine Innuendo 3  <- Priority sort
-\begin{frame}[c]{Recap: Helmholtz Machine}
+\begin{frame}[c]{Recap: Helmholtz Machine}{Example: Priority Sort}
     \centering
-    \begin{itemize}
-        \item Blub 3
-    \end{itemize}
+    % Two columns
+    \begin{columns}[T]
+        % Text describing the case
+        \begin{column}{0.48\textwidth}
+            \vspace{0.55cm}
+            \begin{itemize}
+                \item Learns algorithm to sort data from a sequence of random binary vectors and their
+                      respective scalar priority rating
+            \end{itemize}
+        \end{column}
+        % Illustration of the case
+        \begin{column}{0.48\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{NTMPrioritySortIllustration.png}
+            \end{figure}
+        \end{column}
+    \end{columns}
+    % Memory of the neural turing machine during the priority sort task
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.85\textwidth]{NTMPrioritySortMemoryAccess.png}
+    \end{figure}
 \end{frame}
 
 
@@ -277,8 +556,13 @@
                                                                    neural network with dynamic external memory. Nature, 538(7626), pp.471-476.}}
     \centering
     \begin{itemize}
-        \item Differentiable Neural Computer
+        \item Successor architecture to the neural turing machine with new attention mechanisms
+        \item Specifically geared towards applications in graphs $\longrightarrow$  more on this later!
     \end{itemize}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.55\textwidth]{DifferentiableNeuralComputerArchitecture.png}
+    \end{figure}
 \end{frame}
 
 
@@ -406,6 +690,76 @@
 \section{Why Do We even Need Probabilistic Programming?}
 
 
+% The Why: Slide 1
+\begin{frame}[c]{Why Do We Need Probabilistic Programming?}
+    \centering
+    \begin{itemize}
+        \item Blub 1
+    \end{itemize}
+\end{frame}
+
+
+% The Why: Slide 2
+\begin{frame}[c]{Why Do We Need Probabilistic Programming?}
+    \centering
+    \begin{itemize}
+        \item Blub 2
+    \end{itemize}
+\end{frame}
+
+
+% The Why: Slide 3
+\begin{frame}[c]{Why Do We Need Probabilistic Programming?}
+    \centering
+    \begin{itemize}
+        \item Blub 3
+    \end{itemize}
+\end{frame}
+
+
+% The Why: Slide 4
+\begin{frame}[c]{Why Do We Need Probabilistic Programming?}
+    \centering
+    \begin{itemize}
+        \item Blub 4
+    \end{itemize}
+\end{frame}
+
+
+% The Why: Slide 5
+\begin{frame}[c]{Why Do We Need Probabilistic Programming?}
+    \centering
+    \begin{itemize}
+        \item Blub 5
+    \end{itemize}
+\end{frame}
+
+
+% The Why: Slide 6
+\begin{frame}[c]{Why Do We Need Probabilistic Programming?}
+    \centering
+    \begin{itemize}
+        \item Blub 6
+    \end{itemize}
+\end{frame}
+
+
+% The Why: Slide 7
+\begin{frame}[c]{Why Do We Need Probabilistic Programming?}
+    \centering
+    \begin{itemize}
+        \item Blub 7
+    \end{itemize}
+\end{frame}
+
+
+% The Why: Slide 8
+\begin{frame}[c]{Why Do We Need Probabilistic Programming?}
+    \centering
+    \begin{itemize}
+        \item Blub 8
+    \end{itemize}
+\end{frame}
 
 
 
