@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.10)  26 JUL 2020 02:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.10)  26 JUL 2020 12:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2155,86 +2155,88 @@ Package pdftex.def Info: figures_lecture_1/DreamCoderProgramFlowchart.png  used 
 
 ] [19
 
+] [20
+
 ]
-<figures_lecture_1/DreamCoderCompositionality.png, id=204, 1221.56375pt x 389.455pt>
+<figures_lecture_1/DreamCoderCompositionality.png, id=210, 1221.56375pt x 389.455pt>
 File: figures_lecture_1/DreamCoderCompositionality.png Graphic file (type png)
 <use figures_lecture_1/DreamCoderCompositionality.png>
-Package pdftex.def Info: figures_lecture_1/DreamCoderCompositionality.png  used on input line 286.
+Package pdftex.def Info: figures_lecture_1/DreamCoderCompositionality.png  used on input line 297.
 (pdftex.def)             Requested size: 665.79433pt x 212.2755pt.
- [20
-
- </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_1/DreamCoderCompositionality.png>]
-<figures_lecture_1/DreamCoderApp1.png, id=212, 221.82875pt x 306.14375pt>
-File: figures_lecture_1/DreamCoderApp1.png Graphic file (type png)
-<use figures_lecture_1/DreamCoderApp1.png>
-Package pdftex.def Info: figures_lecture_1/DreamCoderApp1.png  used on input line 333.
-(pdftex.def)             Requested size: 107.67142pt x 148.59708pt.
-<figures_lecture_1/DreamCoderApp4.png, id=213, 182.6825pt x 314.17375pt>
-File: figures_lecture_1/DreamCoderApp4.png Graphic file (type png)
-<use figures_lecture_1/DreamCoderApp4.png>
-Package pdftex.def Info: figures_lecture_1/DreamCoderApp4.png  used on input line 333.
-(pdftex.def)             Requested size: 86.40434pt x 148.59708pt.
-<figures_lecture_1/DreamCoderApp5.png, id=214, 205.76875pt x 332.24126pt>
-File: figures_lecture_1/DreamCoderApp5.png Graphic file (type png)
-<use figures_lecture_1/DreamCoderApp5.png>
-Package pdftex.def Info: figures_lecture_1/DreamCoderApp5.png  used on input line 333.
-(pdftex.def)             Requested size: 92.03305pt x 148.59708pt.
-<figures_lecture_1/DreamCoderApp6.png, id=215, 237.88875pt x 330.23375pt>
-File: figures_lecture_1/DreamCoderApp6.png Graphic file (type png)
-<use figures_lecture_1/DreamCoderApp6.png>
-Package pdftex.def Info: figures_lecture_1/DreamCoderApp6.png  used on input line 333.
-(pdftex.def)             Requested size: 107.0453pt x 148.59708pt.
-<figures_lecture_1/DreamCoderApp7.png, id=216, 218.8175pt x 310.15875pt>
-File: figures_lecture_1/DreamCoderApp7.png Graphic file (type png)
-<use figures_lecture_1/DreamCoderApp7.png>
-Package pdftex.def Info: figures_lecture_1/DreamCoderApp7.png  used on input line 333.
-(pdftex.def)             Requested size: 104.8342pt x 148.59708pt.
-<figures_lecture_1/DreamCoderApp8.png, id=217, 239.89626pt x 346.29375pt>
-File: figures_lecture_1/DreamCoderApp8.png Graphic file (type png)
-<use figures_lecture_1/DreamCoderApp8.png>
-Package pdftex.def Info: figures_lecture_1/DreamCoderApp8.png  used on input line 333.
-(pdftex.def)             Requested size: 102.94106pt x 148.59708pt.
  [21
 
- </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_1/DreamCoderApp1.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_1/DreamCoderApp4.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_1/DreamCoderApp5.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_1/DreamCoderApp6.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_1/DreamCoderApp7.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_1/DreamCoderApp8.png>]
-<figures_lecture_1/DreamCoderApplication1.png, id=230, 1322.9425pt x 627.34375pt>
-File: figures_lecture_1/DreamCoderApplication1.png Graphic file (type png)
-<use figures_lecture_1/DreamCoderApplication1.png>
-Package pdftex.def Info: figures_lecture_1/DreamCoderApplication1.png  used on input line 344.
-(pdftex.def)             Requested size: 632.50256pt x 299.93459pt.
+ </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_1/DreamCoderCompositionality.png>]
+<figures_lecture_1/DreamCoderApp1.png, id=218, 221.82875pt x 306.14375pt>
+File: figures_lecture_1/DreamCoderApp1.png Graphic file (type png)
+<use figures_lecture_1/DreamCoderApp1.png>
+Package pdftex.def Info: figures_lecture_1/DreamCoderApp1.png  used on input line 344.
+(pdftex.def)             Requested size: 107.67142pt x 148.59708pt.
+<figures_lecture_1/DreamCoderApp4.png, id=219, 182.6825pt x 314.17375pt>
+File: figures_lecture_1/DreamCoderApp4.png Graphic file (type png)
+<use figures_lecture_1/DreamCoderApp4.png>
+Package pdftex.def Info: figures_lecture_1/DreamCoderApp4.png  used on input line 344.
+(pdftex.def)             Requested size: 86.40434pt x 148.59708pt.
+<figures_lecture_1/DreamCoderApp5.png, id=220, 205.76875pt x 332.24126pt>
+File: figures_lecture_1/DreamCoderApp5.png Graphic file (type png)
+<use figures_lecture_1/DreamCoderApp5.png>
+Package pdftex.def Info: figures_lecture_1/DreamCoderApp5.png  used on input line 344.
+(pdftex.def)             Requested size: 92.03305pt x 148.59708pt.
+<figures_lecture_1/DreamCoderApp6.png, id=221, 237.88875pt x 330.23375pt>
+File: figures_lecture_1/DreamCoderApp6.png Graphic file (type png)
+<use figures_lecture_1/DreamCoderApp6.png>
+Package pdftex.def Info: figures_lecture_1/DreamCoderApp6.png  used on input line 344.
+(pdftex.def)             Requested size: 107.0453pt x 148.59708pt.
+<figures_lecture_1/DreamCoderApp7.png, id=222, 218.8175pt x 310.15875pt>
+File: figures_lecture_1/DreamCoderApp7.png Graphic file (type png)
+<use figures_lecture_1/DreamCoderApp7.png>
+Package pdftex.def Info: figures_lecture_1/DreamCoderApp7.png  used on input line 344.
+(pdftex.def)             Requested size: 104.8342pt x 148.59708pt.
+<figures_lecture_1/DreamCoderApp8.png, id=223, 239.89626pt x 346.29375pt>
+File: figures_lecture_1/DreamCoderApp8.png Graphic file (type png)
+<use figures_lecture_1/DreamCoderApp8.png>
+Package pdftex.def Info: figures_lecture_1/DreamCoderApp8.png  used on input line 344.
+(pdftex.def)             Requested size: 102.94106pt x 148.59708pt.
  [22
 
- </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_1/DreamCoderApplication1.png>]
-<figures_lecture_1/DreamCoderApplication2.png, id=238, 1309.89375pt x 537.00626pt>
-File: figures_lecture_1/DreamCoderApplication2.png Graphic file (type png)
-<use figures_lecture_1/DreamCoderApplication2.png>
-Package pdftex.def Info: figures_lecture_1/DreamCoderApplication2.png  used on input line 355.
-(pdftex.def)             Requested size: 632.50256pt x 259.30055pt.
+ </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_1/DreamCoderApp1.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_1/DreamCoderApp4.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_1/DreamCoderApp5.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_1/DreamCoderApp6.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_1/DreamCoderApp7.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_1/DreamCoderApp8.png>]
+<figures_lecture_1/DreamCoderApplication1.png, id=236, 1322.9425pt x 627.34375pt>
+File: figures_lecture_1/DreamCoderApplication1.png Graphic file (type png)
+<use figures_lecture_1/DreamCoderApplication1.png>
+Package pdftex.def Info: figures_lecture_1/DreamCoderApplication1.png  used on input line 355.
+(pdftex.def)             Requested size: 632.50256pt x 299.93459pt.
  [23
 
- </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_1/DreamCoderApplication2.png>]
-<figures_lecture_1/DreamCoderApplication3.png, id=246, 1214.5375pt x 519.9425pt>
-File: figures_lecture_1/DreamCoderApplication3.png Graphic file (type png)
-<use figures_lecture_1/DreamCoderApplication3.png>
-Package pdftex.def Info: figures_lecture_1/DreamCoderApplication3.png  used on input line 366.
-(pdftex.def)             Requested size: 665.79433pt x 285.03308pt.
+ </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_1/DreamCoderApplication1.png>]
+<figures_lecture_1/DreamCoderApplication2.png, id=244, 1309.89375pt x 537.00626pt>
+File: figures_lecture_1/DreamCoderApplication2.png Graphic file (type png)
+<use figures_lecture_1/DreamCoderApplication2.png>
+Package pdftex.def Info: figures_lecture_1/DreamCoderApplication2.png  used on input line 366.
+(pdftex.def)             Requested size: 632.50256pt x 259.30055pt.
  [24
 
- </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_1/DreamCoderApplication3.png>]
-<figures_lecture_1/DreamCoderApplication4.png, id=254, 931.48pt x 655.44875pt>
-File: figures_lecture_1/DreamCoderApplication4.png Graphic file (type png)
-<use figures_lecture_1/DreamCoderApplication4.png>
-Package pdftex.def Info: figures_lecture_1/DreamCoderApplication4.png  used on input line 377.
-(pdftex.def)             Requested size: 432.76224pt x 304.52048pt.
+ </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_1/DreamCoderApplication2.png>]
+<figures_lecture_1/DreamCoderApplication3.png, id=252, 1214.5375pt x 519.9425pt>
+File: figures_lecture_1/DreamCoderApplication3.png Graphic file (type png)
+<use figures_lecture_1/DreamCoderApplication3.png>
+Package pdftex.def Info: figures_lecture_1/DreamCoderApplication3.png  used on input line 377.
+(pdftex.def)             Requested size: 665.79433pt x 285.03308pt.
  [25
 
- </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_1/DreamCoderApplication4.png>] [26
+ </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_1/DreamCoderApplication3.png>]
+<figures_lecture_1/DreamCoderApplication4.png, id=261, 931.48pt x 655.44875pt>
+File: figures_lecture_1/DreamCoderApplication4.png Graphic file (type png)
+<use figures_lecture_1/DreamCoderApplication4.png>
+Package pdftex.def Info: figures_lecture_1/DreamCoderApplication4.png  used on input line 388.
+(pdftex.def)             Requested size: 432.76224pt x 304.52048pt.
+ [26
 
-] (/home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.toc) [27
+ </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_1/DreamCoderApplication4.png>] [27
 
 ] (/home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.toc) [28
 
 ] (/home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.toc) [29
+
+] (/home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.toc) [30
 
 ]
 \tf@nav=\write7
@@ -2246,11 +2248,11 @@ Package pdftex.def Info: figures_lecture_1/DreamCoderApplication4.png  used on i
 \tf@snm=\write9
 \openout9 = `lecture_1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 426.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 426.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 437.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 437.
  (/home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 426.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 426.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 437.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 437.
 Package rerunfilecheck Info: File `lecture_1.out' has not changed.
 (rerunfilecheck)             Checksum: A7089E6F1997098122FE147D9DCEC313;642.
 Package logreq Info: Writing requests to 'lecture_1.run.xml'.
@@ -2258,17 +2260,17 @@ Package logreq Info: Writing requests to 'lecture_1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 60077 strings out of 492676
- 1357001 string characters out of 6134161
- 1991596 words of memory out of 5000000
- 62901 multiletter control sequences out of 15000+600000
+ 60089 strings out of 492676
+ 1357216 string characters out of 6134161
+ 1991763 words of memory out of 5000000
+ 62911 multiletter control sequences out of 15000+600000
  677350 words of font info for 212 fonts, out of 8000000 for 9000
  1139 hyphenation exceptions out of 8191
  85i,22n,138p,1195b,2278s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7t.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7v.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chri7m.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.pdf (29 pages, 1589615 bytes).
+Output written on /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.pdf (30 pages, 1592287 bytes).
 PDF statistics:
- 355 PDF objects out of 1000 (max. 8388607)
- 66 named destinations out of 1000 (max. 500000)
+ 362 PDF objects out of 1000 (max. 8388607)
+ 68 named destinations out of 1000 (max. 500000)
  178 words of extra memory for PDF output out of 10000 (max. 10000000)
 
