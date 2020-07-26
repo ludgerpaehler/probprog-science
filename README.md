@@ -18,7 +18,7 @@ Further reading material and references to relevant papers are provided in the r
 * Underlying theoretical ideas
 * Different types of probabilistic programming systems
 
-#### Lecture 2: Inferece Engines & Introduction to Turing.jl
+#### Lecture 2: Inference Engines & Introduction to Turing.jl
 
 * Approaches to inference
 * Practical introduction to a probabilistic programming framework
