@@ -16,11 +16,11 @@ Further reading material and references to relevant papers are provided in the r
 * Example applications of probabilistic programming
 * Why do we even need probabilistic programming?
 * Underlying theoretical ideas
-* Different types of probabilistic programming systems
 
 #### Lecture 2: Inference Engines & Introduction to Turing.jl
 
 * Approaches to inference
+* Probabilistic Programming Frameworks
 * Practical introduction to a probabilistic programming framework
 * Probabilistic programming's ability on a more complex model example
 
