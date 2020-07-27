@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.10)  27 JUL 2020 00:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.10)  27 JUL 2020 20:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2434,13 +2434,13 @@ Package logreq Info: Writing requests to 'lecture_1.run.xml'.
 Here is how much of TeX's memory you used:
  60422 strings out of 492676
  1364795 string characters out of 6134161
- 1995248 words of memory out of 5000000
+ 1995249 words of memory out of 5000000
  63204 multiletter control sequences out of 15000+600000
  703974 words of font info for 251 fonts, out of 8000000 for 9000
  1139 hyphenation exceptions out of 8191
  85i,22n,138p,1195b,2278s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7t.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7v.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chri7m.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.pdf (51 pages, 2039826 bytes).
+Output written on /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.pdf (51 pages, 2039799 bytes).
 PDF statistics:
  510 PDF objects out of 1000 (max. 8388607)
  109 named destinations out of 1000 (max. 500000)

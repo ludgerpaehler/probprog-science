@@ -1,9 +1,9 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'lecture_1.blg'
-[19] biber:315> INFO - === Sun Jul 26, 2020, 19:39:15
-[35] Biber.pm:371> INFO - Reading 'lecture_1.bcf'
-[92] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[98] Utils.pm:193> WARN - The file 'lecture_1.bcf' does not contain any citations!
-[104] bbl.pm:636> INFO - Writing 'lecture_1.bbl' with encoding 'UTF-8'
-[104] bbl.pm:739> INFO - Output to lecture_1.bbl
-[104] Biber.pm:110> INFO - WARNINGS: 1
+[19] biber:315> INFO - === Mon Jul 27, 2020, 20:33:59
+[33] Biber.pm:371> INFO - Reading 'lecture_1.bcf'
+[81] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[85] Utils.pm:193> WARN - The file 'lecture_1.bcf' does not contain any citations!
+[91] bbl.pm:636> INFO - Writing 'lecture_1.bbl' with encoding 'UTF-8'
+[91] bbl.pm:739> INFO - Output to lecture_1.bbl
+[91] Biber.pm:110> INFO - WARNINGS: 1
