@@ -392,26 +392,63 @@
                                 language. Journal of statistical software, 76(1).}}{Overview}
     \centering
     \begin{itemize}
-        \item General overview of the purpose behind Stan
+        \item Stan is primarily aimed at statisticians and provides a full-fledged suite for them
+              to express their statistical models and perform statistical inference
+        \item Methods of inference provided:
+        \begin{itemize}
+            \item Hamiltonian Monte-Carlo
+            \item no-U-turn sampler
+            \item Automatic Differentiation Variational Inference
+        \end{itemize}
+        \item Defines its own separate DSL with interfaces for python, R, Matlab, Julia, State, Mathematica and the command-line
+        \item Automatically differentiates the generative model using reverse-mode automatic differentiation
+        \item Stan's core library in C++ with its interfaces to other languages makes it difficult to link to
+              external simulators, the defined generatve model does furthermore get compiled, hence introducing
+              a further layer of abstraction
     \end{itemize}
 \end{frame}
 
 
 % Stan Slide 2: Example Code
-\begin{frame}[c]{Stan}{Syntax}
+\begin{frame}[c]{Stan}{Syntax \footnote{Gelman, A., Lee, D. and Guo, J., 2015. Stan: A probabilistic programming language
+                                        for Bayesian inference and optimization. Journal of Educational and Behavioral
+                                        Statistics, 40(5), pp.530-543.}}
     \centering
-    \begin{itemize}
-        \item Example code to get a grasp for the syntax
-    \end{itemize}
+    \begin{columns}[T]
+        % Explanation of the code structure on the right
+        \begin{column}{0.48\textwidth}
+            \centering
+            \vspace{1.5cm}
+            \begin{itemize}
+                \item Data block declares the data, which the program expects to receive
+                \item Parameters block declared the unknown quantities, which are to be estimated
+                \item Transformed parameters are functions of data and parameters
+                \item Model block defines the computation of the log-posterior density
+            \end{itemize}
+        \end{column}
+        % An example Stan model
+        \begin{column}{0.48\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.9\textwidth]{StanExample.png}
+            \end{figure}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 
 % Stan Slide 3: Application Performance
 \begin{frame}[c]{Stan}{Application Performance}
     \centering
-    \begin{itemize}
-        \item Example applications
-    \end{itemize}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.4\textwidth]{STANSamplerperSecond.png}
+    \end{figure}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.75\textwidth]{STANImprovement.png}
+    \end{figure}
 \end{frame}
 
 
@@ -424,26 +461,58 @@
                                    Church: a language for generative models. arXiv preprint arXiv:1206.3255.}}{Overview}
     \centering
     \begin{itemize}
-        \item General overview of the purpose behind venture
+        \item Virtual machine for general-purpose probabilistic programming building on the ideas of Church,
+              but enabling the user to specify custom inference strategies.
+        \item Enables custom stochastic control flows through its stochastic procedure inferface
+        \item Methods of inference provided include exact- and approximate inference:
+        \begin{itemize}
+            \item Metropolis-Hastings
+            \item Hamiltonian Monte-Carlo
+            \item Gibbs sampling
+            \item Sequential Monte-Carlo
+            \item Variational inference
+            \item Inference programming is possible
+        \end{itemize}
+        \item Evolved into a modern version, called \textit{VentureScript}
+        \item Able to link to external models, but not as easily as successor developments such as \textit{Gen}
     \end{itemize}
 \end{frame}
 
 
 % Venture Slide 2: Example Code
-\begin{frame}[c]{Venture}{Syntax}
+\begin{frame}[c]{Venture}{Syntax: Bayesian GP Optimization}
     \centering
-    \begin{itemize}
-        \item Example code to get a gauge for the syntax
-    \end{itemize}
+    \begin{columns}[T]
+        % description
+        \begin{column}{0.38\textwidth}
+            \centering
+            \begin{itemize}
+                \item Repeatedly samples from the response surface created by the Gaussian process (GP) surrogate to
+                      reduce the number of function executions and discern the next point for function execution
+                \item Then samples the function at said point to enrich our GP response surface
+                \item Applies Metropolis-Hastings inference to the hyperparameters of the covariance function after
+                      each function execution
+            \end{itemize}
+        \end{column}
+        % Example code
+        \begin{column}{0.6\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.8\textwidth]{VentureBayesOptExample.png}
+            \end{figure}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 
 % Venture Slide 3: Application Performance
 \begin{frame}[c]{Venture}{Application Performance}
     \centering
-    \begin{itemize}
-        \item Application performance
-    \end{itemize}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.7\textwidth]{VentureBayesOptExampleViz.png}
+    \end{figure}
 \end{frame}
 
 
@@ -484,7 +553,17 @@
                                  in Python using PyMC3. PeerJ Computer Science, 2, p.e55.}}{Overview}
     \centering
     \begin{itemize}
-        \item General overview of the purpose behind PcMC3
+        \item Very well-suited for the construction of graphical models, but is not Turing-complete as it is unable to model
+              recursive distributions, and programs that can write programs
+        \item Provided inference routines:
+        \begin{itemize}
+            \item Hamiltonian Monte-Carlo
+            \item No-U-Turn Sampler
+            \item Sequential Monte-Carlo
+            \item Automatic Differentiation Variational Inference
+            \item Operator Variational Inference...
+        \end{itemize}
+        \item Provides first-class support for the incorporation of Gaussian processes for the construction of Bayesian nonparametric models
     \end{itemize}
 \end{frame}
 
@@ -492,18 +571,51 @@
 % PyMC3 Slide 2: Example Code
 \begin{frame}[c]{PyMC3}{Syntax}
     \centering
-    \begin{itemize}
-        \item Example code
-    \end{itemize}
+    % Two columns, explanation on the left, example code on the right
+    \begin{columns}[T]
+        % Explanations
+        \begin{column}{0.4\textwidth}
+            \centering
+            \begin{itemize}
+                \item 
+            \end{itemize}
+        \end{column}
+        % Example code
+        \begin{column}{0.58\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.54\textwidth]{PyMC3Syntax.png}
+            \end{figure}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 
 % PyMC3 Slide 3: Application Performance
-\begin{frame}[c]{PyMC3}{Application Performance}
+\begin{frame}[c]{PyMC3}{Application Performance \footnote{Source: PyM3 Notebook on Variational Inference with Bayesian Neural Networks}}
     \centering
-    \begin{itemize}
-        \item Application performance
-    \end{itemize}
+    % Two example performance pictures
+    \begin{columns}[T]
+        % Elbo improvements
+        \begin{column}{0.48\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{PyMC3ELBOAdvi.png}
+                \caption{ADVI, 2073.86it/s}
+            \end{figure}
+        \end{column}
+        % Mini-batch ELBO
+        \begin{column}{0.48\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{PyMC3ELBOMiniBatchAdvi.png}
+                \caption{ADVI with mini-batch, 3586.77it/s}
+            \end{figure}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 
@@ -511,10 +623,25 @@
 % TensorFlow Probability (2017) Slide 1: General Introduction
 \begin{frame}[c]{TensorFlow Probability \footnote{Dillon, J.V., Langmore, I., Tran, D., Brevdo, E., Vasudevan, S.,
                                                   Moore, D., Patton, B., Alemi, A., Hoffman, M. and Saurous, R.A., 2017.
-                                                  Tensorflow distributions. arXiv preprint arXiv:1711.10604.}}{Overview}
+                                                  Tensorflow distributions. arXiv preprint arXiv:1711.10604.}
+                                        \footnote{Lao, J., Suter, C., Langmore, I., Chimisov, C., Saxena, A., Sountsov, P.,
+                                                  Moore, D., Saurous, R.A., Hoffman, M.D. and Dillon, J.V., 2020. tfp. mcmc:
+                                                  Modern Markov Chain Monte Carlo Tools Built for Modern Hardware. arXiv
+                                                  preprint arXiv:2002.01184.}}{Overview}
     \centering
     \begin{itemize}
-        \item General overview of the purpose behind Tensorflow Probability
+        \item Probabilistic reasoning and statistical analysis library built on top of TensorFlow with a full
+              integration with deep models defined in TensorFlow, automatic differentiation support and scalability
+              on accelerators
+        \item Provided inference routines:
+        \begin{itemize}
+            \item Hamiltonian Monte-Carlo
+            \item Langevin Monte-Carlo
+            \item no-U-turn sampler
+            \item Variational inference
+        \end{itemize}
+        \item Provides probably the most performant Markov Chain Monte-Carlo implementations to data, including
+              multi-chain parallelism
     \end{itemize}
 \end{frame}
 
@@ -522,18 +649,36 @@
 % Tensorflow Probability Slide 2: Example Code
 \begin{frame}[c]{TensorFlow Probability}{Syntax}
     \centering
-    \begin{itemize}
-        \item Example code
-    \end{itemize}
+    \begin{columns}[T]
+        % Syntax 1
+        \begin{column}{0.48\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.6\textwidth]{TFProbSyntax1.png}
+            \end{figure}
+        \end{column}
+        % Syntax 2
+        \begin{column}{0.48\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.7\textwidth]{TFProbSyntax2.png}
+                \caption{SOTA with a PixelCNN++ decoder and autoregressive flows for encoder and prior.}
+            \end{figure}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 
 % Tensorflow Probability Slide 3: Application Performance
 \begin{frame}[c]{TensorFlow Probability}{Application Performance}
     \centering
-    \begin{itemize}
-        \item Application performance
-    \end{itemize}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.8\textwidth]{TFProbAppPerformanceComparison.png}
+        \caption{Linear Mixed-Effect Regression in TensorFlow Probability, R, and Stan \footnote{Source: TensorFlow Probability Tutorial}}
+    \end{figure}
 \end{frame}
 
 
@@ -546,26 +691,83 @@
                                      accelerated probabilistic programming in NumPyro. arXiv preprint arXiv:1912.11554.}}{Overview}
     \centering
     \begin{itemize}
-        \item General overview of the purpose behind Pyro \& NumPyro
+        \item Pyro \& NumPyro are both geared towards the definition of probabilistic programins in conjunction with state-of-the-art
+              deep learning for large-data and high-dimensional models
+        \item Methods of inference:
+        \begin{itemize}
+            \item Stochastic Variational Inference
+            \item Importance Sampling
+            \item Sequential Monte-Carlo
+            \item Hamiltonian Monte-Carlo...
+        \end{itemize}
+        \item Saw a further iteration in NumPyro, which uses JAX \footnote{Bradbury, J., Frostig, R., Hawkins, P., Johnson, M.J., Leary, C., Maclaurin, D. and Wanderman-Milne, S., 2020. JAX: composable transformations of Python+ NumPy programs, 2018. URL http://github. com/google/jax, p.18.} as its backend to address accelerators
+        \item Can link to simulator codes, but requires e.g. PPX bindings
     \end{itemize}
 \end{frame}
 
 
 % Pyro & NumPyro Slide 2: Example Code
-\begin{frame}[c]{Pyro \& NumPyro}{Syntax}
+\begin{frame}[c]{Pyro}{Syntax}
     \centering
-    \begin{itemize}
-        \item Example code of Pyro \& NumPyro
-    \end{itemize}
+    \begin{figure}
+        \centering
+        \includegraphics[width=\textwidth]{PyroSyntax.png}
+        \caption{Pyro example with generative model, approximate posterior, constraint specification, and stochastic variational inference}
+    \end{figure}
+\end{frame}
+
+
+% Pyro & NumPyro Slide 2: Example Code
+\begin{frame}[c]{NumPyro}{Syntax}
+    \centering
+    \begin{columns}[T]
+        % Syntax 1
+        \begin{column}{0.48\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{NumPyroSyntax1.png}
+            \end{figure}
+        \end{column}
+        % Syntax 2
+        \begin{column}{0.48\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{NumPyroSyntax2.png}
+                \vspace{1cm}
+                \caption{Example code syntax for vectorized sampling in a logistic regression example}
+            \end{figure}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 
 % Pyro & NumPyro Slide 3: Application Performance  -> Might want to add a second slide here for the performance of NumPyro
 \begin{frame}[c]{Pyro \& NumPyro}{Application Performance}
     \centering
-    \begin{itemize}
-        \item Application performance
-    \end{itemize}
+    \begin{columns}[T]
+        % Comparison to Pyro and Stan
+        \begin{column}{0.48\textwidth}
+            \centering
+            \vspace{0.5cm}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.8\textwidth]{NumPyroBenchmarking1.png}
+                \caption{Time (ms) per leapfrog step in different frameworks}
+            \end{figure}
+        \end{column}
+        % Time per effective sample scaling
+        \begin{column}{0.48\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.8\textwidth]{NumPyroBenchmarking2.png}
+                \caption{Time (ms) per effective sample for a sparse kernel interaction model as the
+                     dimensionality of the dataset (p) is varied.}
+            \end{figure}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 
@@ -577,26 +779,77 @@
                                    uncertainty. In Advances in Neural Information Processing Systems (pp. 14660-14672).}}{Overview}
     \centering
     \begin{itemize}
-        \item General overview of the purpose behind Edward2
+        \item A low-level approach to the embedding of probabilistic programming in the deep learning ecosystem, which
+              hence runs directly on accelerator hardware and paves the way for larger scale models.
+        \item Especially well-suited for the representation of uncertainty in neural network
+        \item Provided inference routines:
+        \begin{itemize}
+            \item The same as TensorFlow probability
+        \end{itemize}
+        \item Highly efficient Monte-Carlo routines - use the same backend as TensorFlow probability
+        \item Is able to utilize recent advances in XLA, such as sharding for large-scale models
+        \item Removes many of the higher-level abstractions other languages benefit from
     \end{itemize}
 \end{frame}
 
 
 % Edward2 Slide 2: Example Code
-\begin{frame}[c]{Edward2}{Syntax}
+\begin{frame}[c]{Edward2}{Syntax: Distributed Autoregressive Flow}
     \centering
-    \begin{itemize}
-        \item Example code of Edward2
-    \end{itemize}
+    % Two columns for the example code and some minor explanation
+    \begin{columns}[T]
+        % Explanation
+        \begin{column}{0.44\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.55\textwidth]{Edward2Distributed.png}
+            \end{figure}
+        \end{column}
+        % Syntax
+        \begin{column}{0.56\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.85\textwidth]{Edward2Syntax.png}
+            \end{figure}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 
 % Edward2 Slide 3: Application Performance
 \begin{frame}[c]{Edward2}{Application Performance}
     \centering
-    \begin{itemize}
-        \item Application performance
-    \end{itemize}
+    % Two columns for 3 pictures overall
+    \begin{columns}[T]
+        % 2 picture columns
+        \begin{column}{0.48\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.65\textwidth]{Edward2Vector-QuantizedVAE.png}
+            \end{figure}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.65\textwidth]{Edward2ImageTransformer.png}
+            \end{figure}
+        \end{column}
+        % Performance comparison column
+        \begin{column}{0.48\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.7\textwidth]{Edward2PerformanceComparison.png}
+            \end{figure}
+            \vspace{0.5cm}
+            \begin{itemize}
+                \item[\textbf{(top-left):}] Vector-Quantized VAE on 64x64 ImageNet
+                \item[\textbf{(bottom-left):}] Image Transformer on 256x256 CelebA-HQ
+                \item[\textbf{(top-right):}] Time per leapfrog step for No-U-Turn Sample in Bayesian logistic regression 
+            \end{itemize}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 
@@ -609,7 +862,20 @@
                                Probabilistic and Differentiable Programming. arXiv preprint arXiv:2007.09871.}}{Overview}
     \centering
     \begin{itemize} % Mention the programmable inference to push the boundaries of prob prog here
-        \item General overview of the purpose behind Gen
+        \item Introduces multiple further abstractions, which differ from the other probabilistic programming frameworks
+              as it relies on the abstraction of generative functions and a directly expandable infernece library
+        \begin{itemize}
+            \item Especially geared towards computer vision and robotics
+        \end{itemize}
+        \item Provides a dynamic, as well as a static DSL
+        \item Provided inference routines:
+        \begin{itemize}
+            \item Hamiltonian Monte-Carlo
+            \item Importance Sampling
+            \item Sequential Monte-Carlo
+            \item Black-Box Variational Inference...
+        \end{itemize}
+        \item Able to link to simulators and amenable to metaprogramming
     \end{itemize}
 \end{frame}
 
@@ -617,26 +883,77 @@
 % Gen Slide 2: Difference to other probabilistic programming system
 \begin{frame}[c]{Gen}{Programmable Inference}
     \centering
-    \begin{itemize}
-        \item Illustration of Gen's slightly different construction compared to the other frameworks
-    \end{itemize}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.7\textwidth]{GenSpecialArchitecture.png}
+        \caption{Gen's layout, which introduces further abstractions to go beyond current
+                 probabilistic programming systems.}           
+    \end{figure}
 \end{frame}
 
 % Gen Slide 3: Example Code
-\begin{frame}[c]{Gen}{Syntax}
+\begin{frame}[c]{Gen}{Syntax: Body Pose Inference}
     \centering
-    \begin{itemize}
-        \item Example code of Gen
-    \end{itemize}
+    % Two columns of code
+    \begin{columns}[T]
+        % Model and neural net definition
+        \begin{column}{0.48\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{GenModelDML.png}
+            \end{figure}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{GenBodyPoseTML.png}
+            \end{figure}
+        \end{column}
+        % Custom proposal and importance sample
+        \begin{column}{0.48\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{GenBodyPoseProposalDML.png}
+            \end{figure}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{GenBodyPoseInference.png}
+                \caption{Code and evaluation for body pose inference.}
+            \end{figure}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 
 % Gen Slide 4: Application perforance
 \begin{frame}[c]{Gen}{Application Performance}
     \centering
-    \begin{itemize}
-        \item Application performance
-    \end{itemize}
+    \begin{columns}[T]
+        % Performance comparison 1
+        \begin{column}{0.48\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{GenInferenceinCollapsedModel.png}
+                \caption{Comparison of inference in collapsed model.}
+            \end{figure}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{GenGPStructureLearning.png}
+                \caption{Comparison on gaussian process structure learning.}
+            \end{figure}
+        \end{column}
+        % Performance comparison 2
+        \begin{column}{0.48\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{GenInferenceUncollapsedModel.png}
+                \caption{Comparison of inference in uncollapsed model. Including the visibly
+                         much fast static DSL of Gen in comparison with the dynamic DSL.}
+            \end{figure}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 
@@ -647,7 +964,19 @@
                                   beyond the standard model. In Advances in neural information processing systems (pp. 5459-5472).}}{Overview}
     \centering
     \begin{itemize}
-        \item General overview of the purpose behind PyProb
+        \item Custom-made for concurrent workflows with HPC simulations through the PPX protocol based on flatbuffers, and tested on supercomputers
+        \item Provided inference routines:
+        \begin{itemize}
+            \item Markov Chain Monte-Carlo
+            \item Importance sampling
+            \item Importance sampling with inference compilation
+        \end{itemize}
+        \item Made for distributed execution across large machines with distributed PyTorch providing the MPI-fuelled backend
+        \item Intel-optimized PyTorch backend version
+        \begin{itemize}
+            \item Possibly not the greatest performance on the heterogeneous machines of the future $\longrightarrow$ Is XLA possibly the safer bet for
+                  such a codebase?
+        \end{itemize}
     \end{itemize}
 \end{frame}
 
@@ -655,18 +984,49 @@
 % PyProb Slide 2: Example Code
 \begin{frame}[c]{PyProb}{Syntax}
     \centering
-    \begin{itemize}
-        \item Example code of PyProb
-    \end{itemize}
+    \begin{columns}[T]
+        % Syntax 1
+        \begin{column}{0.48\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.8\textwidth]{PyProbSyntax1.png}
+            \end{figure}
+        \end{column}
+        % Syntax 2
+        \begin{column}{0.48\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{PyProbSyntax2.png}
+                \caption{Probabilistic inference on a Gaussian with unknown mean}
+            \end{figure}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 
 % PyProb Slide 3: Application performance
 \begin{frame}[c]{PyProb}{Application Performance}
     \centering
-    \begin{itemize}
-        \item Application performance
-    \end{itemize}
+    \begin{columns}[T]
+        % Weak scaling on Cori
+        \begin{column}{0.48\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{PyProbScalingCori.png}
+            \end{figure}
+        \end{column}
+        % Weak scaling on Edison
+        \begin{column}{0.48\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{PyProbScalingEdison.png}
+            \end{figure}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 
@@ -677,7 +1037,21 @@
                                   and Statistics (pp. 1682-1690).}}{Overview}
     \centering
     \begin{itemize}
-        \item General overview of the purpose behind Turing
+        \item Turing is a high-level probabilistic programming language, which provides extremely solid
+              inference routines to the researcher
+        \item Seamless compatibility with the entire Julia scientific machine learning stack enables many
+              interesting cases
+        \begin{itemize}
+            \item More on this later!
+        \end{itemize}
+        \item Provided inference algorithms:
+        \begin{itemize}
+            \item Hamiltonian Monte-Carlo
+            \item No-U-Turn Sampler
+            \item Automatic Differentiation Variational Inference
+            \item Normalizing Flows
+        \end{itemize}
+        \item Different inference subroutines can be composed, hence allowing for individual inference subroutines
     \end{itemize}
 \end{frame}
 
@@ -685,18 +1059,46 @@
 % Turing Slide 2: Example code
 \begin{frame}[c]{Turing}{Syntax}
     \centering
-    \begin{itemize}
-        \item Example code of Turing
-    \end{itemize}
+    % Explanation on the left, code on the right
+    \begin{columns}[T]
+        % Explanation
+        \begin{column}{0.4\textwidth}
+            \centering
+            \begin{itemize}
+                \item The \textit{model} macro identifies our function as a probabilistic model
+                      to Turing, i.e. registers it for eventuel forward- and reverse-mode gradients
+                \item $\theta, \phi$ \& $z$ denote model parameters
+                \item K, M, N, d, $\beta$, \& $\alpha$ denote hyperparameters
+                \item w denotes the observed data
+            \end{itemize}
+        \end{column}
+        % Syntax example
+        \begin{column}{0.58\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{TuringSyntax.png}
+            \end{figure}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 
 % Turing Slide 3: Application performance
 \begin{frame}[c]{Application performance}
     \centering
-    \begin{itemize}
-        \item Application performance
-    \end{itemize}
+    % Densitiy estimation example
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.5\textwidth]{TuringAppPerformanceNUTSvsGibbs.png}
+        \caption{Performance on a Gaussian mixture model}
+    \end{figure}
+    % HMC Performance
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.7\textwidth]{TuringPerformancevsStanHMC.png}
+        \caption{Runtime comparison for Turing vs Stan for HMC.}
+    \end{figure}
 \end{frame}
 
 

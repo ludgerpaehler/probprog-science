@@ -10,9 +10,9 @@
 \beamer@subsectionintoc {2}{4}{PyMC3}{43}{0}{2}
 \beamer@subsectionintoc {2}{5}{TensorFlow Probability}{46}{0}{2}
 \beamer@subsectionintoc {2}{6}{Pyro \& NumPyro}{49}{0}{2}
-\beamer@subsectionintoc {2}{7}{Edward2}{52}{0}{2}
-\beamer@subsectionintoc {2}{8}{Gen}{55}{0}{2}
-\beamer@subsectionintoc {2}{9}{PyProb}{59}{0}{2}
-\beamer@subsectionintoc {2}{10}{Turing}{62}{0}{2}
-\beamer@sectionintoc {3}{Practical Introduction to a Probabilistic Programming Framework}{66}{0}{3}
-\beamer@sectionintoc {4}{Extending the ideas to a more complex examples}{68}{0}{4}
+\beamer@subsectionintoc {2}{7}{Edward2}{53}{0}{2}
+\beamer@subsectionintoc {2}{8}{Gen}{56}{0}{2}
+\beamer@subsectionintoc {2}{9}{PyProb}{60}{0}{2}
+\beamer@subsectionintoc {2}{10}{Turing}{63}{0}{2}
+\beamer@sectionintoc {3}{Practical Introduction to a Probabilistic Programming Framework}{67}{0}{3}
+\beamer@sectionintoc {4}{Extending the ideas to a more complex examples}{69}{0}{4}

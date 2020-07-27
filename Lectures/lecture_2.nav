@@ -129,58 +129,60 @@
 \headcommand {\beamer@framepages {50}{50}}
 \headcommand {\slideentry {2}{6}{3}{51/51}{Pyro \& NumPyro}{0}}
 \headcommand {\beamer@framepages {51}{51}}
-\headcommand {\beamer@subsectionpages {49}{51}}
-\headcommand {\beamer@subsectionentry {0}{2}{7}{52}{Edward2}}
-\headcommand {\slideentry {2}{7}{1}{52/52}{Edward2}{0}}
+\headcommand {\slideentry {2}{6}{4}{52/52}{Pyro \& NumPyro}{0}}
 \headcommand {\beamer@framepages {52}{52}}
-\headcommand {\slideentry {2}{7}{2}{53/53}{Edward2}{0}}
+\headcommand {\beamer@subsectionpages {49}{52}}
+\headcommand {\beamer@subsectionentry {0}{2}{7}{53}{Edward2}}
+\headcommand {\slideentry {2}{7}{1}{53/53}{Edward2}{0}}
 \headcommand {\beamer@framepages {53}{53}}
-\headcommand {\slideentry {2}{7}{3}{54/54}{Edward2}{0}}
+\headcommand {\slideentry {2}{7}{2}{54/54}{Edward2}{0}}
 \headcommand {\beamer@framepages {54}{54}}
-\headcommand {\beamer@subsectionpages {52}{54}}
-\headcommand {\beamer@subsectionentry {0}{2}{8}{55}{Gen}}
-\headcommand {\slideentry {2}{8}{1}{55/55}{Gen}{0}}
+\headcommand {\slideentry {2}{7}{3}{55/55}{Edward2}{0}}
 \headcommand {\beamer@framepages {55}{55}}
-\headcommand {\slideentry {2}{8}{2}{56/56}{Gen}{0}}
+\headcommand {\beamer@subsectionpages {53}{55}}
+\headcommand {\beamer@subsectionentry {0}{2}{8}{56}{Gen}}
+\headcommand {\slideentry {2}{8}{1}{56/56}{Gen}{0}}
 \headcommand {\beamer@framepages {56}{56}}
-\headcommand {\slideentry {2}{8}{3}{57/57}{Gen}{0}}
+\headcommand {\slideentry {2}{8}{2}{57/57}{Gen}{0}}
 \headcommand {\beamer@framepages {57}{57}}
-\headcommand {\slideentry {2}{8}{4}{58/58}{Gen}{0}}
+\headcommand {\slideentry {2}{8}{3}{58/58}{Gen}{0}}
 \headcommand {\beamer@framepages {58}{58}}
-\headcommand {\beamer@subsectionpages {55}{58}}
-\headcommand {\beamer@subsectionentry {0}{2}{9}{59}{PyProb}}
-\headcommand {\slideentry {2}{9}{1}{59/59}{PyProb}{0}}
+\headcommand {\slideentry {2}{8}{4}{59/59}{Gen}{0}}
 \headcommand {\beamer@framepages {59}{59}}
-\headcommand {\slideentry {2}{9}{2}{60/60}{PyProb}{0}}
+\headcommand {\beamer@subsectionpages {56}{59}}
+\headcommand {\beamer@subsectionentry {0}{2}{9}{60}{PyProb}}
+\headcommand {\slideentry {2}{9}{1}{60/60}{PyProb}{0}}
 \headcommand {\beamer@framepages {60}{60}}
-\headcommand {\slideentry {2}{9}{3}{61/61}{PyProb}{0}}
+\headcommand {\slideentry {2}{9}{2}{61/61}{PyProb}{0}}
 \headcommand {\beamer@framepages {61}{61}}
-\headcommand {\beamer@subsectionpages {59}{61}}
-\headcommand {\beamer@subsectionentry {0}{2}{10}{62}{Turing}}
-\headcommand {\slideentry {2}{10}{1}{62/62}{Turing}{0}}
+\headcommand {\slideentry {2}{9}{3}{62/62}{PyProb}{0}}
 \headcommand {\beamer@framepages {62}{62}}
-\headcommand {\slideentry {2}{10}{2}{63/63}{Turing}{0}}
+\headcommand {\beamer@subsectionpages {60}{62}}
+\headcommand {\beamer@subsectionentry {0}{2}{10}{63}{Turing}}
+\headcommand {\slideentry {2}{10}{1}{63/63}{Turing}{0}}
 \headcommand {\beamer@framepages {63}{63}}
-\headcommand {\slideentry {2}{10}{3}{64/64}{Turing}{0}}
+\headcommand {\slideentry {2}{10}{2}{64/64}{Turing}{0}}
 \headcommand {\beamer@framepages {64}{64}}
-\headcommand {\slideentry {2}{10}{4}{65/65}{Turing}{0}}
+\headcommand {\slideentry {2}{10}{3}{65/65}{Turing}{0}}
 \headcommand {\beamer@framepages {65}{65}}
-\headcommand {\beamer@sectionpages {33}{65}}
-\headcommand {\beamer@subsectionpages {62}{65}}
-\headcommand {\sectionentry {3}{Practical Introduction to a Probabilistic Programming Framework}{66}{Practical Introduction to a Probabilistic Programming Framework}{0}}
-\headcommand {\slideentry {3}{0}{1}{66/66}{}{0}}
+\headcommand {\slideentry {2}{10}{4}{66/66}{Turing}{0}}
 \headcommand {\beamer@framepages {66}{66}}
-\headcommand {\slideentry {3}{0}{2}{67/67}{}{0}}
+\headcommand {\beamer@sectionpages {33}{66}}
+\headcommand {\beamer@subsectionpages {63}{66}}
+\headcommand {\sectionentry {3}{Practical Introduction to a Probabilistic Programming Framework}{67}{Practical Introduction to a Probabilistic Programming Framework}{0}}
+\headcommand {\slideentry {3}{0}{1}{67/67}{}{0}}
 \headcommand {\beamer@framepages {67}{67}}
-\headcommand {\beamer@sectionpages {66}{67}}
-\headcommand {\beamer@subsectionpages {66}{67}}
-\headcommand {\sectionentry {4}{Extending the ideas to a more complex examples}{68}{Extending the ideas to a more complex examples}{0}}
-\headcommand {\slideentry {4}{0}{1}{68/68}{}{0}}
+\headcommand {\slideentry {3}{0}{2}{68/68}{}{0}}
 \headcommand {\beamer@framepages {68}{68}}
-\headcommand {\slideentry {4}{0}{2}{69/69}{}{0}}
+\headcommand {\beamer@sectionpages {67}{68}}
+\headcommand {\beamer@subsectionpages {67}{68}}
+\headcommand {\sectionentry {4}{Extending the ideas to a more complex examples}{69}{Extending the ideas to a more complex examples}{0}}
+\headcommand {\slideentry {4}{0}{1}{69/69}{}{0}}
 \headcommand {\beamer@framepages {69}{69}}
-\headcommand {\beamer@partpages {1}{69}}
-\headcommand {\beamer@subsectionpages {68}{69}}
-\headcommand {\beamer@sectionpages {68}{69}}
-\headcommand {\beamer@documentpages {69}}
-\headcommand {\gdef \inserttotalframenumber {69}}
+\headcommand {\slideentry {4}{0}{2}{70/70}{}{0}}
+\headcommand {\beamer@framepages {70}{70}}
+\headcommand {\beamer@partpages {1}{70}}
+\headcommand {\beamer@subsectionpages {69}{70}}
+\headcommand {\beamer@sectionpages {69}{70}}
+\headcommand {\beamer@documentpages {70}}
+\headcommand {\gdef \inserttotalframenumber {70}}

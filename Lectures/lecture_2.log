@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.10)  27 JUL 2020 15:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.10)  27 JUL 2020 23:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2187,58 +2187,87 @@ LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 ] (/home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_2.toc) [33
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <36> on input line 397.
+LaTeX Font Info:    Calculating math sizes for size <36> on input line 409.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 34.56024pt on input line 397.
+(Font)              scaled to size 34.56024pt on input line 409.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 24.19206pt on input line 397.
+(Font)              scaled to size 24.19206pt on input line 409.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 34.56024pt on input line 397.
+(Font)              scaled to size 34.56024pt on input line 409.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 24.19206pt on input line 397.
+(Font)              scaled to size 24.19206pt on input line 409.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 34.56024pt on input line 397.
+(Font)              scaled to size 34.56024pt on input line 409.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 24.19206pt on input line 397.
+(Font)              scaled to size 24.19206pt on input line 409.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 34.56024pt on input line 397.
+(Font)              scaled to size 34.56024pt on input line 409.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 24.19206pt on input line 397.
+(Font)              scaled to size 24.19206pt on input line 409.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 22.25139pt on input line 397.
+(Font)              scaled to size 22.25139pt on input line 409.
 LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
-(Font)              scaled to size 38.40997pt on input line 397.
+(Font)              scaled to size 38.40997pt on input line 409.
 LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
-(Font)              scaled to size 26.67151pt on input line 397.
+(Font)              scaled to size 26.67151pt on input line 409.
 LaTeX Font Info:    Font shape `OMS/xmdcmsy/m/n' will be
-(Font)              scaled to size 23.46167pt on input line 397.
+(Font)              scaled to size 23.46167pt on input line 409.
 LaTeX Font Info:    Font shape `OMS/xmdcmsy/m/n' will be
-(Font)              scaled to size 23.46167pt on input line 397.
+(Font)              scaled to size 23.46167pt on input line 409.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 34.56024pt on input line 397.
+(Font)              scaled to size 34.56024pt on input line 409.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 24.19206pt on input line 397.
+(Font)              scaled to size 24.19206pt on input line 409.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 34.56024pt on input line 397.
+(Font)              scaled to size 34.56024pt on input line 409.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 24.19206pt on input line 397.
+(Font)              scaled to size 24.19206pt on input line 409.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 34.56024pt on input line 397.
+(Font)              scaled to size 34.56024pt on input line 409.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 24.19206pt on input line 397.
+(Font)              scaled to size 24.19206pt on input line 409.
  [34
 
-] [35
+]
+<figures_lecture_2/StanExample.png, id=360, 453.695pt x 429.605pt>
+File: figures_lecture_2/StanExample.png Graphic file (type png)
+<use figures_lecture_2/StanExample.png>
+Package pdftex.def Info: figures_lecture_2/StanExample.png  used on input line 438.
+(pdftex.def)             Requested size: 287.61862pt x 272.35039pt.
+ [35
 
-] [36
+ </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/StanExample.png>]
+<figures_lecture_2/STANSamplerperSecond.png, id=368, 456.70625pt x 359.3425pt>
+File: figures_lecture_2/STANSamplerperSecond.png Graphic file (type png)
+<use figures_lecture_2/STANSamplerperSecond.png>
+Package pdftex.def Info: figures_lecture_2/STANSamplerperSecond.png  used on input line 452.
+(pdftex.def)             Requested size: 266.31366pt x 209.54283pt.
+<figures_lecture_2/STANImprovement.png, id=369, 696.6025pt x 123.46124pt>
+File: figures_lecture_2/STANImprovement.png Graphic file (type png)
+<use figures_lecture_2/STANImprovement.png>
+Package pdftex.def Info: figures_lecture_2/STANImprovement.png  used on input line 452.
+(pdftex.def)             Requested size: 499.34573pt x 88.50017pt.
+ [36
 
-] [37
+ </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/STANSamplerperSecond.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/STANImprovement.png>] [37
 
-] [38
+]
+<figures_lecture_2/VentureBayesOptExample.png, id=384, 676.5275pt x 665.48625pt>
+File: figures_lecture_2/VentureBayesOptExample.png Graphic file (type png)
+<use figures_lecture_2/VentureBayesOptExample.png>
+Package pdftex.def Info: figures_lecture_2/VentureBayesOptExample.png  used on input line 506.
+(pdftex.def)             Requested size: 319.58574pt x 314.37283pt.
+ [38
 
-] [39
+ </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/VentureBayesOptExample.png>]
+<figures_lecture_2/VentureBayesOptExampleViz.png, id=392, 957.5775pt x 649.42625pt>
+File: figures_lecture_2/VentureBayesOptExampleViz.png Graphic file (type png)
+<use figures_lecture_2/VentureBayesOptExampleViz.png>
+Package pdftex.def Info: figures_lecture_2/VentureBayesOptExampleViz.png  used on input line 516.
+(pdftex.def)             Requested size: 466.05399pt x 316.0713pt.
+ [39
 
-] [40
+ </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/VentureBayesOptExampleViz.png>] [40
 
 ] [41
 
@@ -2246,60 +2275,232 @@ LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 
 ] [43
 
-] [44
+]
+<figures_lecture_2/PyMC3Syntax.png, id=423, 528.97626pt x 813.0375pt>
+File: figures_lecture_2/PyMC3Syntax.png Graphic file (type png)
+<use figures_lecture_2/PyMC3Syntax.png>
+Package pdftex.def Info: figures_lecture_2/PyMC3Syntax.png  used on input line 592.
+(pdftex.def)             Requested size: 208.52484pt x 320.49498pt.
+ [44
 
-] [45
+ </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/PyMC3Syntax.png>]
+<figures_lecture_2/PyMC3ELBOAdvi.png, id=431, 607.26875pt x 392.46625pt>
+File: figures_lecture_2/PyMC3ELBOAdvi.png Graphic file (type png)
+<use figures_lecture_2/PyMC3ELBOAdvi.png>
+Package pdftex.def Info: figures_lecture_2/PyMC3ELBOAdvi.png  used on input line 619.
+(pdftex.def)             Requested size: 319.57843pt x 206.53891pt.
+<figures_lecture_2/PyMC3ELBOMiniBatchAdvi.png, id=432, 593.21625pt x 387.4475pt>
+File: figures_lecture_2/PyMC3ELBOMiniBatchAdvi.png Graphic file (type png)
+<use figures_lecture_2/PyMC3ELBOMiniBatchAdvi.png>
+Package pdftex.def Info: figures_lecture_2/PyMC3ELBOMiniBatchAdvi.png  used on input line 619.
+(pdftex.def)             Requested size: 319.57843pt x 208.73375pt.
+ [45
 
-] [46
-
-] [47
-
-] [48
-
-] [49
-
-] [50
-
-] [51
-
-] [52
-
-] [53
-
-] [54
-
-] [55
-
-] [56
-
-] [57
-
-] [58
-
-] [59
-
-] [60
-
-] [61
-
-] [62
-
-] [63
-
-] [64
-
-] [65
-
-] (/home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_2.toc) [66
+ </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/PyMC3ELBOAdvi.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/PyMC3ELBOMiniBatchAdvi.png>] [46
 
 ]
+<figures_lecture_2/TFProbSyntax1.png, id=446, 342.27875pt x 549.05125pt>
+File: figures_lecture_2/TFProbSyntax1.png Graphic file (type png)
+<use figures_lecture_2/TFProbSyntax1.png>
+Package pdftex.def Info: figures_lecture_2/TFProbSyntax1.png  used on input line 671.
+(pdftex.def)             Requested size: 191.74901pt x 307.59227pt.
+<figures_lecture_2/TFProbSyntax2.png, id=447, 364.36125pt x 388.45125pt>
+File: figures_lecture_2/TFProbSyntax2.png Graphic file (type png)
+<use figures_lecture_2/TFProbSyntax2.png>
+Package pdftex.def Info: figures_lecture_2/TFProbSyntax2.png  used on input line 671.
+(pdftex.def)             Requested size: 223.70392pt x 238.49007pt.
+ [47
+
+ </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/TFProbSyntax1.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/TFProbSyntax2.png>]
+<figures_lecture_2/TFProbAppPerformanceComparison.png, id=456, 1018.80624pt x 522.95375pt>
+File: figures_lecture_2/TFProbAppPerformanceComparison.png Graphic file (type png)
+<use figures_lecture_2/TFProbAppPerformanceComparison.png>
+Package pdftex.def Info: figures_lecture_2/TFProbAppPerformanceComparison.png  used on input line 682.
+(pdftex.def)             Requested size: 532.63748pt x 273.41374pt.
+ [48
+
+ </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/TFProbAppPerformanceComparison.png>] [49
+
+]
+<figures_lecture_2/PyroSyntax.png, id=470, 1128.215pt x 335.2525pt>
+File: figures_lecture_2/PyroSyntax.png Graphic file (type png)
+<use figures_lecture_2/PyroSyntax.png>
+Package pdftex.def Info: figures_lecture_2/PyroSyntax.png  used on input line 717.
+(pdftex.def)             Requested size: 665.79433pt x 197.84329pt.
+ [50
+
+ </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/PyroSyntax.png>]
+<figures_lecture_2/NumPyroSyntax1.png, id=478, 708.6475pt x 562.1pt>
+File: figures_lecture_2/NumPyroSyntax1.png Graphic file (type png)
+<use figures_lecture_2/NumPyroSyntax1.png>
+Package pdftex.def Info: figures_lecture_2/NumPyroSyntax1.png  used on input line 743.
+(pdftex.def)             Requested size: 319.57843pt x 253.4916pt.
+<figures_lecture_2/NumPyroSyntax2.png, id=479, 1050.92625pt x 474.77374pt>
+File: figures_lecture_2/NumPyroSyntax2.png Graphic file (type png)
+<use figures_lecture_2/NumPyroSyntax2.png>
+Package pdftex.def Info: figures_lecture_2/NumPyroSyntax2.png  used on input line 743.
+(pdftex.def)             Requested size: 319.57843pt x 144.37473pt.
+ [51
+
+ </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/NumPyroSyntax1.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/NumPyroSyntax2.png>]
+<figures_lecture_2/NumPyroBenchmarking1.png, id=488, 492.84125pt x 264.99pt>
+File: figures_lecture_2/NumPyroBenchmarking1.png Graphic file (type png)
+<use figures_lecture_2/NumPyroBenchmarking1.png>
+Package pdftex.def Info: figures_lecture_2/NumPyroBenchmarking1.png  used on input line 771.
+(pdftex.def)             Requested size: 255.66371pt x 137.46806pt.
+<figures_lecture_2/NumPyroBenchmarking2.png, id=489, 440.64626pt x 321.2pt>
+File: figures_lecture_2/NumPyroBenchmarking2.png Graphic file (type png)
+<use figures_lecture_2/NumPyroBenchmarking2.png>
+Package pdftex.def Info: figures_lecture_2/NumPyroBenchmarking2.png  used on input line 771.
+(pdftex.def)             Requested size: 255.66371pt x 186.35985pt.
+ [52
+
+ </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/NumPyroBenchmarking1.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/NumPyroBenchmarking2.png>] [53
+
+]
+<figures_lecture_2/Edward2Distributed.png, id=503, 256.96pt x 433.62pt>
+File: figures_lecture_2/Edward2Distributed.png Graphic file (type png)
+<use figures_lecture_2/Edward2Distributed.png>
+Package pdftex.def Info: figures_lecture_2/Edward2Distributed.png  used on input line 818.
+(pdftex.def)             Requested size: 161.12401pt x 271.89844pt.
+<figures_lecture_2/Edward2Syntax.png, id=504, 582.175pt x 474.77374pt>
+File: figures_lecture_2/Edward2Syntax.png Graphic file (type png)
+<use figures_lecture_2/Edward2Syntax.png>
+Package pdftex.def Info: figures_lecture_2/Edward2Syntax.png  used on input line 818.
+(pdftex.def)             Requested size: 316.91898pt x 258.4604pt.
+ [54
+
+ </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/Edward2Distributed.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/Edward2Syntax.png>]
+<figures_lecture_2/Edward2Vector-QuantizedVAE.png, id=513, 461.725pt x 326.21875pt>
+File: figures_lecture_2/Edward2Vector-QuantizedVAE.png Graphic file (type png)
+<use figures_lecture_2/Edward2Vector-QuantizedVAE.png>
+Package pdftex.def Info: figures_lecture_2/Edward2Vector-QuantizedVAE.png  used on input line 853.
+(pdftex.def)             Requested size: 207.72401pt x 146.76222pt.
+<figures_lecture_2/Edward2ImageTransformer.png, id=514, 480.79625pt x 342.27875pt>
+File: figures_lecture_2/Edward2ImageTransformer.png Graphic file (type png)
+<use figures_lecture_2/Edward2ImageTransformer.png>
+Package pdftex.def Info: figures_lecture_2/Edward2ImageTransformer.png  used on input line 853.
+(pdftex.def)             Requested size: 207.72401pt x 147.88205pt.
+<figures_lecture_2/Edward2PerformanceComparison.png, id=515, 493.845pt x 279.0425pt>
+File: figures_lecture_2/Edward2PerformanceComparison.png Graphic file (type png)
+<use figures_lecture_2/Edward2PerformanceComparison.png>
+Package pdftex.def Info: figures_lecture_2/Edward2PerformanceComparison.png  used on input line 853.
+(pdftex.def)             Requested size: 223.70392pt x 126.39824pt.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 15.89392pt on input line 731.
- [67
+(Font)              scaled to size 15.89392pt on input line 853.
+ [55
 
-] (/home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_2.toc) [68
+ </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/Edward2Vector-QuantizedVAE.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/Edward2ImageTransformer.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/Edward2PerformanceComparison.png>] [56
 
-] [69
+]
+<figures_lecture_2/GenSpecialArchitecture.png, id=531, 668.4975pt x 355.3275pt>
+File: figures_lecture_2/GenSpecialArchitecture.png Graphic file (type png)
+<use figures_lecture_2/GenSpecialArchitecture.png>
+Package pdftex.def Info: figures_lecture_2/GenSpecialArchitecture.png  used on input line 892.
+(pdftex.def)             Requested size: 466.05399pt x 247.72992pt.
+ [57
+
+ </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/GenSpecialArchitecture.png>]
+<figures_lecture_2/GenModelDML.png, id=539, 579.16376pt x 312.16624pt>
+File: figures_lecture_2/GenModelDML.png Graphic file (type png)
+<use figures_lecture_2/GenModelDML.png>
+Package pdftex.def Info: figures_lecture_2/GenModelDML.png  used on input line 925.
+(pdftex.def)             Requested size: 319.57843pt x 172.24927pt.
+<figures_lecture_2/GenBodyPoseTML.png, id=540, 585.18625pt x 234.8775pt>
+File: figures_lecture_2/GenBodyPoseTML.png Graphic file (type png)
+<use figures_lecture_2/GenBodyPoseTML.png>
+Package pdftex.def Info: figures_lecture_2/GenBodyPoseTML.png  used on input line 925.
+(pdftex.def)             Requested size: 319.57843pt x 128.27269pt.
+<figures_lecture_2/GenBodyPoseProposalDML.png, id=541, 581.17125pt x 252.945pt>
+File: figures_lecture_2/GenBodyPoseProposalDML.png Graphic file (type png)
+<use figures_lecture_2/GenBodyPoseProposalDML.png>
+Package pdftex.def Info: figures_lecture_2/GenBodyPoseProposalDML.png  used on input line 925.
+(pdftex.def)             Requested size: 319.57843pt x 139.09315pt.
+<figures_lecture_2/GenBodyPoseInference.png, id=542, 597.23125pt x 139.52126pt>
+File: figures_lecture_2/GenBodyPoseInference.png Graphic file (type png)
+<use figures_lecture_2/GenBodyPoseInference.png>
+Package pdftex.def Info: figures_lecture_2/GenBodyPoseInference.png  used on input line 925.
+(pdftex.def)             Requested size: 319.57843pt x 74.65909pt.
+ [58
+
+ </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/GenModelDML.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/GenBodyPoseTML.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/GenBodyPoseProposalDML.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/GenBodyPoseInference.png>]
+<figures_lecture_2/GenInferenceinCollapsedModel.png, id=553, 592.2125pt x 174.6525pt>
+File: figures_lecture_2/GenInferenceinCollapsedModel.png Graphic file (type png)
+<use figures_lecture_2/GenInferenceinCollapsedModel.png>
+Package pdftex.def Info: figures_lecture_2/GenInferenceinCollapsedModel.png  used on input line 957.
+(pdftex.def)             Requested size: 319.57843pt x 94.24965pt.
+<figures_lecture_2/GenGPStructureLearning.png, id=554, 593.21625pt x 143.53625pt>
+File: figures_lecture_2/GenGPStructureLearning.png Graphic file (type png)
+<use figures_lecture_2/GenGPStructureLearning.png>
+Package pdftex.def Info: figures_lecture_2/GenGPStructureLearning.png  used on input line 957.
+(pdftex.def)             Requested size: 319.57843pt x 77.32881pt.
+<figures_lecture_2/GenInferenceUncollapsedModel.png, id=555, 588.1975pt x 201.75375pt>
+File: figures_lecture_2/GenInferenceUncollapsedModel.png Graphic file (type png)
+<use figures_lecture_2/GenInferenceUncollapsedModel.png>
+Package pdftex.def Info: figures_lecture_2/GenInferenceUncollapsedModel.png  used on input line 957.
+(pdftex.def)             Requested size: 319.57843pt x 109.6165pt.
+ [59
+
+ </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/GenInferenceinCollapsedModel.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/GenGPStructureLearning.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/GenInferenceUncollapsedModel.png>] [60
+
+]
+<figures_lecture_2/PyProbSyntax1.png, id=570, 562.1pt x 663.47874pt>
+File: figures_lecture_2/PyProbSyntax1.png Graphic file (type png)
+<use figures_lecture_2/PyProbSyntax1.png>
+Package pdftex.def Info: figures_lecture_2/PyProbSyntax1.png  used on input line 1006.
+(pdftex.def)             Requested size: 255.66371pt x 301.77193pt.
+<figures_lecture_2/PyProbSyntax2.png, id=571, 803.0pt x 468.75125pt>
+File: figures_lecture_2/PyProbSyntax2.png Graphic file (type png)
+<use figures_lecture_2/PyProbSyntax2.png>
+Package pdftex.def Info: figures_lecture_2/PyProbSyntax2.png  used on input line 1006.
+(pdftex.def)             Requested size: 319.57843pt x 186.56018pt.
+ [61
+
+ </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/PyProbSyntax1.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/PyProbSyntax2.png>]
+<figures_lecture_2/PyProbScalingCori.png, id=581, 497.86pt x 340.27126pt>
+File: figures_lecture_2/PyProbScalingCori.png Graphic file (type png)
+<use figures_lecture_2/PyProbScalingCori.png>
+Package pdftex.def Info: figures_lecture_2/PyProbScalingCori.png  used on input line 1030.
+(pdftex.def)             Requested size: 319.57843pt x 218.42706pt.
+<figures_lecture_2/PyProbScalingEdison.png, id=582, 498.86375pt x 337.26pt>
+File: figures_lecture_2/PyProbScalingEdison.png Graphic file (type png)
+<use figures_lecture_2/PyProbScalingEdison.png>
+Package pdftex.def Info: figures_lecture_2/PyProbScalingEdison.png  used on input line 1030.
+(pdftex.def)             Requested size: 319.57843pt x 216.05666pt.
+ [62
+
+ </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/PyProbScalingCori.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/PyProbScalingEdison.png>] [63
+
+]
+<figures_lecture_2/TuringSyntax.png, id=596, 514.92375pt x 419.5675pt>
+File: figures_lecture_2/TuringSyntax.png Graphic file (type png)
+<use figures_lecture_2/TuringSyntax.png>
+Package pdftex.def Info: figures_lecture_2/TuringSyntax.png  used on input line 1084.
+(pdftex.def)             Requested size: 386.16193pt x 314.65564pt.
+ [64
+
+ </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/TuringSyntax.png>]
+<figures_lecture_2/TuringAppPerformanceNUTSvsGibbs.png, id=607, 1004.75375pt x 466.74374pt>
+File: figures_lecture_2/TuringAppPerformanceNUTSvsGibbs.png Graphic file (type png)
+<use figures_lecture_2/TuringAppPerformanceNUTSvsGibbs.png>
+Package pdftex.def Info: figures_lecture_2/TuringAppPerformanceNUTSvsGibbs.png  used on input line 1102.
+(pdftex.def)             Requested size: 332.89716pt x 154.6384pt.
+<figures_lecture_2/TuringPerformancevsStanHMC.png, id=608, 1108.14pt x 221.82875pt>
+File: figures_lecture_2/TuringPerformancevsStanHMC.png Graphic file (type png)
+<use figures_lecture_2/TuringPerformancevsStanHMC.png>
+Package pdftex.def Info: figures_lecture_2/TuringPerformancevsStanHMC.png  used on input line 1102.
+(pdftex.def)             Requested size: 466.05399pt x 93.29605pt.
+ [65
+
+ </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/TuringAppPerformanceNUTSvsGibbs.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/TuringPerformancevsStanHMC.png>] [66
+
+] (/home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_2.toc) [67
+
+] [68
+
+] (/home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_2.toc) [69
+
+] [70
 
 ]
 \tf@nav=\write7
@@ -2311,29 +2512,29 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 \tf@snm=\write9
 \openout9 = `lecture_2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 767.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 767.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1169.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1169.
  (/home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 767.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 767.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1169.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1169.
 Package rerunfilecheck Info: File `lecture_2.out' has not changed.
-(rerunfilecheck)             Checksum: 0CD628F1911A0225CEFF14416121D956;1056.
+(rerunfilecheck)             Checksum: 698E6A59F7656FC1C3E94A0581C0455C;1056.
 Package logreq Info: Writing requests to 'lecture_2.run.xml'.
 \openout1 = `lecture_2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 60533 strings out of 492676
- 1362671 string characters out of 6134161
- 1996242 words of memory out of 5000000
- 63277 multiletter control sequences out of 15000+600000
- 697942 words of font info for 237 fonts, out of 8000000 for 9000
+ 60694 strings out of 492676
+ 1369637 string characters out of 6134161
+ 1998408 words of memory out of 5000000
+ 63431 multiletter control sequences out of 15000+600000
+ 702174 words of font info for 242 fonts, out of 8000000 for 9000
  1139 hyphenation exceptions out of 8191
  85i,22n,138p,1195b,2278s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_2.pdf (69 pages, 222304 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}</usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chri7m.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_2.pdf (70 pages, 2210439 bytes).
 PDF statistics:
- 649 PDF objects out of 1000 (max. 8388607)
- 162 named destinations out of 1000 (max. 500000)
- 180 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 741 PDF objects out of 1000 (max. 8388607)
+ 164 named destinations out of 1000 (max. 500000)
+ 360 words of extra memory for PDF output out of 10000 (max. 10000000)
 
