@@ -27,14 +27,13 @@ Further reading material and references to relevant papers are provided in the r
 #### Lecture 3: Hierarchical Bayesian Approaches & Bayesian Deep Learning
 
 * Bayesian hierarchical approaches
-* Bayesian deep learning, including inference networks and uncertainty quantification
+* Bayesian deep learning
 * Marrying deep learning frameworks with probabilistic programming systems for type 2 machine learning
 
 #### Lecture 4: The Connection to Scientific Problems
 
 * What types of simulators would I want to link to in scientific applications?
 * Areas of application: Robotics, Physics, Engineering, Machine-learning based design
-* Extensive machine-learning based design example
 
 ## Tutorials
 
