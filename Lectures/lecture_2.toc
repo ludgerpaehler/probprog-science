@@ -1,0 +1,17 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\beamer@sectionintoc {1}{Approaches to Inference - the Inference Engines}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Monte-Carlo}{5}{0}{1}
+\beamer@subsectionintoc {1}{2}{Variational Inference}{17}{0}{1}
+\beamer@sectionintoc {2}{Probabilistic Programming Frameworks}{34}{0}{2}
+\beamer@subsectionintoc {2}{1}{Stan}{35}{0}{2}
+\beamer@subsectionintoc {2}{2}{Venture}{38}{0}{2}
+\beamer@subsectionintoc {2}{3}{PyMC3}{41}{0}{2}
+\beamer@subsectionintoc {2}{4}{TensorFlow Probability}{44}{0}{2}
+\beamer@subsectionintoc {2}{5}{Pyro \& NumPyro}{47}{0}{2}
+\beamer@subsectionintoc {2}{6}{Edward2}{51}{0}{2}
+\beamer@subsectionintoc {2}{7}{Gen}{54}{0}{2}
+\beamer@subsectionintoc {2}{8}{PyProb}{58}{0}{2}
+\beamer@subsectionintoc {2}{9}{Turing}{61}{0}{2}
+\beamer@sectionintoc {3}{Practical Introduction to a Probabilistic Programming Framework}{65}{0}{3}
+\beamer@sectionintoc {4}{Extending the ideas to a more complex examples}{67}{0}{4}

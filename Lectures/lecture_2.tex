@@ -218,10 +218,20 @@
                                                                                       review for statisticians. Journal of the American statistical Association, 112(518),
                                                                                       pp.859-877.}
                                                                             \footnote{Zhang, C., Bütepage, J., Kjellström, H. and Mandt, S., 2018. Advances in variational inference.
-                                                                                      IEEE transactions on pattern analysis and machine intelligence, 41(8), pp.2008-2026.}}
+                                                                                      IEEE transactions on pattern analysis and machine intelligence, 41(8), pp.2008-2026.}
+                                                                            \footnote{Salimans, T., Kingma, D. and Welling, M., 2015, June. Markov chain monte carlo and variational
+                                                                                      inference: Bridging the gap. In International Conference on Machine Learning (pp. 1218-1226).}}
     \centering
     \begin{itemize}
-        \item Variational Inference 1
+        \item Rephrases the problem from a Monte-Carlo sampling, which requires significant computation but converges to the true posterior to one,
+              where we propose a family of distributions to then be optimized to be as close to the true posterior as possible using the Kullback-Leibler
+              divergence
+        \begin{itemize}
+            \item An approach to approximate densities, whereas MCMC is a tool to simulate from densities
+            \item Underestimates the variance of the posterior density
+        \end{itemize}
+        \item Suited for large problems and problems of high complexity, where a Monte-Carlo inference would be computationally intractable
+        \item Possible to make variational inference more efficient with a few markov chain monte carlo samples beforehand for a better initialization
     \end{itemize}
 \end{frame}
 
@@ -230,7 +240,20 @@
 \begin{frame}[c]{Variational Approaches to Inference}{Variational Inference}
     \centering
     \begin{itemize}
-        \item Variational Inference 2
+        \item Positing the family of approximate densities $\mathcal{D}$ and optimizing for the Kullback-Leibler divergence
+        \begin{equation*}
+            q^{\star}(z) = \underset{q(z) \in \mathcal{D}}{\arg \min} \text{KL}(q(z) || p(z|x))
+        \end{equation*}
+        \item The reach of the density family $\mathcal{D}$ governs the complexity of the optimization problem.
+        \item The Kullback-Leibler divergence can be decomposed into
+        \begin{equation*}
+            \text{KL}(q(z) || p(z|x)) = \mathbb{E}[\log q(z)] - \mathbb{E}[\log p(z|x)]
+        \end{equation*}
+        \item The Kullback-Leibler divergence is intractable for complex distributions, we hence define a surrogate objective
+              called the evidence lower-bound (ELBO). The ELBO is the negative KL divergence plus a constant
+        \begin{equation*}
+            \text{ELBO}(q) = \mathbb{E}[\log p(z, x)] - \mathbb{E}[\log q(z)]
+        \end{equation*}
     \end{itemize}
 \end{frame}
 
@@ -239,7 +262,25 @@
 \begin{frame}[c]{Variational Approaches to Inference}{Variational Inference}
     \centering
     \begin{itemize}
-        \item Variational Inference 3
+        \item We hence have
+        \begin{equation*}
+            \max \text{ ELBO} \sim \min \text{ KL}
+        \end{equation*}
+        \item The exact relation between the KL divergence measure and the surrogate objective is then
+        \begin{equation*}
+            \log p(x) = \text{KL}(q(z) || p(z|x)) + \text{ELBO}(q)
+        \end{equation*}
+        \item The most commonly used families of distributions belong to the mean-field variational family of distributions
+        \begin{itemize}
+            \item Beware, the mean-field family cannot capture correlations between marginal densities!
+        \end{itemize}
+        \begin{equation*}
+            q(z) = \prod^{m}_{j=1} q_{j}(z_{j})
+        \end{equation*}
+        \item There exists work though, which approximates more complex distributions \footnote{Saul, L.K. and Jordan, M.I., 1996. Exploiting tractable substructures in intractable
+                                                                                                networks. In Advances in neural information processing systems (pp. 486-492).}
+                                                                                      \footnote{Barber, D. and Wiegerinck, W., 1999. Tractable variational structures for approximating
+                                                                                                graphical models. In Advances in Neural Information Processing Systems (pp. 183-189).}
     \end{itemize}
 \end{frame}
 
@@ -247,9 +288,29 @@
 % Variational Inference Slide 4
 \begin{frame}[c]{Variational Approaches to Inference}{Variational Inference}
     \centering
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.7\textwidth]{VICAVIAlgo.png}
+    \end{figure}
     \begin{itemize}
-        \item Variational Inference 4
+        \item But CAVI needs to iterate through the entire dataset for one iteration, hence motivating the use of stochastic approximations
     \end{itemize}
+\end{frame}
+
+
+% Variational Inference Slide 5
+\begin{frame}[c]{Variational Approaches to Inference}{Variational Inference}
+    \centering
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.5\textwidth]{VICAVIvsHMC.png}
+        \caption{CAVI vs HMC using a NUTS sampler.}
+    \end{figure}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.5\textwidth]{VICAVIELBO.png}
+        \caption{CAVI with different initializations.}
+    \end{figure}
 \end{frame}
 
 
