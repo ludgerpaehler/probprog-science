@@ -22,7 +22,7 @@ Further reading material and references to relevant papers are provided in the r
 * Approaches to inference
 * Probabilistic Programming Frameworks
 * Practical introduction to a probabilistic programming framework
-* Probabilistic programming's ability on a more complex model example
+* Probabilistic programming's ability on a more complex model example (to be added at a later point)
 
 #### Lecture 3: Hierarchical Bayesian Approaches & Bayesian Deep Learning
 
