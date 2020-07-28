@@ -516,36 +516,6 @@
 \end{frame}
 
 
-\subsection{Anglican}
-% Anglican (2014): General Introduction
-\begin{frame}[c]{Anglican \footnote{Tolpin, D., van de Meent, J.W., Yang, H. and Wood, F., 2016, August. Design
-                                    and implementation of probabilistic programming language anglican. In Proceedings
-                                    of the 28th Symposium on the Implementation and Application of Functional
-                                    programming Languages (pp. 1-12).}}{Overview}
-    \centering
-    \begin{itemize}
-        \item General overview of the purpose behind Anglican
-    \end{itemize}
-\end{frame}
-
-
-% Anglican Slide 2: Example Code
-\begin{frame}[c]{Anglican}{Syntax}
-    \centering
-    \begin{itemize}
-        \item Example code
-    \end{itemize}
-\end{frame}
-
-
-% Anglican Slide 3: Application Performance
-\begin{frame}[c]{Anglican}{Application Performance}
-    \centering
-    \begin{itemize}
-        \item Application performance
-    \end{itemize}
-\end{frame}
-
 
 \subsection{PyMC3}
 % PyMC3 (2015) Slide 1: General Introdction
@@ -577,7 +547,9 @@
         \begin{column}{0.4\textwidth}
             \centering
             \begin{itemize}
-                \item 
+                \item Constructing a toy neural network with 2 hidden layers of 5 neurons each
+                \item Manual construction here, but PyMC3 is able to use Keras's API to Theano
+                \item Mini-batches then accelerate convergence and allow the model to scale
             \end{itemize}
         \end{column}
         % Example code
@@ -1106,7 +1078,30 @@
 \begin{frame}[c]{Probabilistic Programming Frameworks}{Summary}
     \centering
     \begin{itemize}
-        \item Summary of all probabilistic programming frameworks in a single table
+        \item There are many vectors we ought to consider when deciding upon a probabilistic programming framework
+        \begin{itemize}
+            \item Can I represent my problem in the respectve DSL, or do I require a full-fledged language?
+            \begin{itemize}
+                \item Python- or Julia-based probabilistic programming system
+            \end{itemize}
+            \item Do I require support for meta-programming?
+            \begin{itemize}
+                \item Julia- or Lisp-based probabilistic programming system
+            \end{itemize}
+            \item How scalable and accelerator-portable is my framework supposed to be?
+            \begin{itemize}
+                \item Probabilistic programming system with an XLA-backend
+            \end{itemize}
+            \item Do I want to interface with simulators?
+            \begin{itemize}
+                \item Gen, or PyProb
+            \end{itemize}
+            \item Do I want to have inference programming capability?
+            \begin{itemize}
+                \item Gen, or Venture
+            \end{itemize}
+            \item How high- or low-level do I want to program?
+        \end{itemize}
     \end{itemize}
 \end{frame}
 
