@@ -323,7 +323,19 @@
                                                                                                  mathematical statistics, pp.400-407.}}
     \centering
     \begin{itemize}
-        \item Stochastic Variational Inference 1
+        \item Stochastic variational inference (SVI) combines the natural gradients of Amari with the stochastic optimization of
+              Robbins and Monroe
+        \item The algorithm form of SVI can be sketched in the following way
+        \begin{enumerate}
+            \item Subsample one or more data points from the data
+            \item Analyze the subsample using the current variational parameters
+            \item Implement a closed-form update of the variational parameters
+            \item Repeat
+        \end{enumerate}
+        \item The used natural gradients alter the parameter space s.t. the same distance in different directions
+              alters the symmetrized KL divergence by equal amounts
+        \item Natural gradients are easier to compute than Euclidian gradients
+        \item Suitable for extreme-scale applications, who don't need to fit in memory
     \end{itemize}
 \end{frame}
 
@@ -332,7 +344,19 @@
 \begin{frame}[c]{Variational Approaches to Inference}{Stochastic Variational Inference}
     \centering
     \begin{itemize}
-        \item Stochastic Variational Inference 2
+        \item Stochastic optimization then follows the cheaper natural gradients to find the maximum of the ELBO
+        \item The sequence of step size for the optimization needs to obey the following condition meanwhile:
+        \begin{equation*}
+            \sum_{t} \epsilon_{t} = \infty; \quad \sum_{t} \epsilon^{2}_{t} < \infty
+        \end{equation*}
+        \item Writing the gradient of the ELBO as an expectation one can then computer Monte-Carlo estimates of the
+              gradient and hence compute a few gradients before starting the actual SVI algorithm
+        \item Has to make a few constraining assumptions for closed-form optimization:
+        \begin{itemize}
+            \item Each conditional is in an exponential family
+            \item The variational distribution has to be in the same exponential family
+        \end{itemize}
+        \item Does not need to iterate over the complete dataset and only requires computation over local context for each iteration
     \end{itemize}
 \end{frame}
 
@@ -340,60 +364,53 @@
 % Stochastic Variational Inference Slide 3
 \begin{frame}[c]{Variational Approaches to Inference}{Stochastic Variational Inference}
     \centering
-    \begin{itemize}
-        \item Stochastic Variational Inference 3
-    \end{itemize}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.8\textwidth]{VISVIAlgo.png}
+    \end{figure}
 \end{frame}
 
 
 % Stochastic Variational Inference Slide 4
 \begin{frame}[c]{Variational Approaches to Inference}{Stochastic Variational Inference}
     \centering
-    \begin{itemize}
-        \item Stochastic Variational Inference 4
-    \end{itemize}
+    \begin{columns}[T]
+        \begin{column}{0.4\textwidth}
+                More involved algorithm for a hierarchical dirichlet process topic model
+                \begin{itemize}
+                    \item Draw an infinite number of topics, $\beta_{k} \sim \text{Dirichlet}(\eta)$ for $k \in {1, 2, 3, \ldots}$
+                    \item Draw corpus breaking proportions, $\nu_{k} \sim \text{Beta}(1, \omega)$ for $k \in {1, 2, 3, \ldots}$
+                    \item For each document d:
+                    \begin{itemize}
+                        \item Draw document-level top indices
+                        \item Draw document breaking proportions
+                        \item For each word n:
+                        \begin{itemize}
+                            \item $\quad$ Draw topic assignment
+                            \item $\quad$ Draw word
+                        \end{itemize}
+                    \end{itemize}
+                \end{itemize}
+        \end{column}
+        \begin{column}{0.58\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.7\textwidth]{VISVIforHDP.png}
+            \end{figure}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 
-
-\subsubsection*{Automatic Differentiation Variational Inference}
-% Automatic Differentiation Variational Inference Slide 1
-\begin{frame}[c]{Variational Approaches to Inference}{Automatic Differentiation Variational Inference \footnote{Kucukelbir, A., Tran, D., Ranganath, R., Gelman, A. and Blei, D.M., 2017.
-                                                                                                                Automatic differentiation variational inference. The Journal of Machine
-                                                                                                                Learning Research, 18(1), pp.430-474.}
-                                                                                                      \footnote{Kucukelbir, A., Ranganath, R., Gelman, A. and Blei, D., 2015. Automatic
-                                                                                                                variational inference in Stan. In Advances in neural information processing
-                                                                                                                systems (pp. 568-576).}}
-    \centering
+% Stochastic Variational Inference Slide 5
+\begin{frame}[c]{Variational Approaches to Inference}{Stochastic Variational Inference}
+    Recap:
     \begin{itemize}
-        \item Automatic Differentiation Variational Inference 1
-    \end{itemize}
-\end{frame}
-
-
-% Automatic Differentiation Variational Inference Slide 2
-\begin{frame}[c]{Variational Approaches to Inference}{Automatic Differentiation Variational Inference}
-    \centering
-    \begin{itemize}
-        \item Automatic Differentiation Variational Inference 2
-    \end{itemize}
-\end{frame}
-
-
-% Automatic Differentiation Variational Inference Slide 3
-\begin{frame}[c]{Variational Approaches to Inference}{Automatic Differentiation Variational Inference}
-    \centering
-    \begin{itemize}
-        \item Automatic Differentiation Variational Inference 3
-    \end{itemize}
-\end{frame}
-
-
-% Automatic Differentiation Variational Inference Slide 4
-\begin{frame}[c]{Variational Approaches to Inference}{Automatic Differentiation Variational Inference}
-    \centering
-    \begin{itemize}
-        \item Automatic Differentiation Variational Inference 4
+        \item Core idea: Use stochastic optimization to optimize the variational objective, following the noisy
+              estimates of the natural gradient
+        \item Adaptive learning rates can further accelerate the stochastic inference routine
+        \item Can be used to further scale up recent advances
+        \item Can benefit from further advances in stochastic optimization
     \end{itemize}
 \end{frame}
 
@@ -424,18 +441,154 @@
 % Black-Box Variational Inference Slide 3
 \begin{frame}[c]{Variational Approaches to Inference}{Black Box Variational Inference}
     \centering
-    \begin{itemize}
-        \item Black Box Variational Inference 3
-    \end{itemize}
+    \begin{columns}[T]
+        \begin{column}{0.48\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.85\textwidth]{VIBBVIAlgo1.png}
+            \end{figure}
+            \begin{itemize}
+                \item Algorithm extends upon version 1 by using Rao-Blackwellization
+                      and control-variates
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.48\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.85\textwidth]{VIBBVIAlgo2.png}
+            \end{figure}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 
 % Black-Box Variational Inference Slide 4
 \begin{frame}[c]{Variational Approaches to Inference}{Black Box Variational Inference}
     \centering
+    \begin{columns}[T]
+        \begin{column}{0.48\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.85\textwidth]{ViBBVIPerformance1.png}
+                \caption{Comparison between Metropolis-Hastings within Gibbs and Black Box Variational Inference}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.48\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.8\textwidth]{VIBBVIPerformance2.png}
+                \caption{Variance comparison between the different algorithms}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+
+
+\subsubsection*{Automatic Differentiation Variational Inference}
+% Automatic Differentiation Variational Inference Slide 1
+\begin{frame}[c]{Variational Approaches to Inference}{Automatic Differentiation Variational Inference \footnote{Kucukelbir, A., Tran, D., Ranganath, R., Gelman, A. and Blei, D.M., 2017.
+                                                                                                                Automatic differentiation variational inference. The Journal of Machine
+                                                                                                                Learning Research, 18(1), pp.430-474.}
+                                                                                                      \footnote{Kucukelbir, A., Ranganath, R., Gelman, A. and Blei, D., 2015. Automatic
+                                                                                                                variational inference in Stan. In Advances in neural information processing
+                                                                                                                systems (pp. 568-576).}}
+    \centering
     \begin{itemize}
-        \item Black Box Variational Inference 4
+        \item Premise: Define your probabilistic model and your data, ADVI then performs inference in an
+              automatic fashion
+        \begin{itemize}
+            \item ADVI generates the variational algorithm for the defined model
+        \end{itemize}
+        \item Steps of ADVI
+        \begin{enumerate}
+            \item Transform the latent space s.t. all latent variables are defined on the same space
+            \item Recast gradient of variational objective as expectation over $q$
+            \item Reparameterize the gradient in terms of a Gaussian
+            \item Use noisy gradients to optimize the variational distribution
+        \end{enumerate}
+        \item Key ingredients herein are automatic differentiation capabilities in the probabilistic programming
+              system and a library of transformations for step 1.
     \end{itemize}
+\end{frame}
+
+
+% Automatic Differentiation Variational Inference Slide 2
+\begin{frame}[c]{Variational Approaches to Inference}{Automatic Differentiation Variational Inference}
+    \centering
+    \begin{itemize}
+        \item Apply transformation s.t. the latent variables $\theta$ live in the real coordinate space $\mathbb{R}^{k}$
+        \begin{equation*}
+            p(x, \zeta) = p(x, T^{-1}(\zeta)) | \det J_{T^{-1}}(\zeta)|
+        \end{equation*}
+        \item The variational objective (ELBO) in the real coordinate space is then given by
+        \begin{equation*}
+            \mathcal{L}(\phi) = \mathbb{E}_{q(\zeta; \phi)} \left[ \log p(x, T^{-1}(\zeta)) + \log | \det J_{T^{-1}}(\zeta) | \right] + \mathbb{H}[q(\zeta; \phi)]
+        \end{equation*}
+        \item Applying elliptical standardization to make the expectation tractable
+        \begin{equation*}
+            \phi^{\star} = \underset{\phi}{\arg \max} \mathbb{E}_{N(\eta; 0, I)} \left[ \log p \left( x, T^{-1}(S^{-1}_{\phi}(\eta)) \right) + \log | \det J_{T^{-1}} \left( S^{-1}_{\phi}(\eta) \right) | \right] + \mathbb{H}[q(\zeta; \phi)]
+        \end{equation*}
+        \item Which can then be stochastically optimized
+    \end{itemize}
+\end{frame}
+
+
+% Automatic Differentiation Variational Inference Slide 3
+\begin{frame}[c]{Variational Approaches to Inference}{Automatic Differentiation Variational Inference}
+    \centering
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.65\textwidth]{VIADVIAlgo.png}
+    \end{figure}
+\end{frame}
+
+
+% Automatic Differentiation Variational Inference Slide 4
+\begin{frame}[c]{Variational Approaches to Inference}{Automatic Differentiation Variational Inference}
+    \centering
+    \begin{columns}[T]
+        \begin{column}{0.4\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.95\textwidth]{VIADVIUnivariate.png}
+                \caption{Univariate}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.58\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.9\textwidth]{VIADVIMultivariate.png}
+                \caption{Multivariate}
+            \end{figure}
+        \end{column}
+    \end{columns}
+    \vspace{1cm}
+    Comparison of gradient estimator variances
+\end{frame}
+
+
+% Automatic Differentiation Variational Inference Slide 5
+\begin{frame}[c]{Variational Approaches to Inference}{Automatic Differentiation Variational Inference}
+    \centering
+    \begin{columns}[T]
+        \begin{column}{0.4\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{VIADVILinearRegression.png}
+                \caption{Linear regression}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.58\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.75\textwidth]{ViADVIHierarchicalRegression.png}
+                \caption{Hierarchical logistic regression}
+            \end{figure}
+        \end{column}
+    \end{columns}
+    \vspace{1cm}
+    Held-out predictive accuracy results.
 \end{frame}
 
 
