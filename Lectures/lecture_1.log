@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.10)  28 JUL 2020 10:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.10)  28 JUL 2020 19:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2137,65 +2137,65 @@ LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 ] [14
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <16.2> on input line 343.
+LaTeX Font Info:    Calculating math sizes for size <16.2> on input line 342.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 15.5521pt on input line 343.
+(Font)              scaled to size 15.5521pt on input line 342.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 10.88641pt on input line 343.
+(Font)              scaled to size 10.88641pt on input line 342.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 7.77603pt on input line 343.
+(Font)              scaled to size 7.77603pt on input line 342.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 15.5521pt on input line 343.
+(Font)              scaled to size 15.5521pt on input line 342.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 10.88641pt on input line 343.
+(Font)              scaled to size 10.88641pt on input line 342.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 7.77603pt on input line 343.
+(Font)              scaled to size 7.77603pt on input line 342.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 15.5521pt on input line 343.
+(Font)              scaled to size 15.5521pt on input line 342.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 10.88641pt on input line 343.
+(Font)              scaled to size 10.88641pt on input line 342.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 7.77603pt on input line 343.
+(Font)              scaled to size 7.77603pt on input line 342.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 15.5521pt on input line 343.
+(Font)              scaled to size 15.5521pt on input line 342.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 10.88641pt on input line 343.
+(Font)              scaled to size 10.88641pt on input line 342.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.77603pt on input line 343.
+(Font)              scaled to size 7.77603pt on input line 342.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.0131pt on input line 343.
+(Font)              scaled to size 10.0131pt on input line 342.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.15225pt on input line 343.
+(Font)              scaled to size 7.15225pt on input line 342.
 LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
-(Font)              scaled to size 18.52426pt on input line 343.
+(Font)              scaled to size 18.52426pt on input line 342.
 LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
-(Font)              scaled to size 11.73846pt on input line 343.
+(Font)              scaled to size 11.73846pt on input line 342.
 LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
-(Font)              scaled to size 8.57605pt on input line 343.
+(Font)              scaled to size 8.57605pt on input line 342.
 LaTeX Font Info:    Font shape `OMS/xmdcmsy/m/n' will be
-(Font)              scaled to size 16.2949pt on input line 343.
+(Font)              scaled to size 16.2949pt on input line 342.
 LaTeX Font Info:    Font shape `OMS/xmdcmsy/m/n' will be
-(Font)              scaled to size 10.32576pt on input line 343.
+(Font)              scaled to size 10.32576pt on input line 342.
 LaTeX Font Info:    Font shape `OMS/xmdcmsy/m/n' will be
-(Font)              scaled to size 7.54395pt on input line 343.
+(Font)              scaled to size 7.54395pt on input line 342.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 15.5521pt on input line 343.
+(Font)              scaled to size 15.5521pt on input line 342.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 10.88641pt on input line 343.
+(Font)              scaled to size 10.88641pt on input line 342.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 7.77603pt on input line 343.
+(Font)              scaled to size 7.77603pt on input line 342.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 15.5521pt on input line 343.
+(Font)              scaled to size 15.5521pt on input line 342.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 10.88641pt on input line 343.
+(Font)              scaled to size 10.88641pt on input line 342.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 7.77603pt on input line 343.
+(Font)              scaled to size 7.77603pt on input line 342.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 15.5521pt on input line 343.
+(Font)              scaled to size 15.5521pt on input line 342.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 10.88641pt on input line 343.
+(Font)              scaled to size 10.88641pt on input line 342.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 7.77603pt on input line 343.
+(Font)              scaled to size 7.77603pt on input line 342.
  [15
 
 ] [16
@@ -2203,65 +2203,65 @@ LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 ] (/home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.toc) [17
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <26> on input line 397.
+LaTeX Font Info:    Calculating math sizes for size <26> on input line 396.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 24.96017pt on input line 397.
+(Font)              scaled to size 24.96017pt on input line 396.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 17.47205pt on input line 397.
+(Font)              scaled to size 17.47205pt on input line 396.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 12.48009pt on input line 397.
+(Font)              scaled to size 12.48009pt on input line 396.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 24.96017pt on input line 397.
+(Font)              scaled to size 24.96017pt on input line 396.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 17.47205pt on input line 397.
+(Font)              scaled to size 17.47205pt on input line 396.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 12.48009pt on input line 397.
+(Font)              scaled to size 12.48009pt on input line 396.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 24.96017pt on input line 397.
+(Font)              scaled to size 24.96017pt on input line 396.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 17.47205pt on input line 397.
+(Font)              scaled to size 17.47205pt on input line 396.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 12.48009pt on input line 397.
+(Font)              scaled to size 12.48009pt on input line 396.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 24.96017pt on input line 397.
+(Font)              scaled to size 24.96017pt on input line 396.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 17.47205pt on input line 397.
+(Font)              scaled to size 17.47205pt on input line 396.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 12.48009pt on input line 397.
+(Font)              scaled to size 12.48009pt on input line 396.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 16.07045pt on input line 397.
+(Font)              scaled to size 16.07045pt on input line 396.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.47894pt on input line 397.
+(Font)              scaled to size 11.47894pt on input line 396.
 LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
-(Font)              scaled to size 26.67151pt on input line 397.
+(Font)              scaled to size 26.67151pt on input line 396.
 LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
-(Font)              scaled to size 18.52426pt on input line 397.
+(Font)              scaled to size 18.52426pt on input line 396.
 LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
-(Font)              scaled to size 12.86407pt on input line 397.
+(Font)              scaled to size 12.86407pt on input line 396.
 LaTeX Font Info:    Font shape `OMS/xmdcmsy/m/n' will be
-(Font)              scaled to size 23.46167pt on input line 397.
+(Font)              scaled to size 23.46167pt on input line 396.
 LaTeX Font Info:    Font shape `OMS/xmdcmsy/m/n' will be
-(Font)              scaled to size 16.2949pt on input line 397.
+(Font)              scaled to size 16.2949pt on input line 396.
 LaTeX Font Info:    Font shape `OMS/xmdcmsy/m/n' will be
-(Font)              scaled to size 11.31592pt on input line 397.
+(Font)              scaled to size 11.31592pt on input line 396.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 24.96017pt on input line 397.
+(Font)              scaled to size 24.96017pt on input line 396.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 17.47205pt on input line 397.
+(Font)              scaled to size 17.47205pt on input line 396.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 12.48009pt on input line 397.
+(Font)              scaled to size 12.48009pt on input line 396.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 24.96017pt on input line 397.
+(Font)              scaled to size 24.96017pt on input line 396.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 17.47205pt on input line 397.
+(Font)              scaled to size 17.47205pt on input line 396.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 12.48009pt on input line 397.
+(Font)              scaled to size 12.48009pt on input line 396.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 24.96017pt on input line 397.
+(Font)              scaled to size 24.96017pt on input line 396.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 17.47205pt on input line 397.
+(Font)              scaled to size 17.47205pt on input line 396.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 12.48009pt on input line 397.
+(Font)              scaled to size 12.48009pt on input line 396.
  [18
 
 ] [19
@@ -2272,17 +2272,17 @@ LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 <figures_lecture_1/PPXTrace.png, id=250, 726.715pt x 400.49625pt>
 File: figures_lecture_1/PPXTrace.png Graphic file (type png)
 <use figures_lecture_1/PPXTrace.png>
-Package pdftex.def Info: figures_lecture_1/PPXTrace.png  used on input line 449.
+Package pdftex.def Info: figures_lecture_1/PPXTrace.png  used on input line 448.
 (pdftex.def)             Requested size: 532.63748pt x 293.54538pt.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 14.30452pt on input line 449.
+(Font)              scaled to size 14.30452pt on input line 448.
  [21
 
  </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_1/PPXTrace.png>]
 <figures_lecture_1/ETALUMISSimulationandInference.png, id=258, 751.80875pt x 657.45625pt>
 File: figures_lecture_1/ETALUMISSimulationandInference.png Graphic file (type png)
 <use figures_lecture_1/ETALUMISSimulationandInference.png>
-Package pdftex.def Info: figures_lecture_1/ETALUMISSimulationandInference.png  used on input line 460.
+Package pdftex.def Info: figures_lecture_1/ETALUMISSimulationandInference.png  used on input line 459.
 (pdftex.def)             Requested size: 365.5184pt x 319.64839pt.
  [22
 
@@ -2292,12 +2292,12 @@ Package pdftex.def Info: figures_lecture_1/ETALUMISSimulationandInference.png  u
 <figures_lecture_1/AmortizedInferenceExampleGraph.png, id=272, 353.32pt x 581.17125pt>
 File: figures_lecture_1/AmortizedInferenceExampleGraph.png Graphic file (type png)
 <use figures_lecture_1/AmortizedInferenceExampleGraph.png>
-Package pdftex.def Info: figures_lecture_1/AmortizedInferenceExampleGraph.png  used on input line 508.
+Package pdftex.def Info: figures_lecture_1/AmortizedInferenceExampleGraph.png  used on input line 507.
 (pdftex.def)             Requested size: 186.41875pt x 306.6359pt.
 <figures_lecture_1/AmortizedInferenceExampleProgram.png, id=273, 849.1725pt x 709.65125pt>
 File: figures_lecture_1/AmortizedInferenceExampleProgram.png Graphic file (type png)
 <use figures_lecture_1/AmortizedInferenceExampleProgram.png>
-Package pdftex.def Info: figures_lecture_1/AmortizedInferenceExampleProgram.png  used on input line 508.
+Package pdftex.def Info: figures_lecture_1/AmortizedInferenceExampleProgram.png  used on input line 507.
 (pdftex.def)             Requested size: 328.23999pt x 274.30482pt.
  [24
 
@@ -2305,7 +2305,7 @@ Package pdftex.def Info: figures_lecture_1/AmortizedInferenceExampleProgram.png 
 <figures_lecture_1/AmortizedInferenceQMR-DTPerformance.png, id=282, 1065.9825pt x 368.37625pt>
 File: figures_lecture_1/AmortizedInferenceQMR-DTPerformance.png Graphic file (type png)
 <use figures_lecture_1/AmortizedInferenceQMR-DTPerformance.png>
-Package pdftex.def Info: figures_lecture_1/AmortizedInferenceQMR-DTPerformance.png  used on input line 520.
+Package pdftex.def Info: figures_lecture_1/AmortizedInferenceQMR-DTPerformance.png  used on input line 519.
 (pdftex.def)             Requested size: 665.79433pt x 230.08842pt.
  [25
 
@@ -2315,7 +2315,7 @@ Package pdftex.def Info: figures_lecture_1/AmortizedInferenceQMR-DTPerformance.p
 <figures_lecture_1/InferenceCompilationSketch.png, id=297, 577.15625pt x 331.2375pt>
 File: figures_lecture_1/InferenceCompilationSketch.png Graphic file (type png)
 <use figures_lecture_1/InferenceCompilationSketch.png>
-Package pdftex.def Info: figures_lecture_1/InferenceCompilationSketch.png  used on input line 552.
+Package pdftex.def Info: figures_lecture_1/InferenceCompilationSketch.png  used on input line 551.
 (pdftex.def)             Requested size: 466.05399pt x 267.48715pt.
  [27
 
@@ -2323,7 +2323,7 @@ Package pdftex.def Info: figures_lecture_1/InferenceCompilationSketch.png  used 
 <figures_lecture_1/InferenceCompilationPractice.png, id=305, 552.0625pt x 488.82625pt>
 File: figures_lecture_1/InferenceCompilationPractice.png Graphic file (type png)
 <use figures_lecture_1/InferenceCompilationPractice.png>
-Package pdftex.def Info: figures_lecture_1/InferenceCompilationPractice.png  used on input line 564.
+Package pdftex.def Info: figures_lecture_1/InferenceCompilationPractice.png  used on input line 563.
 (pdftex.def)             Requested size: 266.31366pt x 235.81989pt.
  [28
 
@@ -2331,7 +2331,7 @@ Package pdftex.def Info: figures_lecture_1/InferenceCompilationPractice.png  use
 <figures_lecture_1/EtalumisTrainingAlgorithm.png, id=313, 553.06625pt x 479.7925pt>
 File: figures_lecture_1/EtalumisTrainingAlgorithm.png Graphic file (type png)
 <use figures_lecture_1/EtalumisTrainingAlgorithm.png>
-Package pdftex.def Info: figures_lecture_1/EtalumisTrainingAlgorithm.png  used on input line 574.
+Package pdftex.def Info: figures_lecture_1/EtalumisTrainingAlgorithm.png  used on input line 573.
 (pdftex.def)             Requested size: 399.48065pt x 346.5558pt.
  [29
 
@@ -2339,7 +2339,7 @@ Package pdftex.def Info: figures_lecture_1/EtalumisTrainingAlgorithm.png  used o
 <figures_lecture_1/EtalumisParticlePosteriors.png, id=321, 531.9875pt x 509.905pt>
 File: figures_lecture_1/EtalumisParticlePosteriors.png Graphic file (type png)
 <use figures_lecture_1/EtalumisParticlePosteriors.png>
-Package pdftex.def Info: figures_lecture_1/EtalumisParticlePosteriors.png  used on input line 586.
+Package pdftex.def Info: figures_lecture_1/EtalumisParticlePosteriors.png  used on input line 585.
 (pdftex.def)             Requested size: 332.89716pt x 319.08664pt.
  [30
 
@@ -2347,57 +2347,57 @@ Package pdftex.def Info: figures_lecture_1/EtalumisParticlePosteriors.png  used 
 <figures_lecture_1/EtalumisScalingCori.png, id=329, 551.05875pt x 372.39125pt>
 File: figures_lecture_1/EtalumisScalingCori.png Graphic file (type png)
 <use figures_lecture_1/EtalumisScalingCori.png>
-Package pdftex.def Info: figures_lecture_1/EtalumisScalingCori.png  used on input line 610.
+Package pdftex.def Info: figures_lecture_1/EtalumisScalingCori.png  used on input line 609.
 (pdftex.def)             Requested size: 287.61862pt x 194.37189pt.
 <figures_lecture_1/EtalumisScalingEdison.png, id=330, 552.0625pt x 373.395pt>
 File: figures_lecture_1/EtalumisScalingEdison.png Graphic file (type png)
 <use figures_lecture_1/EtalumisScalingEdison.png>
-Package pdftex.def Info: figures_lecture_1/EtalumisScalingEdison.png  used on input line 610.
+Package pdftex.def Info: figures_lecture_1/EtalumisScalingEdison.png  used on input line 609.
 (pdftex.def)             Requested size: 287.61862pt x 194.54256pt.
  [31
 
  </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_1/EtalumisScalingCori.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_1/EtalumisScalingEdison.png>] [32
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <36> on input line 653.
+LaTeX Font Info:    Calculating math sizes for size <36> on input line 652.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 34.56024pt on input line 653.
+(Font)              scaled to size 34.56024pt on input line 652.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 24.19206pt on input line 653.
+(Font)              scaled to size 24.19206pt on input line 652.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 34.56024pt on input line 653.
+(Font)              scaled to size 34.56024pt on input line 652.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 24.19206pt on input line 653.
+(Font)              scaled to size 24.19206pt on input line 652.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 34.56024pt on input line 653.
+(Font)              scaled to size 34.56024pt on input line 652.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 24.19206pt on input line 653.
+(Font)              scaled to size 24.19206pt on input line 652.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 34.56024pt on input line 653.
+(Font)              scaled to size 34.56024pt on input line 652.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 24.19206pt on input line 653.
+(Font)              scaled to size 24.19206pt on input line 652.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 22.25139pt on input line 653.
+(Font)              scaled to size 22.25139pt on input line 652.
 LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
-(Font)              scaled to size 38.40997pt on input line 653.
+(Font)              scaled to size 38.40997pt on input line 652.
 LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
-(Font)              scaled to size 26.67151pt on input line 653.
+(Font)              scaled to size 26.67151pt on input line 652.
 LaTeX Font Info:    Font shape `OMS/xmdcmsy/m/n' will be
-(Font)              scaled to size 23.46167pt on input line 653.
+(Font)              scaled to size 23.46167pt on input line 652.
 LaTeX Font Info:    Font shape `OMS/xmdcmsy/m/n' will be
-(Font)              scaled to size 23.46167pt on input line 653.
+(Font)              scaled to size 23.46167pt on input line 652.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 34.56024pt on input line 653.
+(Font)              scaled to size 34.56024pt on input line 652.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 24.19206pt on input line 653.
+(Font)              scaled to size 24.19206pt on input line 652.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 34.56024pt on input line 653.
+(Font)              scaled to size 34.56024pt on input line 652.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 24.19206pt on input line 653.
+(Font)              scaled to size 24.19206pt on input line 652.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 34.56024pt on input line 653.
+(Font)              scaled to size 34.56024pt on input line 652.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 24.19206pt on input line 653.
+(Font)              scaled to size 24.19206pt on input line 652.
  [33
 
 ] [34
@@ -2406,7 +2406,7 @@ LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 <figures_lecture_1/DreamCoderAlgorithmCycle.png, id=361, 952.55875pt x 831.105pt>
 File: figures_lecture_1/DreamCoderAlgorithmCycle.png Graphic file (type png)
 <use figures_lecture_1/DreamCoderAlgorithmCycle.png>
-Package pdftex.def Info: figures_lecture_1/DreamCoderAlgorithmCycle.png  used on input line 683.
+Package pdftex.def Info: figures_lecture_1/DreamCoderAlgorithmCycle.png  used on input line 682.
 (pdftex.def)             Requested size: 332.89716pt x 290.44725pt.
  [35
 
@@ -2414,7 +2414,7 @@ Package pdftex.def Info: figures_lecture_1/DreamCoderAlgorithmCycle.png  used on
 <figures_lecture_1/DreamCoderAlgo.png, id=369, 1260.71pt x 780.9175pt>
 File: figures_lecture_1/DreamCoderAlgo.png Graphic file (type png)
 <use figures_lecture_1/DreamCoderAlgo.png>
-Package pdftex.def Info: figures_lecture_1/DreamCoderAlgo.png  used on input line 693.
+Package pdftex.def Info: figures_lecture_1/DreamCoderAlgo.png  used on input line 692.
 (pdftex.def)             Requested size: 466.05399pt x 288.68471pt.
  [36
 
@@ -2422,7 +2422,7 @@ Package pdftex.def Info: figures_lecture_1/DreamCoderAlgo.png  used on input lin
 <figures_lecture_1/DreamCoderDataClasses.png, id=377, 1003.75pt x 751.80875pt>
 File: figures_lecture_1/DreamCoderDataClasses.png Graphic file (type png)
 <use figures_lecture_1/DreamCoderDataClasses.png>
-Package pdftex.def Info: figures_lecture_1/DreamCoderDataClasses.png  used on input line 704.
+Package pdftex.def Info: figures_lecture_1/DreamCoderDataClasses.png  used on input line 703.
 (pdftex.def)             Requested size: 399.48065pt x 299.21538pt.
  [37
 
@@ -2430,7 +2430,7 @@ Package pdftex.def Info: figures_lecture_1/DreamCoderDataClasses.png  used on in
 <figures_lecture_1/DreamCoderProgramFlowchart.png, id=386, 753.81625pt x 678.535pt>
 File: figures_lecture_1/DreamCoderProgramFlowchart.png Graphic file (type png)
 <use figures_lecture_1/DreamCoderProgramFlowchart.png>
-Package pdftex.def Info: figures_lecture_1/DreamCoderProgramFlowchart.png  used on input line 716.
+Package pdftex.def Info: figures_lecture_1/DreamCoderProgramFlowchart.png  used on input line 715.
 (pdftex.def)             Requested size: 332.89716pt x 299.64345pt.
  [38
 
@@ -2438,7 +2438,7 @@ Package pdftex.def Info: figures_lecture_1/DreamCoderProgramFlowchart.png  used 
 <figures_lecture_1/NeuralTuringMachineArchitecture.png, id=394, 705.63625pt x 496.85625pt>
 File: figures_lecture_1/NeuralTuringMachineArchitecture.png Graphic file (type png)
 <use figures_lecture_1/NeuralTuringMachineArchitecture.png>
-Package pdftex.def Info: figures_lecture_1/NeuralTuringMachineArchitecture.png  used on input line 750.
+Package pdftex.def Info: figures_lecture_1/NeuralTuringMachineArchitecture.png  used on input line 749.
 (pdftex.def)             Requested size: 287.61862pt x 202.5221pt.
  [39
 
@@ -2448,12 +2448,12 @@ Package pdftex.def Info: figures_lecture_1/NeuralTuringMachineArchitecture.png  
 <figures_lecture_1/NTMPrioritySortIllustration.png, id=408, 804.00375pt x 228.855pt>
 File: figures_lecture_1/NTMPrioritySortIllustration.png Graphic file (type png)
 <use figures_lecture_1/NTMPrioritySortIllustration.png>
-Package pdftex.def Info: figures_lecture_1/NTMPrioritySortIllustration.png  used on input line 803.
+Package pdftex.def Info: figures_lecture_1/NTMPrioritySortIllustration.png  used on input line 802.
 (pdftex.def)             Requested size: 319.57843pt x 90.96419pt.
 <figures_lecture_1/NTMPrioritySortMemoryAccess.png, id=409, 953.5625pt x 299.1175pt>
 File: figures_lecture_1/NTMPrioritySortMemoryAccess.png Graphic file (type png)
 <use figures_lecture_1/NTMPrioritySortMemoryAccess.png>
-Package pdftex.def Info: figures_lecture_1/NTMPrioritySortMemoryAccess.png  used on input line 803.
+Package pdftex.def Info: figures_lecture_1/NTMPrioritySortMemoryAccess.png  used on input line 802.
 (pdftex.def)             Requested size: 565.92923pt x 177.5321pt.
  [41
 
@@ -2461,7 +2461,7 @@ Package pdftex.def Info: figures_lecture_1/NTMPrioritySortMemoryAccess.png  used
 <figures_lecture_1/DifferentiableNeuralComputerArchitecture.png, id=418, 1019.81pt x 534.99875pt>
 File: figures_lecture_1/DifferentiableNeuralComputerArchitecture.png Graphic file (type png)
 <use figures_lecture_1/DifferentiableNeuralComputerArchitecture.png>
-Package pdftex.def Info: figures_lecture_1/DifferentiableNeuralComputerArchitecture.png  used on input line 819.
+Package pdftex.def Info: figures_lecture_1/DifferentiableNeuralComputerArchitecture.png  used on input line 818.
 (pdftex.def)             Requested size: 366.1889pt x 192.10959pt.
  [42
 
@@ -2469,7 +2469,7 @@ Package pdftex.def Info: figures_lecture_1/DifferentiableNeuralComputerArchitect
 <figures_lecture_1/DreamCoderCompositionality.png, id=426, 1221.56375pt x 389.455pt>
 File: figures_lecture_1/DreamCoderCompositionality.png Graphic file (type png)
 <use figures_lecture_1/DreamCoderCompositionality.png>
-Package pdftex.def Info: figures_lecture_1/DreamCoderCompositionality.png  used on input line 834.
+Package pdftex.def Info: figures_lecture_1/DreamCoderCompositionality.png  used on input line 833.
 (pdftex.def)             Requested size: 665.79433pt x 212.2755pt.
  [43
 
@@ -2477,32 +2477,32 @@ Package pdftex.def Info: figures_lecture_1/DreamCoderCompositionality.png  used 
 <figures_lecture_1/DreamCoderApp1.png, id=435, 221.82875pt x 306.14375pt>
 File: figures_lecture_1/DreamCoderApp1.png Graphic file (type png)
 <use figures_lecture_1/DreamCoderApp1.png>
-Package pdftex.def Info: figures_lecture_1/DreamCoderApp1.png  used on input line 881.
+Package pdftex.def Info: figures_lecture_1/DreamCoderApp1.png  used on input line 880.
 (pdftex.def)             Requested size: 107.67142pt x 148.59708pt.
 <figures_lecture_1/DreamCoderApp4.png, id=436, 182.6825pt x 314.17375pt>
 File: figures_lecture_1/DreamCoderApp4.png Graphic file (type png)
 <use figures_lecture_1/DreamCoderApp4.png>
-Package pdftex.def Info: figures_lecture_1/DreamCoderApp4.png  used on input line 881.
+Package pdftex.def Info: figures_lecture_1/DreamCoderApp4.png  used on input line 880.
 (pdftex.def)             Requested size: 86.40434pt x 148.59708pt.
 <figures_lecture_1/DreamCoderApp5.png, id=437, 205.76875pt x 332.24126pt>
 File: figures_lecture_1/DreamCoderApp5.png Graphic file (type png)
 <use figures_lecture_1/DreamCoderApp5.png>
-Package pdftex.def Info: figures_lecture_1/DreamCoderApp5.png  used on input line 881.
+Package pdftex.def Info: figures_lecture_1/DreamCoderApp5.png  used on input line 880.
 (pdftex.def)             Requested size: 92.03305pt x 148.59708pt.
 <figures_lecture_1/DreamCoderApp6.png, id=438, 237.88875pt x 330.23375pt>
 File: figures_lecture_1/DreamCoderApp6.png Graphic file (type png)
 <use figures_lecture_1/DreamCoderApp6.png>
-Package pdftex.def Info: figures_lecture_1/DreamCoderApp6.png  used on input line 881.
+Package pdftex.def Info: figures_lecture_1/DreamCoderApp6.png  used on input line 880.
 (pdftex.def)             Requested size: 107.0453pt x 148.59708pt.
 <figures_lecture_1/DreamCoderApp7.png, id=439, 218.8175pt x 310.15875pt>
 File: figures_lecture_1/DreamCoderApp7.png Graphic file (type png)
 <use figures_lecture_1/DreamCoderApp7.png>
-Package pdftex.def Info: figures_lecture_1/DreamCoderApp7.png  used on input line 881.
+Package pdftex.def Info: figures_lecture_1/DreamCoderApp7.png  used on input line 880.
 (pdftex.def)             Requested size: 104.8342pt x 148.59708pt.
 <figures_lecture_1/DreamCoderApp8.png, id=440, 239.89626pt x 346.29375pt>
 File: figures_lecture_1/DreamCoderApp8.png Graphic file (type png)
 <use figures_lecture_1/DreamCoderApp8.png>
-Package pdftex.def Info: figures_lecture_1/DreamCoderApp8.png  used on input line 881.
+Package pdftex.def Info: figures_lecture_1/DreamCoderApp8.png  used on input line 880.
 (pdftex.def)             Requested size: 102.94106pt x 148.59708pt.
  [44
 
@@ -2510,7 +2510,7 @@ Package pdftex.def Info: figures_lecture_1/DreamCoderApp8.png  used on input lin
 <figures_lecture_1/DreamCoderApplication1.png, id=453, 1322.9425pt x 627.34375pt>
 File: figures_lecture_1/DreamCoderApplication1.png Graphic file (type png)
 <use figures_lecture_1/DreamCoderApplication1.png>
-Package pdftex.def Info: figures_lecture_1/DreamCoderApplication1.png  used on input line 892.
+Package pdftex.def Info: figures_lecture_1/DreamCoderApplication1.png  used on input line 891.
 (pdftex.def)             Requested size: 632.50256pt x 299.93459pt.
  [45
 
@@ -2518,7 +2518,7 @@ Package pdftex.def Info: figures_lecture_1/DreamCoderApplication1.png  used on i
 <figures_lecture_1/DreamCoderApplication2.png, id=461, 1309.89375pt x 537.00626pt>
 File: figures_lecture_1/DreamCoderApplication2.png Graphic file (type png)
 <use figures_lecture_1/DreamCoderApplication2.png>
-Package pdftex.def Info: figures_lecture_1/DreamCoderApplication2.png  used on input line 903.
+Package pdftex.def Info: figures_lecture_1/DreamCoderApplication2.png  used on input line 902.
 (pdftex.def)             Requested size: 632.50256pt x 259.30055pt.
  [46
 
@@ -2526,7 +2526,7 @@ Package pdftex.def Info: figures_lecture_1/DreamCoderApplication2.png  used on i
 <figures_lecture_1/DreamCoderApplication3.png, id=469, 1214.5375pt x 519.9425pt>
 File: figures_lecture_1/DreamCoderApplication3.png Graphic file (type png)
 <use figures_lecture_1/DreamCoderApplication3.png>
-Package pdftex.def Info: figures_lecture_1/DreamCoderApplication3.png  used on input line 914.
+Package pdftex.def Info: figures_lecture_1/DreamCoderApplication3.png  used on input line 913.
 (pdftex.def)             Requested size: 665.79433pt x 285.03308pt.
  [47
 
@@ -2534,7 +2534,7 @@ Package pdftex.def Info: figures_lecture_1/DreamCoderApplication3.png  used on i
 <figures_lecture_1/DreamCoderApplication4.png, id=477, 931.48pt x 655.44875pt>
 File: figures_lecture_1/DreamCoderApplication4.png Graphic file (type png)
 <use figures_lecture_1/DreamCoderApplication4.png>
-Package pdftex.def Info: figures_lecture_1/DreamCoderApplication4.png  used on input line 925.
+Package pdftex.def Info: figures_lecture_1/DreamCoderApplication4.png  used on input line 924.
 (pdftex.def)             Requested size: 432.76224pt x 304.52048pt.
  [48
 
@@ -2570,11 +2570,11 @@ Package pdftex.def Info: figures_lecture_1/DreamCoderApplication4.png  used on i
 \tf@snm=\write9
 \openout9 = `lecture_1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1039.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1039.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1038.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1038.
  (/home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1039.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1039.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1038.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1038.
 Package rerunfilecheck Info: File `lecture_1.out' has not changed.
 (rerunfilecheck)             Checksum: 26DE92CB36B0203AD5CD746506FE0CCF;623.
 Package logreq Info: Writing requests to 'lecture_1.run.xml'.
@@ -2584,13 +2584,13 @@ Package logreq Info: Writing requests to 'lecture_1.run.xml'.
 Here is how much of TeX's memory you used:
  60625 strings out of 492676
  1370873 string characters out of 6134161
- 1995577 words of memory out of 5000000
+ 1996577 words of memory out of 5000000
  63388 multiletter control sequences out of 15000+600000
  703974 words of font info for 251 fonts, out of 8000000 for 9000
  1139 hyphenation exceptions out of 8191
  85i,22n,138p,1195b,2278s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7t.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7v.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chri7m.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.pdf (59 pages, 9514856 bytes).
+Output written on /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.pdf (59 pages, 9514815 bytes).
 PDF statistics:
  628 PDF objects out of 1000 (max. 8388607)
  126 named destinations out of 1000 (max. 500000)
