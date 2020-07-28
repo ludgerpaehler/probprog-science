@@ -172,15 +172,8 @@
 \headcommand {\beamer@framepages {67}{67}}
 \headcommand {\slideentry {3}{0}{2}{68/68}{}{0}}
 \headcommand {\beamer@framepages {68}{68}}
-\headcommand {\beamer@sectionpages {67}{68}}
+\headcommand {\beamer@partpages {1}{68}}
 \headcommand {\beamer@subsectionpages {67}{68}}
-\headcommand {\sectionentry {4}{Extending the ideas to a more complex examples}{69}{Extending the ideas to a more complex examples}{0}}
-\headcommand {\slideentry {4}{0}{1}{69/69}{}{0}}
-\headcommand {\beamer@framepages {69}{69}}
-\headcommand {\slideentry {4}{0}{2}{70/70}{}{0}}
-\headcommand {\beamer@framepages {70}{70}}
-\headcommand {\beamer@partpages {1}{70}}
-\headcommand {\beamer@subsectionpages {69}{70}}
-\headcommand {\beamer@sectionpages {69}{70}}
-\headcommand {\beamer@documentpages {70}}
-\headcommand {\gdef \inserttotalframenumber {70}}
+\headcommand {\beamer@sectionpages {67}{68}}
+\headcommand {\beamer@documentpages {68}}
+\headcommand {\gdef \inserttotalframenumber {68}}

@@ -424,7 +424,22 @@
                                                                                                 variational gradient descent and black-box variational inference. arXiv preprint arXiv:2004.01822.}}
     \centering
     \begin{itemize}
-        \item Black Box Variational Inference 1
+        \item Expands on the idea of stochastic variational inference by using Monte-Carlo samples to estimate the gradients
+              of the variational objective
+        \begin{itemize}
+            \item Extending variational inference to a more general setting, where there exists no closed-form solution and
+                  computation of the expectation becomes computationally intractable
+        \end{itemize}
+        \item Rough outline:
+        \begin{enumerate}
+            \item Recast variational distribution in terms of a simple function $f$ of the latent and observed variables
+            \item Take the expectation w.r.t. this distribution and compute the gradients using Monte-Carlo estimates
+            \item Use these noisy gradients in a stochastic optimization algorithm to optimize variational parameters
+        \end{enumerate}
+        \item Control of the variance of the Monte-Carlo estimator then becomes the main issue
+        \begin{itemize}
+            \item Two approches to reduce the variance of the estimator are introduced
+        \end{itemize}
     \end{itemize}
 \end{frame}
 
@@ -433,7 +448,20 @@
 \begin{frame}[c]{Variational Approaches to Inference}{Black Box Variational Inference}
     \centering
     \begin{itemize}
-        \item Black Box Variational Inference 2
+        \item Seek an unbiased estimator of the gradient $\rightarrow$ rewrite gradient of ELBO
+              as expectation w.r.t. the variational distribution
+        \begin{equation*}
+            \nabla_{\lambda} \mathcal{L} = \mathbb{E}_{q}\left[ \nabla_{\lambda} \log q(z | \lambda) (\log p(x, z) - \log q(z | \lambda)) \right]
+        \end{equation*}
+        \item Using Monte-Carlo we can then compute noisy unbiased gradient with
+        \begin{equation*}
+            \nabla_{\lambda} \mathcal{L} \approx \frac{1}{S} \sum_{s=1}^{S} \nabla_{\lambda} \log q(z_{s} | \lambda) (\log p(x, z_{s}) - \log q(z_{s} | \lambda))
+        \end{equation*}
+        \item While our estimator is unbiased we still have to reduce the variance of the estimator as efficiently as possible
+        \begin{itemize}
+            \item[\textbf{$\Rightarrow$}] Rao-Blackwellization, i.e. replace a RV with its conditional expectation w.r.t. a subset of the Vs
+            \item[\textbf{$\Rightarrow$}] Control-variates
+        \end{itemize}
     \end{itemize}
 \end{frame}
 
@@ -1343,22 +1371,22 @@
 
 
 % Extension to a more complex example
-\section{Extending the ideas to a more complex examples}
+%\section{Extending the ideas to a more complex examples}
 
 
 % Slide leading over to the Jupyter notebook
-\begin{frame}[c]{More Complex Example in Turing}{Model-based inference for causal effects in completely randomized experiments}
-    \centering
-    \begin{itemize}
-        \item Expanding on the simple syntax we will now move to a more complex case:
-        \begin{itemize}
-            \item Starting with a Bayesian perspective on causal inference
-            \item Assignment mechanisms
-            \item Posterior inference
-        \end{itemize}
-        \item All content can be accessed in the Jupyter notebook \textbf{MBInferenceforCausalEffects.ipynb}
-    \end{itemize}
-\end{frame}
+%\begin{frame}[c]{More Complex Example in Turing}{Model-based inference for causal effects in completely randomized experiments}
+%    \centering
+%    \begin{itemize}
+%        \item Expanding on the simple syntax we will now move to a more complex case:
+%        \begin{itemize}
+%            \item Starting with a Bayesian perspective on causal inference
+%            \item Assignment mechanisms
+%            \item Posterior inference
+%        \end{itemize}
+%        \item All content can be accessed in the Jupyter notebook \textbf{MBInferenceforCausalEffects.ipynb}
+%    \end{itemize}
+%\end{frame}
 
 
 

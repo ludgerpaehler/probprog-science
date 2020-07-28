@@ -14,4 +14,3 @@
 \beamer@subsectionintoc {2}{8}{PyProb}{60}{0}{2}
 \beamer@subsectionintoc {2}{9}{Turing}{63}{0}{2}
 \beamer@sectionintoc {3}{Practical Introduction to a Probabilistic Programming Framework}{67}{0}{3}
-\beamer@sectionintoc {4}{Extending the ideas to a more complex examples}{69}{0}{4}
