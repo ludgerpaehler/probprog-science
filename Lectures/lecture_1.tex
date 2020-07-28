@@ -49,6 +49,155 @@
 \end{frame}%
 
 
+% Introduction to the chair
+\section{Overview of Research at the Chair}
+
+
+% Christian Breitsamter
+\begin{frame}[c]{Overview}{Aircraft- and Helicopter Aerodynamics, Prof.Dr. C. Breitsamter}
+    \centering
+    \begin{itemize}
+        \item Blub
+    \end{itemize}
+\end{frame}
+
+
+% Christian Stemmer
+\begin{frame}[c]{Overview}{High-Speed Aerodynamics, apl.Prof.Dr. C. Stemmer}
+    \centering
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.7\textwidth]{Stemmer.png}
+    \end{figure}
+\end{frame}
+
+
+% Thomas Indinger
+\begin{frame}[c]{Overview}{Automotive Aerodynamics, PD Dr. T. Indinger}
+    \centering
+    \begin{columns}[T]
+        % Text plus wind tunnel
+        \begin{column}{0.48\textwidth}
+            \begin{itemize}
+                \item DrivAER
+                \item Experimental investigation using a moving floor
+                \item Numerical investigations using the lattice boltzmann method
+            \end{itemize}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.8\textwidth]{Indinger1.png}
+            \end{figure}
+        \end{column}
+        % Pictures
+        \begin{column}{0.48\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.8\textwidth]{Indinger3.png}
+            \end{figure}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.8\textwidth]{Indinger2.png}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+
+% Steffen Schmidt
+\begin{frame}[c]{Overview}{Compressible Flows, Dr. S. Schmidt}
+    \centering
+    \begin{columns}[T]
+        % Text plus picture
+        \begin{column}{0.48\textwidth}
+            \begin{itemize}
+                \item Investigation of cavitation phenomena in multiphase-flows
+                \item Interaction of turbulence and cavities
+                \item Effects of primary jet breakup
+            \end{itemize}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.8\textwidth]{Steffen1.png}
+            \end{figure}
+        \end{column}
+        % Pictures
+        \begin{column}{0.48\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.8\textwidth]{Steffen2.png}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+
+% Hu & Stefan Adami
+\begin{frame}[c]{Overview}{Complex Fluids, PD Dr. XY Hu, Dr. S. Adami}
+    \centering
+    \begin{columns}[T]
+        % Text plus picture
+        \begin{column}{0.48\textwidth}
+            \begin{itemize}
+                \item Smoother particle hydrodynamics models for incompressible turbulent flows
+                \item Numerical simulations of multiphase-flows using particle methods
+                \item Microfluidics, Polymer and DNA solutions
+                \item Waterjet- and Spray-dynamics
+            \end{itemize}
+            \vspace{0.75cm}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.8\textwidth]{ComplexFluids1.png}
+            \end{figure}
+        \end{column}
+        % Picture
+        \begin{column}{0.48\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.6\textwidth]{ComplexFluids2.png}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+
+% Nanoshock
+\begin{frame}[c]{Overview}{NANOSHOCK - ERC Advanced Grant, Dr. S. Adami, Dr. M. Giglmaier}
+    \centering
+    \begin{columns}[T]
+        % Text plus picture
+        \begin{column}{0.48\textwidth}
+            \centering
+            \begin{itemize}
+                \item Shock-induced processes in multiphase-flows
+                \item Exploration of contactless flow-manipulation in processing, nanotech and medtech
+            \end{itemize}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.8\textwidth]{Nanoshock1.png}
+            \end{figure}
+        \end{column}
+        % Pictures
+        \begin{column}{0.48\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.825\textwidth]{Nanoshock2.png}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+
+% Digital Manufacturing / 3D Printing
+\begin{frame}[c]{Overview}{Digital Manufacturing - 3D Printing, Dr. S. Adami, Dr. M. Giglmaier}
+    \centering
+    \begin{itemize}
+        \item Blub
+    \end{itemize}
+\end{frame}
+
+
+
 % Course outline
 \section{Course Outline}
 
@@ -244,7 +393,16 @@
                                                                 inference for probabilistic programs. arXiv preprint arXiv:1610.05735.}}
     \centering
     \begin{itemize}
-        \item Blub 1
+        \item Key idea: Learn from past inferences, to make future inferences run faster
+        \begin{itemize}
+            \item Motivated by the brain's processing of information in context related information
+        \end{itemize}
+        \item Constructs a parameterized guide program, which does not necessarily need to be a neural network
+        \item Traditionally probabilistic programming systems utilize a form of inference, such as Monte Carlo, dynamic programming, or
+              analytic computation to approximately solve an intractable integral from scratch on every invocation
+        \item Simplified by constraining the control flow of the guide to the one of the original, in opposition to previous
+              program induction approaches
+        \item Manual construction at the stage of the mentioned papers. $\rightarrow$ see inference compilation
     \end{itemize}
 \end{frame}
 
@@ -252,18 +410,37 @@
 % Amortized Inference Innuendo Slide 2
 \begin{frame}[c]{Etalumis}{Recap: Amortized Inference}
     \centering
-    \begin{itemize}
-        \item Blub 2
-    \end{itemize}
+    % Two Column layout
+    \begin{columns}[T]
+        % Example dependency graph
+        \begin{column}{0.4\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.7\textwidth]{AmortizedInferenceExampleGraph.png}
+            \end{figure}
+        \end{column}
+        % Example program
+        \begin{column}{0.58\textwidth}
+            \centering
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.85\textwidth]{AmortizedInferenceExampleProgram.png}
+            \end{figure}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 
 % Amortized Inference Innuendo Slide 3
 \begin{frame}[c]{Etalumis}{Recap: Amortized Inference}
     \centering
-    \begin{itemize}
-        \item Blub 3
-    \end{itemize}
+    \begin{figure}
+        \centering
+        \includegraphics[width=\textwidth]{AmortizedInferenceQMR-DTPerformance.png}
+        \caption{(Left) ELBo optimization progress. (Right) Percentage of test set active effects
+                 correctly predicted using latent causes from either the prior or the guide program.}
+    \end{figure}
 \end{frame}
 
 
