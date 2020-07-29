@@ -7,3 +7,7 @@
 \beamer@subsectionintoc {3}{2}{DreamCoder: Growing Generalizable, Interpretable Knowledge with Wake-Sleep Bayesian Program Learning}{33}{0}{3}
 \beamer@sectionintoc {4}{Why Do We even Need Probabilistic Programming?}{50}{0}{4}
 \beamer@sectionintoc {5}{Underlying Theoretical Ideas}{58}{0}{5}
+\beamer@subsectionintoc {5}{1}{Model-Based Reasoning}{60}{0}{5}
+\beamer@subsectionintoc {5}{2}{Models with Static Computation Graphs}{68}{0}{5}
+\beamer@subsectionintoc {5}{3}{Models with Dynamic Computation Graphs}{78}{0}{5}
+\beamer@subsectionintoc {5}{4}{Advanced Topics}{79}{0}{5}

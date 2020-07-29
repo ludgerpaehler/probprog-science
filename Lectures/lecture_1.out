@@ -5,3 +5,7 @@
 \BOOKMARK [3][]{Outline0.3.2.33}{DreamCoder: Growing Generalizable, Interpretable Knowledge with Wake-Sleep Bayesian Program Learning}{Outline0.3}% 5
 \BOOKMARK [2][]{Outline0.4}{Why Do We even Need Probabilistic Programming?}{}% 6
 \BOOKMARK [2][]{Outline0.5}{Underlying Theoretical Ideas}{}% 7
+\BOOKMARK [3][]{Outline0.5.1.60}{Model-Based Reasoning}{Outline0.5}% 8
+\BOOKMARK [3][]{Outline0.5.2.68}{Models with Static Computation Graphs}{Outline0.5}% 9
+\BOOKMARK [3][]{Outline0.5.3.78}{Models with Dynamic Computation Graphs}{Outline0.5}% 10
+\BOOKMARK [3][]{Outline0.5.4.79}{Advanced Topics}{Outline0.5}% 11

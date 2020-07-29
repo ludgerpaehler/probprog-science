@@ -133,8 +133,72 @@
 \headcommand {\sectionentry {5}{Underlying Theoretical Ideas}{58}{Underlying Theoretical Ideas}{0}}
 \headcommand {\slideentry {5}{0}{1}{58/58}{}{0}}
 \headcommand {\beamer@framepages {58}{58}}
-\headcommand {\beamer@partpages {1}{58}}
-\headcommand {\beamer@subsectionpages {58}{58}}
-\headcommand {\beamer@sectionpages {58}{58}}
-\headcommand {\beamer@documentpages {58}}
-\headcommand {\gdef \inserttotalframenumber {58}}
+\headcommand {\slideentry {5}{0}{2}{59/59}{}{0}}
+\headcommand {\beamer@framepages {59}{59}}
+\headcommand {\beamer@subsectionpages {58}{59}}
+\headcommand {\beamer@subsectionentry {0}{5}{1}{60}{Model-Based Reasoning}}
+\headcommand {\slideentry {5}{1}{1}{60/60}{Model-Based Reasoning}{0}}
+\headcommand {\beamer@framepages {60}{60}}
+\headcommand {\slideentry {5}{1}{2}{61/61}{Model-Based Reasoning}{0}}
+\headcommand {\beamer@framepages {61}{61}}
+\headcommand {\slideentry {5}{1}{3}{62/62}{Model-Based Reasoning}{0}}
+\headcommand {\beamer@framepages {62}{62}}
+\headcommand {\slideentry {5}{1}{4}{63/63}{Model-Based Reasoning}{0}}
+\headcommand {\beamer@framepages {63}{63}}
+\headcommand {\slideentry {5}{1}{5}{64/64}{Model-Based Reasoning}{0}}
+\headcommand {\beamer@framepages {64}{64}}
+\headcommand {\slideentry {5}{1}{6}{65/65}{Model-Based Reasoning}{0}}
+\headcommand {\beamer@framepages {65}{65}}
+\headcommand {\slideentry {5}{1}{7}{66/66}{Model-Based Reasoning}{0}}
+\headcommand {\beamer@framepages {66}{66}}
+\headcommand {\slideentry {5}{1}{8}{67/67}{Model-Based Reasoning}{0}}
+\headcommand {\beamer@framepages {67}{67}}
+\headcommand {\beamer@subsectionpages {60}{67}}
+\headcommand {\beamer@subsectionentry {0}{5}{2}{68}{Models with Static Computation Graphs}}
+\headcommand {\slideentry {5}{2}{1}{68/68}{Models with Static Computation Graphs}{0}}
+\headcommand {\beamer@framepages {68}{68}}
+\headcommand {\slideentry {5}{2}{2}{69/69}{Models with Static Computation Graphs}{0}}
+\headcommand {\beamer@framepages {69}{69}}
+\headcommand {\slideentry {5}{2}{3}{70/70}{Models with Static Computation Graphs}{0}}
+\headcommand {\beamer@framepages {70}{70}}
+\headcommand {\slideentry {5}{2}{4}{71/71}{Models with Static Computation Graphs}{0}}
+\headcommand {\beamer@framepages {71}{71}}
+\headcommand {\slideentry {5}{2}{5}{72/72}{Models with Static Computation Graphs}{0}}
+\headcommand {\beamer@framepages {72}{72}}
+\headcommand {\slideentry {5}{2}{6}{73/73}{Models with Static Computation Graphs}{0}}
+\headcommand {\beamer@framepages {73}{73}}
+\headcommand {\slideentry {5}{2}{7}{74/74}{Models with Static Computation Graphs}{0}}
+\headcommand {\beamer@framepages {74}{74}}
+\headcommand {\slideentry {5}{2}{8}{75/75}{Models with Static Computation Graphs}{0}}
+\headcommand {\beamer@framepages {75}{75}}
+\headcommand {\slideentry {5}{2}{9}{76/76}{Models with Static Computation Graphs}{0}}
+\headcommand {\beamer@framepages {76}{76}}
+\headcommand {\slideentry {5}{2}{10}{77/77}{Models with Static Computation Graphs}{0}}
+\headcommand {\beamer@framepages {77}{77}}
+\headcommand {\beamer@subsectionpages {68}{77}}
+\headcommand {\beamer@subsectionentry {0}{5}{3}{78}{Models with Dynamic Computation Graphs}}
+\headcommand {\slideentry {5}{3}{1}{78/78}{Models with Dynamic Computation Graphs}{0}}
+\headcommand {\beamer@framepages {78}{78}}
+\headcommand {\beamer@subsectionpages {78}{78}}
+\headcommand {\beamer@subsectionentry {0}{5}{4}{79}{Advanced Topics}}
+\headcommand {\slideentry {5}{4}{1}{79/79}{Advanced Topics}{0}}
+\headcommand {\beamer@framepages {79}{79}}
+\headcommand {\slideentry {5}{4}{2}{80/80}{Advanced Topics}{0}}
+\headcommand {\beamer@framepages {80}{80}}
+\headcommand {\slideentry {5}{4}{3}{81/81}{Advanced Topics}{0}}
+\headcommand {\beamer@framepages {81}{81}}
+\headcommand {\slideentry {5}{4}{4}{82/82}{Advanced Topics}{0}}
+\headcommand {\beamer@framepages {82}{82}}
+\headcommand {\slideentry {5}{4}{5}{83/83}{Advanced Topics}{0}}
+\headcommand {\beamer@framepages {83}{83}}
+\headcommand {\slideentry {5}{4}{6}{84/84}{Advanced Topics}{0}}
+\headcommand {\beamer@framepages {84}{84}}
+\headcommand {\slideentry {5}{4}{7}{85/85}{Advanced Topics}{0}}
+\headcommand {\beamer@framepages {85}{85}}
+\headcommand {\slideentry {5}{4}{8}{86/86}{Advanced Topics}{0}}
+\headcommand {\beamer@framepages {86}{86}}
+\headcommand {\beamer@partpages {1}{86}}
+\headcommand {\beamer@subsectionpages {79}{86}}
+\headcommand {\beamer@sectionpages {58}{86}}
+\headcommand {\beamer@documentpages {86}}
+\headcommand {\gdef \inserttotalframenumber {86}}

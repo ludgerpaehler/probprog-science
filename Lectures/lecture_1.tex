@@ -996,7 +996,358 @@
 \section{Underlying Theoretical Ideas}
 
 
+% The research perspective
+\begin{frame}[c]{Probabilistic Programming}{Research Perspective}
+    \centering
+    \begin{itemize}
+        \item Designing languages, which have expressive semantics
+        \item Interpreters
+        \item Compiler to translate inference problems into formal mathematical objects
+        \item Integration with modern inference frameworks
+        \begin{itemize}
+            \item Aiming to develop automated inference systems and/or general-purpose
+                  inference algorithms
+        \end{itemize}
+    \end{itemize}
+\end{frame}
 
+
+% Model-Based Reasoning (10 slides?)
+\subsection{Model-Based Reasoning}
+
+% Blub
+\begin{frame}[c]{Model-Based Reasoning \footnote{van de Meent, J.W., Paige, B., Yang, H. and Wood, F., 2018.
+                                                 An introduction to probabilistic programming. arXiv preprint
+                                                 arXiv:1809.10756.}}
+    \centering
+    \begin{itemize}
+        \item Random variables and probabilistic calculations are a core requirement $\rightarrow$ probabilistic machine learning
+        \item All computational models we formulate are essentially approximations of reality
+        \item Numerical models emulate stochasticity through the use of pseudorandom number generators, which are subsequently
+              responsible for random phenomena and other uncertainties
+        \item This leads to an explosion of the possible states of individual nodes in the graph of the program
+        \item A good probabilistic model should then be able to represent all possible states of the real world
+    \end{itemize}
+\end{frame}
+
+
+% Blub
+\begin{frame}[c]{Model-Based Reasoning}
+    \centering
+    \begin{itemize}
+        \item To really explore the space of possibilities for our model, we need a large population of model executions
+              for statistical significance
+        \item Our models allow us to measure value, for phenomena which also take place in the real world, these are
+              our \textit{observations}
+        \item But we are unable to capture every detail of our model be it for physical reasons, or numerical constraints
+        \item A welcome use for our probabilistic programming system is hence the statistical validation of theories, where
+              inability to reproduce experimental results exposes weaknesses in our theoretical understanding
+        \item Statistical decision-making under uncertainty does also constitute a direct application
+    \end{itemize}
+\end{frame}
+
+
+% Blub
+\begin{frame}[c]{Model-Based Reasoning}
+    \centering
+    \begin{itemize}
+        \item What does usefulness mean in this context?
+        \begin{itemize}
+            \item Reusable, interpretable abstraction
+            \item Reusable, non-interpretable but accurately generating data
+            \item Problem-specific simulators in engineering and the natural sciences
+        \end{itemize}
+        \item But all models are parameterized
+        \begin{itemize}
+            \item Amenable to model-fitting
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+
+% Blub
+\begin{frame}[c]{Model-Based Reasoning}
+    \centering
+    \begin{itemize}
+        \item How are such models denoted, and how are they manipulated to compute quantities of interest?
+        \item Condition on sets of observation to arrive at a joint distribution
+        \item Use Bayes' rule \footnote{Davidson-Pilon, C., 2015. Bayesian methods for hackers: probabilistic
+                                        programming and Bayesian inference. Addison-Wesley Professional.}
+                              \footnote{Pfeffer, A., 2016. Practical probabilistic programming. Manning Publications Co..}
+        \begin{equation*}
+            p(X|Y) = \frac{p(Y|X) p(X)}{p(Y)} = \frac{p(X, Y)}{p(Y)} = \frac{p(X, Y)}{\int p(X, Y) dX}
+        \end{equation*}
+        \item A model is then the joint distribution $p(Y, X) = p(Y|X) p(X)$ of the observations $Y$ and the
+              ranom choices made in the generative model $X$, which we know as the latent variables
+        \item Setup encapsulates a large number of problems in the sciences
+    \end{itemize}
+\end{frame}
+
+
+% Blub
+\begin{frame}[c]{Model-Based Reasoning}
+    \centering
+    \begin{itemize}
+        \item Probabilistic programming system scale type of problems pairs:
+    \end{itemize}
+    \vspace{1cm}
+    \begin{center}
+        \begin{tabular}{|c|c|}
+            \hline
+            $X$ & $Y$ \\
+            \hline
+            scene description & image \\
+            simulation & simulator output \\
+            program source code & program return value \\
+            policy prior and world simulator & rewards \\
+            cognitive decision making process & observed behavior \\
+            \hline
+        \end{tabular}
+    \end{center}
+\end{frame}
+
+
+% Blub
+\begin{frame}[c]{Model-Based Reasoning}
+    \centering
+    \begin{itemize}
+        \item The first such pair, was already successfull used to solve Captcha using general-purpose inference
+        \item All that was needed was a probabilistic program, which could generate similar Captchas
+        \item As there are a great number of distributions we are unable to perform exact inference on, we have to
+              rely on approximate inference algorithms
+        \item We seek to characterize the posterior distribution of all random choices made during the forward exection,
+              given that the model produces a specific output.
+        \item Key here is always the ability of the probabilistic programming system to condition on existing values
+        \item \textbf{Expressivity is not limited to traditional statistical models!}
+    \end{itemize}
+\end{frame}
+
+
+% Blub
+\begin{frame}[c]{Model-Based Reasoning}
+    \centering
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.7\textwidth]{ProbProgIntuition.png}
+    \end{figure}
+\end{frame}
+
+
+% Blub
+\begin{frame}[c]{Model-Based Reasoning}
+    \centering
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.7\textwidth]{ConstrainedSimulation.png}
+        \caption{Constrained Simulation}
+    \end{figure}
+\end{frame}
+
+
+
+% Models with Static Computation Graphs (10 slides)
+\subsection{Models with Static Computation Graphs}
+
+% Blub
+\begin{frame}[c]{Models with Static Computation Graphs}
+    \centering
+    \begin{itemize}
+        \item Blub
+    \end{itemize}
+\end{frame}
+
+
+% Blub
+\begin{frame}[c]{Models with Static Computation Graphs}
+    \centering
+    \begin{itemize}
+        \item Blub
+    \end{itemize}
+\end{frame}
+
+
+% Blub
+\begin{frame}[c]{Models with Static Computation Graphs}
+    \centering
+    \begin{itemize}
+        \item Blub
+    \end{itemize}
+\end{frame}
+
+
+% Blub
+\begin{frame}[c]{Models with Static Computation Graphs}
+    \centering
+    \begin{itemize}
+        \item Blub
+    \end{itemize}
+\end{frame}
+
+
+% Blub
+\begin{frame}[c]{Models with Static Computation Graphs}
+    \centering
+    \begin{itemize}
+        \item Blub
+    \end{itemize}
+\end{frame}
+
+
+% Blub
+\begin{frame}[c]{Models with Static Computation Graphs}
+    \centering
+    \begin{itemize}
+        \item Blub
+    \end{itemize}
+\end{frame}
+
+
+% Blub
+\begin{frame}[c]{Models with Static Computation Graphs}
+    \centering
+    \begin{itemize}
+        \item Blub
+    \end{itemize}
+\end{frame}
+
+
+% Blub
+\begin{frame}[c]{Models with Static Computation Graphs}
+    \centering
+    \begin{itemize}
+        \item Blub
+    \end{itemize}
+\end{frame}
+
+
+% Blub
+\begin{frame}[c]{Models with Static Computation Graphs}
+    \centering
+    \begin{itemize}
+        \item Blub
+    \end{itemize}
+\end{frame}
+
+
+% Blub
+\begin{frame}[c]{Models with Static Computation Graphs}
+    \centering
+    \begin{itemize}
+        \item Blub
+    \end{itemize}
+\end{frame}
+
+
+
+% Models with Dynamic Computation Graphs (10 slides)
+\subsection{Models with Dynamic Computation Graphs}
+
+% Blub
+\begin{frame}[c]{Models with Dynamic Computation Graphs}
+    \centering
+    \begin{itemize}
+        \item Blub
+    \end{itemize}
+\end{frame}
+
+
+% Advanced Topics
+\subsection{Advanced Topics}
+
+% Model Learning
+\begin{frame}[c]{Advanced Topics}{Model Learning}
+    \centering
+    \begin{itemize}
+        \item So far the history of machine learning has had one prevailing constant: Data-driven discriminative techniques
+              are superior to hand-designed algorithms if enough labeled training data is available
+        \item Goal in probabilistic programming: \textbf{learn} the generative model itself
+        \item To do this in any general kind of fashion one has to follow a bottom-up approach in which one
+              starts with the observations and learns the distribution over the latent parameters
+        \item To do this generally we have to rely on neural networks as transformation approximators
+    \end{itemize}
+\end{frame}
+
+
+% Model Learning
+\begin{frame}[c]{Advanced Topics}{Model Learning}
+    \centering
+    \begin{itemize}
+        \item As writing a good generative model is a hard task in itself learning the model with intelligent
+              agents is the obvious next step
+        \item This is in line with the views on agents of many cognitive scientists:
+        \begin{itemize}
+            \item An agent constructs and reasons in models of its own worls and uses its world-model to
+                  compute the expected utility of its actions
+        \end{itemize}
+        \item The direct choice for this is the Helmholtz machine \footnote{Dayan, P., Hinton, G.E., Neal, R.M. and Zemel, R.S., 1995. The helmholtz machine. Neural computation, 7(5), pp.889-904.}
+        \begin{itemize}
+            \item Posits an intertwined forward- and backwards model with an internal representation learning algorithm, which writes directly onto the latent space of the model
+        \end{itemize}
+        \item A further development of this idea is the variational autoencoder \footnote{Kingma, D.P. and Welling, M., 2013. Auto-encoding variational bayes. arXiv preprint arXiv:1312.6114.}
+    \end{itemize}
+\end{frame}
+
+
+% Model Learning
+\begin{frame}[c]{Advanced Topics}{Model Learning}
+    \centering
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.5\textwidth]{3LayerHelmholtzMachine.png}
+        \caption{A 3-layer Helmholtz machine modelling its inputs in a two-stage hierarchical model.}
+    \end{figure}
+\end{frame}
+
+
+% Model Learning
+\begin{frame}[c]{Advanced Topics}{Model Learning}
+    \centering
+    \begin{itemize}
+        \item As the decoder has no prior structure it needs to learn the complete program structure from data
+        \begin{itemize}
+            \item Program induction research suggests it a good idea to impose structure
+        \end{itemize}
+        \item No general proof of the impeding supremacy of the bottom-up approach on the horizon yet
+    \end{itemize}
+\end{frame}
+
+
+
+% Nesting
+\begin{frame}[c]{Nesting}
+    \centering
+    \begin{itemize}
+        \item Blub
+    \end{itemize}
+\end{frame}
+
+
+% Nesting
+\begin{frame}[c]{Nesting}
+    \centering
+    \begin{itemize}
+        \item Blub
+    \end{itemize}
+\end{frame}
+
+
+% Nesting
+\begin{frame}[c]{Nesting}
+    \centering
+    \begin{itemize}
+        \item Blub
+    \end{itemize}
+\end{frame}
+
+
+
+% Summary Slide
+\begin{frame}[c]{Summary}
+    \centering
+    \begin{itemize}
+        \item Blub
+    \end{itemize}
+\end{frame}
 
 
 
