@@ -9,5 +9,6 @@
 \beamer@sectionintoc {5}{Underlying Theoretical Ideas}{58}{0}{5}
 \beamer@subsectionintoc {5}{1}{Model-Based Reasoning}{60}{0}{5}
 \beamer@subsectionintoc {5}{2}{Models with Static Computation Graphs}{68}{0}{5}
-\beamer@subsectionintoc {5}{3}{Models with Dynamic Computation Graphs}{78}{0}{5}
-\beamer@subsectionintoc {5}{4}{Advanced Topics}{79}{0}{5}
+\beamer@subsectionintoc {5}{3}{Models with Dynamic Computation Graphs}{71}{0}{5}
+\beamer@subsectionintoc {5}{4}{Advanced Topics}{75}{0}{5}
+\beamer@sectionintoc {6}{Summary}{80}{0}{6}

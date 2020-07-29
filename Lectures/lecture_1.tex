@@ -295,7 +295,6 @@
                 \item Bayesian Deep Learning
                 \item Hierarchical Bayesian Modelling
             \end{itemize}
-            \item Machine-Learning Based Design with Probabilistic Programming
         \end{enumerate}
     \end{itemize}
 \end{frame}
@@ -332,12 +331,12 @@
     \centering
     \begin{itemize}
         \item Bayesian Hierarchical Approaches
-        \item Bayesian Deep Learning, including but not limited to
-        \begin{itemize}
-            \item Inference Networks
-            \item Uncertainty Quantification
-        \end{itemize}
+        \item Bayesian Deep Learning
         \item Marrying Deep Learning Frameworks with Probabilistic Programming for Type 2 Machine Learning
+        \begin{itemize}
+            \item Generative Adversarial Networks
+            \item Variational Autoencoder
+        \end{itemize}
     \end{itemize}
 \end{frame}
 
@@ -1152,7 +1151,16 @@
 \begin{frame}[c]{Models with Static Computation Graphs}
     \centering
     \begin{itemize}
-        \item Blub
+        \item A first-order probabilistic programming language (FOPPL) already includes the main syntax of a
+              general-purpose programming language
+        \item First-order means:
+        \begin{itemize}
+            \item Functions cannot accept other functions as arguments
+            \item No recursivity
+            \item Ensures there to be only be a finite number of random variables in any model
+        \end{itemize}
+        \item Any program expressable in the FOPPL can be compiled into the respective graphical model \footnote{Koller, D. and Friedman, N., 2009. Probabilistic graphical models: principles and techniques. MIT press.}
+        \item Highly-suited to express any graphical-model data-structures
     \end{itemize}
 \end{frame}
 
@@ -1161,7 +1169,27 @@
 \begin{frame}[c]{Models with Static Computation Graphs}
     \centering
     \begin{itemize}
-        \item Blub
+        \item The reduced FOPPL is defined by the following eight rules:
+        \begin{enumerate}
+            \item A constant $c$ can be a vlue of primitive data type
+            \item A variable $v$ is  a symbol that references the value of another
+                  expression in the program.
+            \item A $let$ form (let [v $e_{1}$] $e_{2}$) binds the value of the expression
+                  $e_{1}$ to the variable $v$
+            \item An if form (if $e_{1}$ $e_{2}$ $e_{3}$) takes the value of $e_{2}$ when the value of
+                  $e_{1}$ is logically true and the value of $e_{3}$ when $e_{1}$ is logically false
+            \item A function application ($f$ $e_{1}$ ... $e_{n}$) call the user-defined function $f$
+            \item A primitive procedure applications (c $e_{1}$ ... $e_{n}$) calls a built-in function c
+        \end{enumerate}
+        \item Probabilistic programming language specific features
+        \begin{enumerate}
+            \item A sample form (sample $e$) represents an unobserved random variable. It accepts a single
+                  expression $e$, which must evaluate to a distribution object, and returns a value that
+                  is a sample from this distribution
+            \item An observe form (observe $e_{1}$ $e_{2}$) represents an unobserved random variable. It accepts
+                  an argument $e_{1}$, which must evaluate to a distribution, and conditions on the next argument $e_{2}$,
+                  which is the value of the random variable
+        \end{enumerate}
     \end{itemize}
 \end{frame}
 
@@ -1169,72 +1197,11 @@
 % Blub
 \begin{frame}[c]{Models with Static Computation Graphs}
     \centering
-    \begin{itemize}
-        \item Blub
-    \end{itemize}
-\end{frame}
-
-
-% Blub
-\begin{frame}[c]{Models with Static Computation Graphs}
-    \centering
-    \begin{itemize}
-        \item Blub
-    \end{itemize}
-\end{frame}
-
-
-% Blub
-\begin{frame}[c]{Models with Static Computation Graphs}
-    \centering
-    \begin{itemize}
-        \item Blub
-    \end{itemize}
-\end{frame}
-
-
-% Blub
-\begin{frame}[c]{Models with Static Computation Graphs}
-    \centering
-    \begin{itemize}
-        \item Blub
-    \end{itemize}
-\end{frame}
-
-
-% Blub
-\begin{frame}[c]{Models with Static Computation Graphs}
-    \centering
-    \begin{itemize}
-        \item Blub
-    \end{itemize}
-\end{frame}
-
-
-% Blub
-\begin{frame}[c]{Models with Static Computation Graphs}
-    \centering
-    \begin{itemize}
-        \item Blub
-    \end{itemize}
-\end{frame}
-
-
-% Blub
-\begin{frame}[c]{Models with Static Computation Graphs}
-    \centering
-    \begin{itemize}
-        \item Blub
-    \end{itemize}
-\end{frame}
-
-
-% Blub
-\begin{frame}[c]{Models with Static Computation Graphs}
-    \centering
-    \begin{itemize}
-        \item Blub
-    \end{itemize}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.7\textwidth]{FOPPLHiddenMarkovModel.png}
+        \caption{A hidden Markov model expressed in the FOPPL.}
+    \end{figure}
 \end{frame}
 
 
@@ -1246,9 +1213,68 @@
 \begin{frame}[c]{Models with Dynamic Computation Graphs}
     \centering
     \begin{itemize}
-        \item Blub
+        \item Higher-order probabilistic programming languages (HOPPL) extend upon FOPPLs by providing
+              higher-order procedures and general recursion
+        \item Can theoretically denote models with an unbounded number of random variables
+        \begin{itemize}
+            \item The end for graph-based inference strategies
+        \end{itemize}
+        \item Evaluation-based inference is still a viable option, when we constrain ourselves to a
+              finite number of random variables at any one time
+        \item Removal of a static loop depth requires function recursion $\rightarrow$ HOPPL-feature
+        \item As stochastic recursion can easily implement an infinite number of random variables, we need
+              to be aware of this potential trap
     \end{itemize}
 \end{frame}
+
+
+% Blub
+\begin{frame}[c]{Models with Dynamic Computation Graphs}
+    \centering
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.7\textwidth]{InfiniteStochasticRecursion.png}
+        \caption{Example with infinite stochastic recursion, which hence needs constraining}
+    \end{figure}
+\end{frame}
+
+
+% Blub
+\begin{frame}[c]{Models with Dynamic Computation Graphs}
+    \centering
+    \begin{itemize}
+        \item Expanding to the HOPPL now allows for the embedding in any programming language as the
+              modelling language
+        \item Functions can be declared locally in the HOPPL
+        \item Languages like Church, Venture, Anglican, WebPPL, Probabilistic-C, Turing, and CPProb
+              all have these features or require containment of these features in the language to reason
+              about them.
+        \item If the HOPPL is enriched with a desugared $let$ and $foreach$ it becomes a superset of
+              previous FOPPL
+        \item Are able to define open-universe models, which are able to adjust their number of clusters/mixtures
+              according to the size of the dataset
+        \item Are able to define constrained sampling algorithms
+    \end{itemize}
+\end{frame}
+
+
+% Blub
+\begin{frame}[c]{Models with Dynamic Computation Graphs}
+    \centering
+    \begin{itemize}
+        \item Using the HOPPL we are also able to construct a generative model for mathematical functions
+              akin to what DreamCoder does in part
+        \item The system will write its own code for the function bodies
+        \item Inference problem becomes one of samping from the space of all function $f(x)$
+        \item Funtion returns the source call for a new function
+        \item The number of combinators supplied to the function controls the size of the space of all functions
+        \item If we seek to invoke the generated function, we have to use $eval$, which can the be used to
+              evaluate the validity of the results for specific target data
+        \item To construct inference routines in the HOPPL we still need to develop $run$, $interrupt$,
+              $resume$, and $fork$.
+    \end{itemize}
+\end{frame}
+
 
 
 % Advanced Topics
@@ -1284,6 +1310,7 @@
             \item Posits an intertwined forward- and backwards model with an internal representation learning algorithm, which writes directly onto the latent space of the model
         \end{itemize}
         \item A further development of this idea is the variational autoencoder \footnote{Kingma, D.P. and Welling, M., 2013. Auto-encoding variational bayes. arXiv preprint arXiv:1312.6114.}
+        \item The neural Turing machine, or differentiable neural computer as developed by Graves are also highly interesting candidates
     \end{itemize}
 \end{frame}
 
@@ -1314,38 +1341,46 @@
 
 
 % Nesting
-\begin{frame}[c]{Nesting}
+\begin{frame}[c]{Advanced Topics}{Nesting}
     \centering
     \begin{itemize}
-        \item Blub
+        \item Nesting probabilistic programs is an obvious extension of current ideas, i.e.
+              treating a higher-order probabilistic program as a distribution and using it
+              inside of another higher-order probabilistic program
+        \begin{itemize}
+            \item Could directly result in a doubly intractable inference problem
+        \end{itemize}
+        \item Requires more language-features for a clean inclusion
+        \item The meaning of such a program would also not be mathematically clear
+        \item Inference in such a structure must be performed with the utmost care
+        \begin{itemize}
+            \item Pay close attention to convergence rates
+            \item Utilize sampling methods for nested cases
+        \end{itemize}
+        \item If it were to work it would, amongst other models, enable intelligent multi-agent application
     \end{itemize}
 \end{frame}
 
 
-% Nesting
-\begin{frame}[c]{Nesting}
-    \centering
-    \begin{itemize}
-        \item Blub
-    \end{itemize}
-\end{frame}
-
-
-% Nesting
-\begin{frame}[c]{Nesting}
-    \centering
-    \begin{itemize}
-        \item Blub
-    \end{itemize}
-\end{frame}
-
-
-
+\section{Summary}
 % Summary Slide
 \begin{frame}[c]{Summary}
     \centering
     \begin{itemize}
-        \item Blub
+        \item Probabilistic programming enables highly thought-provoking applications, which require interaction
+              between statistical inference routines and machine-learning building blocks
+        \begin{itemize}
+            \item More on this tomorrow!
+        \end{itemize}
+        \item The concept of conditioning enables many interesting applications across science (if inference can be made tractable)
+        \begin{itemize}
+            \item More on inference routines later today!
+            \item Outlook onto science applications tomorrow!
+        \end{itemize}
+        \item Probabilistic programming systems need to be able to express our desired class of models
+        \begin{itemize}
+            \item More on the different types of probabilistic programming systems later today!
+        \end{itemize}
     \end{itemize}
 \end{frame}
 

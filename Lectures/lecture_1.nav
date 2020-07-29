@@ -161,44 +161,37 @@
 \headcommand {\beamer@framepages {69}{69}}
 \headcommand {\slideentry {5}{2}{3}{70/70}{Models with Static Computation Graphs}{0}}
 \headcommand {\beamer@framepages {70}{70}}
-\headcommand {\slideentry {5}{2}{4}{71/71}{Models with Static Computation Graphs}{0}}
+\headcommand {\beamer@subsectionpages {68}{70}}
+\headcommand {\beamer@subsectionentry {0}{5}{3}{71}{Models with Dynamic Computation Graphs}}
+\headcommand {\slideentry {5}{3}{1}{71/71}{Models with Dynamic Computation Graphs}{0}}
 \headcommand {\beamer@framepages {71}{71}}
-\headcommand {\slideentry {5}{2}{5}{72/72}{Models with Static Computation Graphs}{0}}
+\headcommand {\slideentry {5}{3}{2}{72/72}{Models with Dynamic Computation Graphs}{0}}
 \headcommand {\beamer@framepages {72}{72}}
-\headcommand {\slideentry {5}{2}{6}{73/73}{Models with Static Computation Graphs}{0}}
+\headcommand {\slideentry {5}{3}{3}{73/73}{Models with Dynamic Computation Graphs}{0}}
 \headcommand {\beamer@framepages {73}{73}}
-\headcommand {\slideentry {5}{2}{7}{74/74}{Models with Static Computation Graphs}{0}}
+\headcommand {\slideentry {5}{3}{4}{74/74}{Models with Dynamic Computation Graphs}{0}}
 \headcommand {\beamer@framepages {74}{74}}
-\headcommand {\slideentry {5}{2}{8}{75/75}{Models with Static Computation Graphs}{0}}
+\headcommand {\beamer@subsectionpages {71}{74}}
+\headcommand {\beamer@subsectionentry {0}{5}{4}{75}{Advanced Topics}}
+\headcommand {\slideentry {5}{4}{1}{75/75}{Advanced Topics}{0}}
 \headcommand {\beamer@framepages {75}{75}}
-\headcommand {\slideentry {5}{2}{9}{76/76}{Models with Static Computation Graphs}{0}}
+\headcommand {\slideentry {5}{4}{2}{76/76}{Advanced Topics}{0}}
 \headcommand {\beamer@framepages {76}{76}}
-\headcommand {\slideentry {5}{2}{10}{77/77}{Models with Static Computation Graphs}{0}}
+\headcommand {\slideentry {5}{4}{3}{77/77}{Advanced Topics}{0}}
 \headcommand {\beamer@framepages {77}{77}}
-\headcommand {\beamer@subsectionpages {68}{77}}
-\headcommand {\beamer@subsectionentry {0}{5}{3}{78}{Models with Dynamic Computation Graphs}}
-\headcommand {\slideentry {5}{3}{1}{78/78}{Models with Dynamic Computation Graphs}{0}}
+\headcommand {\slideentry {5}{4}{4}{78/78}{Advanced Topics}{0}}
 \headcommand {\beamer@framepages {78}{78}}
-\headcommand {\beamer@subsectionpages {78}{78}}
-\headcommand {\beamer@subsectionentry {0}{5}{4}{79}{Advanced Topics}}
-\headcommand {\slideentry {5}{4}{1}{79/79}{Advanced Topics}{0}}
+\headcommand {\slideentry {5}{4}{5}{79/79}{Advanced Topics}{0}}
 \headcommand {\beamer@framepages {79}{79}}
-\headcommand {\slideentry {5}{4}{2}{80/80}{Advanced Topics}{0}}
+\headcommand {\beamer@sectionpages {58}{79}}
+\headcommand {\beamer@subsectionpages {75}{79}}
+\headcommand {\sectionentry {6}{Summary}{80}{Summary}{0}}
+\headcommand {\slideentry {6}{0}{1}{80/80}{}{0}}
 \headcommand {\beamer@framepages {80}{80}}
-\headcommand {\slideentry {5}{4}{3}{81/81}{Advanced Topics}{0}}
+\headcommand {\slideentry {6}{0}{2}{81/81}{}{0}}
 \headcommand {\beamer@framepages {81}{81}}
-\headcommand {\slideentry {5}{4}{4}{82/82}{Advanced Topics}{0}}
-\headcommand {\beamer@framepages {82}{82}}
-\headcommand {\slideentry {5}{4}{5}{83/83}{Advanced Topics}{0}}
-\headcommand {\beamer@framepages {83}{83}}
-\headcommand {\slideentry {5}{4}{6}{84/84}{Advanced Topics}{0}}
-\headcommand {\beamer@framepages {84}{84}}
-\headcommand {\slideentry {5}{4}{7}{85/85}{Advanced Topics}{0}}
-\headcommand {\beamer@framepages {85}{85}}
-\headcommand {\slideentry {5}{4}{8}{86/86}{Advanced Topics}{0}}
-\headcommand {\beamer@framepages {86}{86}}
-\headcommand {\beamer@partpages {1}{86}}
-\headcommand {\beamer@subsectionpages {79}{86}}
-\headcommand {\beamer@sectionpages {58}{86}}
-\headcommand {\beamer@documentpages {86}}
-\headcommand {\gdef \inserttotalframenumber {86}}
+\headcommand {\beamer@partpages {1}{81}}
+\headcommand {\beamer@subsectionpages {80}{81}}
+\headcommand {\beamer@sectionpages {80}{81}}
+\headcommand {\beamer@documentpages {81}}
+\headcommand {\gdef \inserttotalframenumber {81}}
