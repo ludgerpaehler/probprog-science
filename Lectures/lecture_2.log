@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.10)  29 JUL 2020 02:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.10)  29 JUL 2020 06:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2511,12 +2511,12 @@ Package pdftex.def Info: figures_lecture_2/NumPyroBenchmarking2.png  used on inp
 <figures_lecture_2/Edward2Distributed.png, id=543, 256.96pt x 433.62pt>
 File: figures_lecture_2/Edward2Distributed.png Graphic file (type png)
 <use figures_lecture_2/Edward2Distributed.png>
-Package pdftex.def Info: figures_lecture_2/Edward2Distributed.png  used on input line 1148.
+Package pdftex.def Info: figures_lecture_2/Edward2Distributed.png  used on input line 1146.
 (pdftex.def)             Requested size: 161.12401pt x 271.89844pt.
 <figures_lecture_2/Edward2Syntax.png, id=544, 582.175pt x 474.77374pt>
 File: figures_lecture_2/Edward2Syntax.png Graphic file (type png)
 <use figures_lecture_2/Edward2Syntax.png>
-Package pdftex.def Info: figures_lecture_2/Edward2Syntax.png  used on input line 1148.
+Package pdftex.def Info: figures_lecture_2/Edward2Syntax.png  used on input line 1146.
 (pdftex.def)             Requested size: 316.91898pt x 258.4604pt.
  [53
 
@@ -2524,20 +2524,20 @@ Package pdftex.def Info: figures_lecture_2/Edward2Syntax.png  used on input line
 <figures_lecture_2/Edward2Vector-QuantizedVAE.png, id=553, 461.725pt x 326.21875pt>
 File: figures_lecture_2/Edward2Vector-QuantizedVAE.png Graphic file (type png)
 <use figures_lecture_2/Edward2Vector-QuantizedVAE.png>
-Package pdftex.def Info: figures_lecture_2/Edward2Vector-QuantizedVAE.png  used on input line 1183.
+Package pdftex.def Info: figures_lecture_2/Edward2Vector-QuantizedVAE.png  used on input line 1181.
 (pdftex.def)             Requested size: 207.72401pt x 146.76222pt.
 <figures_lecture_2/Edward2ImageTransformer.png, id=554, 480.79625pt x 342.27875pt>
 File: figures_lecture_2/Edward2ImageTransformer.png Graphic file (type png)
 <use figures_lecture_2/Edward2ImageTransformer.png>
-Package pdftex.def Info: figures_lecture_2/Edward2ImageTransformer.png  used on input line 1183.
+Package pdftex.def Info: figures_lecture_2/Edward2ImageTransformer.png  used on input line 1181.
 (pdftex.def)             Requested size: 207.72401pt x 147.88205pt.
 <figures_lecture_2/Edward2PerformanceComparison.png, id=555, 493.845pt x 279.0425pt>
 File: figures_lecture_2/Edward2PerformanceComparison.png Graphic file (type png)
 <use figures_lecture_2/Edward2PerformanceComparison.png>
-Package pdftex.def Info: figures_lecture_2/Edward2PerformanceComparison.png  used on input line 1183.
+Package pdftex.def Info: figures_lecture_2/Edward2PerformanceComparison.png  used on input line 1181.
 (pdftex.def)             Requested size: 223.70392pt x 126.39824pt.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 15.89392pt on input line 1183.
+(Font)              scaled to size 15.89392pt on input line 1181.
  [54
 
  </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/Edward2Vector-QuantizedVAE.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/Edward2ImageTransformer.png> </home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_2/Edward2PerformanceComparison.png>] [55
@@ -2546,7 +2546,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 <figures_lecture_2/GenSpecialArchitecture.png, id=571, 668.4975pt x 355.3275pt>
 File: figures_lecture_2/GenSpecialArchitecture.png Graphic file (type png)
 <use figures_lecture_2/GenSpecialArchitecture.png>
-Package pdftex.def Info: figures_lecture_2/GenSpecialArchitecture.png  used on input line 1222.
+Package pdftex.def Info: figures_lecture_2/GenSpecialArchitecture.png  used on input line 1220.
 (pdftex.def)             Requested size: 466.05399pt x 247.72992pt.
  [56
 
@@ -2554,22 +2554,22 @@ Package pdftex.def Info: figures_lecture_2/GenSpecialArchitecture.png  used on i
 <figures_lecture_2/GenModelDML.png, id=579, 579.16376pt x 312.16624pt>
 File: figures_lecture_2/GenModelDML.png Graphic file (type png)
 <use figures_lecture_2/GenModelDML.png>
-Package pdftex.def Info: figures_lecture_2/GenModelDML.png  used on input line 1255.
+Package pdftex.def Info: figures_lecture_2/GenModelDML.png  used on input line 1253.
 (pdftex.def)             Requested size: 319.57843pt x 172.24927pt.
 <figures_lecture_2/GenBodyPoseTML.png, id=580, 585.18625pt x 234.8775pt>
 File: figures_lecture_2/GenBodyPoseTML.png Graphic file (type png)
 <use figures_lecture_2/GenBodyPoseTML.png>
-Package pdftex.def Info: figures_lecture_2/GenBodyPoseTML.png  used on input line 1255.
+Package pdftex.def Info: figures_lecture_2/GenBodyPoseTML.png  used on input line 1253.
 (pdftex.def)             Requested size: 319.57843pt x 128.27269pt.
 <figures_lecture_2/GenBodyPoseProposalDML.png, id=581, 581.17125pt x 252.945pt>
 File: figures_lecture_2/GenBodyPoseProposalDML.png Graphic file (type png)
 <use figures_lecture_2/GenBodyPoseProposalDML.png>
-Package pdftex.def Info: figures_lecture_2/GenBodyPoseProposalDML.png  used on input line 1255.
+Package pdftex.def Info: figures_lecture_2/GenBodyPoseProposalDML.png  used on input line 1253.
 (pdftex.def)             Requested size: 319.57843pt x 139.09315pt.
 <figures_lecture_2/GenBodyPoseInference.png, id=582, 597.23125pt x 139.52126pt>
 File: figures_lecture_2/GenBodyPoseInference.png Graphic file (type png)
 <use figures_lecture_2/GenBodyPoseInference.png>
-Package pdftex.def Info: figures_lecture_2/GenBodyPoseInference.png  used on input line 1255.
+Package pdftex.def Info: figures_lecture_2/GenBodyPoseInference.png  used on input line 1253.
 (pdftex.def)             Requested size: 319.57843pt x 74.65909pt.
  [57
 
@@ -2577,17 +2577,17 @@ Package pdftex.def Info: figures_lecture_2/GenBodyPoseInference.png  used on inp
 <figures_lecture_2/GenInferenceinCollapsedModel.png, id=593, 592.2125pt x 174.6525pt>
 File: figures_lecture_2/GenInferenceinCollapsedModel.png Graphic file (type png)
 <use figures_lecture_2/GenInferenceinCollapsedModel.png>
-Package pdftex.def Info: figures_lecture_2/GenInferenceinCollapsedModel.png  used on input line 1287.
+Package pdftex.def Info: figures_lecture_2/GenInferenceinCollapsedModel.png  used on input line 1285.
 (pdftex.def)             Requested size: 319.57843pt x 94.24965pt.
 <figures_lecture_2/GenGPStructureLearning.png, id=594, 593.21625pt x 143.53625pt>
 File: figures_lecture_2/GenGPStructureLearning.png Graphic file (type png)
 <use figures_lecture_2/GenGPStructureLearning.png>
-Package pdftex.def Info: figures_lecture_2/GenGPStructureLearning.png  used on input line 1287.
+Package pdftex.def Info: figures_lecture_2/GenGPStructureLearning.png  used on input line 1285.
 (pdftex.def)             Requested size: 319.57843pt x 77.32881pt.
 <figures_lecture_2/GenInferenceUncollapsedModel.png, id=595, 588.1975pt x 201.75375pt>
 File: figures_lecture_2/GenInferenceUncollapsedModel.png Graphic file (type png)
 <use figures_lecture_2/GenInferenceUncollapsedModel.png>
-Package pdftex.def Info: figures_lecture_2/GenInferenceUncollapsedModel.png  used on input line 1287.
+Package pdftex.def Info: figures_lecture_2/GenInferenceUncollapsedModel.png  used on input line 1285.
 (pdftex.def)             Requested size: 319.57843pt x 109.6165pt.
  [58
 
@@ -2597,12 +2597,12 @@ Package pdftex.def Info: figures_lecture_2/GenInferenceUncollapsedModel.png  use
 <figures_lecture_2/PyProbSyntax1.png, id=610, 562.1pt x 663.47874pt>
 File: figures_lecture_2/PyProbSyntax1.png Graphic file (type png)
 <use figures_lecture_2/PyProbSyntax1.png>
-Package pdftex.def Info: figures_lecture_2/PyProbSyntax1.png  used on input line 1336.
+Package pdftex.def Info: figures_lecture_2/PyProbSyntax1.png  used on input line 1334.
 (pdftex.def)             Requested size: 255.66371pt x 301.77193pt.
 <figures_lecture_2/PyProbSyntax2.png, id=611, 803.0pt x 468.75125pt>
 File: figures_lecture_2/PyProbSyntax2.png Graphic file (type png)
 <use figures_lecture_2/PyProbSyntax2.png>
-Package pdftex.def Info: figures_lecture_2/PyProbSyntax2.png  used on input line 1336.
+Package pdftex.def Info: figures_lecture_2/PyProbSyntax2.png  used on input line 1334.
 (pdftex.def)             Requested size: 319.57843pt x 186.56018pt.
  [60
 
@@ -2610,12 +2610,12 @@ Package pdftex.def Info: figures_lecture_2/PyProbSyntax2.png  used on input line
 <figures_lecture_2/PyProbScalingCori.png, id=620, 497.86pt x 340.27126pt>
 File: figures_lecture_2/PyProbScalingCori.png Graphic file (type png)
 <use figures_lecture_2/PyProbScalingCori.png>
-Package pdftex.def Info: figures_lecture_2/PyProbScalingCori.png  used on input line 1360.
+Package pdftex.def Info: figures_lecture_2/PyProbScalingCori.png  used on input line 1358.
 (pdftex.def)             Requested size: 319.57843pt x 218.42706pt.
 <figures_lecture_2/PyProbScalingEdison.png, id=621, 498.86375pt x 337.26pt>
 File: figures_lecture_2/PyProbScalingEdison.png Graphic file (type png)
 <use figures_lecture_2/PyProbScalingEdison.png>
-Package pdftex.def Info: figures_lecture_2/PyProbScalingEdison.png  used on input line 1360.
+Package pdftex.def Info: figures_lecture_2/PyProbScalingEdison.png  used on input line 1358.
 (pdftex.def)             Requested size: 319.57843pt x 216.05666pt.
  [61
 
@@ -2625,7 +2625,7 @@ Package pdftex.def Info: figures_lecture_2/PyProbScalingEdison.png  used on inpu
 <figures_lecture_2/TuringSyntax.png, id=636, 514.92375pt x 419.5675pt>
 File: figures_lecture_2/TuringSyntax.png Graphic file (type png)
 <use figures_lecture_2/TuringSyntax.png>
-Package pdftex.def Info: figures_lecture_2/TuringSyntax.png  used on input line 1414.
+Package pdftex.def Info: figures_lecture_2/TuringSyntax.png  used on input line 1412.
 (pdftex.def)             Requested size: 386.16193pt x 314.65564pt.
  [63
 
@@ -2633,12 +2633,12 @@ Package pdftex.def Info: figures_lecture_2/TuringSyntax.png  used on input line 
 <figures_lecture_2/TuringAppPerformanceNUTSvsGibbs.png, id=644, 1004.75375pt x 466.74374pt>
 File: figures_lecture_2/TuringAppPerformanceNUTSvsGibbs.png Graphic file (type png)
 <use figures_lecture_2/TuringAppPerformanceNUTSvsGibbs.png>
-Package pdftex.def Info: figures_lecture_2/TuringAppPerformanceNUTSvsGibbs.png  used on input line 1432.
+Package pdftex.def Info: figures_lecture_2/TuringAppPerformanceNUTSvsGibbs.png  used on input line 1430.
 (pdftex.def)             Requested size: 332.89716pt x 154.6384pt.
 <figures_lecture_2/TuringPerformancevsStanHMC.png, id=645, 1108.14pt x 221.82875pt>
 File: figures_lecture_2/TuringPerformancevsStanHMC.png Graphic file (type png)
 <use figures_lecture_2/TuringPerformancevsStanHMC.png>
-Package pdftex.def Info: figures_lecture_2/TuringPerformancevsStanHMC.png  used on input line 1432.
+Package pdftex.def Info: figures_lecture_2/TuringPerformancevsStanHMC.png  used on input line 1430.
 (pdftex.def)             Requested size: 466.05399pt x 93.29605pt.
  [64
 
@@ -2658,11 +2658,11 @@ Package pdftex.def Info: figures_lecture_2/TuringPerformancevsStanHMC.png  used 
 \tf@snm=\write9
 \openout9 = `lecture_2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1522.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1522.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1520.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1520.
  (/home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1522.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1522.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1520.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1520.
 Package rerunfilecheck Info: File `lecture_2.out' has not changed.
 (rerunfilecheck)             Checksum: 99F023C84D445192640C858CA927D2DE;914.
 Package logreq Info: Writing requests to 'lecture_2.run.xml'.
@@ -2678,7 +2678,7 @@ Here is how much of TeX's memory you used:
  1139 hyphenation exceptions out of 8191
  85i,22n,138p,1195b,2278s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}</usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7m.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7t.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7v.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chri7m.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chrma.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_2.pdf (67 pages, 3389813 bytes).
+Output written on /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_2.pdf (67 pages, 3389772 bytes).
 PDF statistics:
  763 PDF objects out of 1000 (max. 8388607)
  156 named destinations out of 1000 (max. 500000)
