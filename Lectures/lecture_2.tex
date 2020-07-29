@@ -88,43 +88,6 @@
 \subsection{Monte-Carlo}
 
 
-\subsubsection*{Hamiltonian Monte Carlo}
-% Hamiltonian Monte-Carlo Slide 1
-\begin{frame}[c]{Monte-Carlo Approaches to Inference}{Hamiltonian Monte-Carlo \footnote{Neal, R.M., 2011. MCMC using Hamiltonian dynamics. Handbook of markov chain monte carlo, 2(11), p.2.}}
-    \centering
-    \begin{itemize}
-        \item Hamiltonian Monte-Carlo 1
-    \end{itemize}
-\end{frame}
-
-
-% Hamiltonian Monte-Carlo Slide 2
-\begin{frame}[c]{Monte-Carlo Approaches to Inference}{Hamiltonian Monte-Carlo}
-    \centering
-    \begin{itemize}
-        \item Hamiltonian Monte-Carlo 2
-    \end{itemize}
-\end{frame}
-
-
-% Hamiltonian Monte-Carlo Slide 3
-\begin{frame}[c]{Monte-Carlo Approaches to Inference}{Hamiltonian Monte-Carlo}
-    \centering
-    \begin{itemize}
-        \item Hamiltonian Monte-Carlo 3
-    \end{itemize}
-\end{frame}
-
-
-% Hamiltonian Monte-Carlo Slide 4
-\begin{frame}[c]{Monte-Carlo Approaches to Inference}{Hamiltonian Monte-Carlo}
-    \centering
-    \begin{itemize}
-        \item Hamiltonian Monte-Carlo 4
-    \end{itemize}
-\end{frame}
-
-
 
 \subsubsection*{Random-Walk Metropolis Hastings}
 % Random-Walk Metropolis Hastings Slide 1
@@ -134,7 +97,19 @@
                                                                                                 Monte Carlo in practice. London, UK: Chapman k Hall/CRC.}}
     \centering
     \begin{itemize}
-        \item Random-Walk Metropolis Hastings 1
+        \item Can be understood as a stochastic mode-finding algorithm looking
+        \item Most simple Markov Chain Monte-Carlo algorithm
+        \begin{itemize}
+            \item Default inference approach which will deliver a baseline solution
+            \item Constructs an ergodic and stationary Markov chain
+        \end{itemize}
+        \item Often still used as a building block in modern algorithms
+        \begin{itemize}
+            \item Simulate
+            \item Compute the acceptance probability
+            \item Sample from a uniform distribution to decide whether to accept or reject
+        \end{itemize}
+        \item Original Markov Chain Monte-Carlo algorithm from which Langevin algorithms, and particle MCMC developed
     \end{itemize}
 \end{frame}
 
@@ -143,26 +118,113 @@
 \begin{frame}[c]{Monte-Carlo Approaches to Inference}{Random-Walk Metropolis Hastings}
     \centering
     \begin{itemize}
-        \item Random-Walk Metropolis Hastings 2
+        \item The Metropolis-Hasting acceptance ratio is given by
+        \begin{equation*}
+            \alpha (y | x) = \min \left\{ \frac{\pi(y) q(x|y)}{\pi(x)q(y|x)}, 1 \right\}
+        \end{equation*}
+        \item But simplifies under the random walk hypothesis to
+        \begin{equation*}
+            = \min \left\{ \frac{\pi(y)}{\pi(x)}, 1 \right\}
+        \end{equation*}
+        \item Which is then integrated with Monte-Carlo, Markov Chain Monte-Carlo or Gibbs Samplers, i.e.
+        \begin{equation*}
+            \mathbb{E}_{f}[h(X)] = \int h(x) f(x) dx \longrightarrow \frac{1}{n} \sum^{n}_{i=1} h(x_{i})
+        \end{equation*}
     \end{itemize}
 \end{frame}
 
 
-% Random-Walk Metropolis Hastings Slide 3
-\begin{frame}[c]{Monte-Carlo Approaches to Inference}{Random-Walk Metropolis Hastings}
+
+\subsubsection*{Hamiltonian Monte Carlo}
+% Hamiltonian Monte-Carlo Slide 1
+\begin{frame}[c]{Monte-Carlo Approaches to Inference}{Hamiltonian Monte-Carlo \footnote{Neal, R.M., 2011. MCMC using Hamiltonian dynamics. Handbook of markov chain monte carlo, 2(11), p.2.}
+                                                                              \footnote{Betancourt, M., 2017. A conceptual introduction to Hamiltonian Monte Carlo. arXiv preprint arXiv:1701.02434.}}
     \centering
     \begin{itemize}
-        \item Random-Walk Metropolis Hastings 3
+        \item In high dimension random-walk Metropolis suffers from a vanishing acceptance probability, hence providing the impetus
+              to exploit the information geometry of the gradient of the target probability density
+        \item By endowing space with Hamiltonian structure we are then able to sample much more efficiently, where the gradient is
+              channelled through the momentum part of the Hamiltonian
+        \item One follows the Hamiltonian vector field to generate trajectories, which when projected back to the target parameter
+              space generate efficient exploration trajectories
+        \item Algorithm can be summarized as:
+        \begin{enumerate}
+            \item Project onto the phase space
+            \item Integrate Hamilton's equations to get projected exploration trajectories
+            \item Project these trajectories back onto the target parameter space
+        \end{enumerate}
     \end{itemize}
 \end{frame}
 
 
-% Random-Walk Metropolis Hastings Slide 4
-\begin{frame}[c]{Monte-Carlo Approaches to Inference}{Random-Walk Metropolis Hastings}
+% Hamiltonian Monte-Carlo Slide 2
+\begin{frame}[c]{Monte-Carlo Approaches to Inference}{Hamiltonian Monte-Carlo}
     \centering
     \begin{itemize}
-        \item Random-Walk Metropolis Hastings 4
+        \item The Hamiltonian defines a joint distribution between position and momentum
+        \begin{equation*}
+            \mathbb{P}(q, p) = \frac{1}{Z} \exp \left( -\frac{H(q, p)}{T} \right)
+        \end{equation*}
+        \item Decomposing into momentum and position parts, we get a joint density
+        \begin{equation*}
+            \mathbb{P}(q, p) = \frac{1}{Z} \exp \left( - \frac{U(q)}{T} \right) \exp \left( - \frac{K(p)}{T} \right)
+        \end{equation*}
+        \item From which point on we can then express the posterior distribution as a canonical
+              distribution using the potential energy function
+        \begin{equation*}
+            U(q) = - \log \left[ \pi(q) L(q | D) \right]
+        \end{equation*}
+              with $\pi(q)$ being the prior density and $L(q | D)$ the likelihood function
     \end{itemize}
+\end{frame}
+
+
+% Hamiltonian Monte-Carlo Slide 3
+\begin{frame}[c]{Monte-Carlo Approaches to Inference}{Hamiltonian Monte-Carlo}
+    \centering
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.4\textwidth]{HMCAlgo.png}
+    \end{figure}
+\end{frame}
+
+
+% Hamiltonian Monte-Carlo Slide 4
+\begin{frame}[c]{Monte-Carlo Approaches to Inference}{Hamiltonian Monte-Carlo}
+    \centering
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.8\textwidth]{HMCGeometry.png}
+        \caption{Information geometry of HMC. Source: \textit{Hamiltonian Monte Carlo explained} by Alex Rogozhnikov}
+    \end{figure}
+\end{frame}
+
+
+% Hamiltonian Monte-Carlo Slide 5
+\begin{frame}[c]{Monte-Carlo Approaches to Inference}{Hamiltonian Monte-Carlo}
+    \centering
+    \begin{columns}
+        \begin{column}{0.48\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.424\textwidth]{HMCPerf2.png}
+            \end{figure}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.424\textwidth]{HMCPerf4.png}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.48\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.424\textwidth]{HMCPerf1.png}
+            \end{figure}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.424\textwidth]{HMCPerf3.png}
+            \end{figure}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 
@@ -176,7 +238,15 @@
                                                                                                       gradient Langevin dynamics. In Advances in Neural Information Processing Systems (pp. 8268-8278).}}
     \centering
     \begin{itemize}
-        \item Stochastic-Gradient Langevin Dynamics 1
+        \item Combines the stochastic approximation algorithms of Robbins \& Monroe (see stochastic variational inference) with Langevin dynamics
+        \item Langevin dynamics injects noise into the parameter updates s.t. the trajectory of the parameters will converge to the full posterior
+        \item Can be understood as a two-phase approach
+        \begin{enumerate}
+            \item Stochastic optimization
+            \item Simulate samples from the posterior using Langevin dynamics
+        \end{enumerate}
+        \item Advantage over e.g. Hamiltonian dynamics is that this approach does not require sweeps over the whole dataset
+        \item Key component of the approach is to switch from the stochastic approximation to posterior sampling at exactly the right time
     \end{itemize}
 \end{frame}
 
@@ -185,26 +255,72 @@
 \begin{frame}[c]{Monte-Carlo Approaches to Inference}{Stochastic-Gradient Langevin Dynamics}
     \centering
     \begin{itemize}
-        \item Stochastic-Gradient Langevin Dynamics 2
+        \item Using Robbins-Monroe stochastic gradients, add Gaussian noise, which is to be balanced with the used step size
+        \begin{equation*}
+            \Delta \theta_{t} = \frac{\epsilon_{t}}{2} \left( \nabla \log p(\theta_{t}) + \frac{N}{n} \sum^{n}_{i=1} \nabla \log p(x_{ti} | \theta_{t}) \right) + \eta_{t}, \quad \eta_{t} \sim \mathcal{N}(0, \epsilon_{t})
+        \end{equation*}
+        \item The preconditioned stochastic gradient Langevin dynamics are given by
+        \begin{equation*}
+            \Delta \theta_{t} = \frac{\epsilon_{t}}{2} M \left( g(\theta_{t} + h_{t}(\theta_{t}) \right) + \eta_{t}, \quad \eta_{t} \sim \mathcal{N}(0, \epsilon_{t}M)
+        \end{equation*}
+        \item Using the empirical covariance one $V$ then differentiates between the stochastic approximation and posterior sampling phase, if $\alpha \ll 1$ then
+              we are at the posterior sampling stage
+        \begin{equation*}
+            \frac{\epsilon_{t} N^{2}}{4n} \lambda_{\max} \left( M^{\frac{1}{2}} V_{s} M^{\frac{1}{2}} \right) = \alpha \ll 1
+        \end{equation*}
     \end{itemize}
 \end{frame}
 
 
-% Stochastic-Gradient Langevin Dynamic Monte-Carlo Slide 3
-\begin{frame}[c]{Monte-Carlo Approaches to Inference}{Stochastic-Gradient Langevin Dynamics}
+% Stochastic-Gradient Langevin Dynamic Monte-Carlo Slide 4
+\begin{frame}[c]{Monte-Carlo Approaches to Inference}{Stochastic-Gradient Langevin Dynamics \footnote{Zhang, R., Li, C., Zhang, J., Chen, C. and Wilson, A.G., 2019. Cyclical
+                                                                                                      stochastic gradient MCMC for Bayesian deep learning. arXiv preprint arXiv:1902.03932.}}
     \centering
-    \begin{itemize}
-        \item Stochastic-Gradient Langevin Dynamics 3
-    \end{itemize}
+    \begin{columns}[T]
+        \begin{column}{0.48\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{SGMCMCStepSize.png}
+                \caption{Cyclical step-size schedule to capture multimodal structures}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.48\textwidth}
+            \centering
+            \includegraphics[width=0.95\textwidth]{SGMCMCAlgo.png}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 
 % Stochastic-Gradient Langevin Dynamic Monte-Carlo Slide 4
 \begin{frame}[c]{Monte-Carlo Approaches to Inference}{Stochastic-Gradient Langevin Dynamics}
     \centering
-    \begin{itemize}
-        \item Stochastic-Gradient Langevin Dynamics 4
-    \end{itemize}
+    \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.55\textwidth]{SGMCMCMDS.png}
+            \caption{MDS on CIFAR-100}
+        \end{figure}
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.55\textwidth]{SGMCMCTestingErrors.png}
+            \caption{Interpolation on CIFAR-100}
+        \end{figure}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.48\textwidth]{SGMCMCComparison.png}
+            \caption{Comparison on CIFAR-100}
+        \end{figure}
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.48\textwidth]{SGMCMCEmpiricalCDF.png}
+            \caption{Empirical CDF on notMNIST}
+        \end{figure}
+    \end{column}
+\end{columns}
 \end{frame}
 
 
@@ -1363,7 +1479,7 @@
             \item Sampling
             \item Accessing the trace
             \item Automatic differentiation
-            \item Working with dynamic Hamiltonian Monte-Carlo
+            \item Sampler visualization
         \end{itemize}
         \item All content can be accessed in the Jupyter notebook \textbf{IntrotoTuring.ipynb}
     \end{itemize}
