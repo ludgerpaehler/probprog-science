@@ -1,0 +1,4 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\beamer@sectionintoc {1}{Bayesian Deep Learning}{3}{0}{1}
+\beamer@sectionintoc {2}{Type 2 Systems: Marrying Deep Learning with Probabilistic Programming}{14}{0}{2}
