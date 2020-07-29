@@ -1069,6 +1069,12 @@ INPUT /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lect
 INPUT /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/figures_lecture_1/DreamCoderApplication4.png
 INPUT /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.toc
 INPUT /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.toc
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/helvetic/phvr8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.toc
 INPUT /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.toc
 OUTPUT /home/lpaehler/Work/ProbProgramming/probprog-science/Lectures/lecture_1.nav

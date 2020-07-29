@@ -6,4 +6,4 @@
 \beamer@subsectionintoc {3}{1}{ETALUMIS: Bringing Probabilistic Programming to Scientific Simulators at Scale}{18}{0}{3}
 \beamer@subsectionintoc {3}{2}{DreamCoder: Growing Generalizable, Interpretable Knowledge with Wake-Sleep Bayesian Program Learning}{33}{0}{3}
 \beamer@sectionintoc {4}{Why Do We even Need Probabilistic Programming?}{50}{0}{4}
-\beamer@sectionintoc {5}{Underlying Theoretical Ideas}{59}{0}{5}
+\beamer@sectionintoc {5}{Underlying Theoretical Ideas}{58}{0}{5}
